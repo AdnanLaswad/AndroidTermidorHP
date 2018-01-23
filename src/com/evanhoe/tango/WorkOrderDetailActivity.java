@@ -226,7 +226,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 			tvChemical.setText( chemicalUsed );
 
 
-			if(thisWorkOrderDetail.getHTModeEnabled().equals("0"))
+			if(thisWorkOrderDetail.getHTModeEnabled().equals("false"))
 			{
 				tvHTMode.setText("No");
 			}
@@ -234,7 +234,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 			{
 				tvHTMode.setText("Yes");
 			}
-			if(thisWorkOrderDetail.getSAModeEnabled().equals("0"))
+			if(thisWorkOrderDetail.getSAModeEnabled().equals("false"))
 			{
 				tvSAMode.setText("No");
 			}
@@ -906,7 +906,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 
 
-						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
+						String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
 						//was successful send delete command
 						boolean test = thisService.eraseData();
 

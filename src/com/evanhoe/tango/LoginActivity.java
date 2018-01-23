@@ -12,6 +12,7 @@ import com.evanhoe.tango.objs.User;
 import com.evanhoe.tango.objs.UserLoginResult;
 import com.evanhoe.tango.dao.UserDAO;
 import com.evanhoe.tango.dao.InjectionStationDAO;
+import com.evanhoe.tango.objs.WorkOrderDetail;
 import com.evanhoe.tango.utils.CommonUtilities;
 //import com.evanhoe.tango.net.NetUtils;
 import com.evanhoe.tango.utils.CommonUtils;
@@ -58,6 +59,15 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.login);
         setContentView(R.layout.activity_login);
+        sharedPreferences = getSharedPreferences(
+                "MyPREFERENCES1", Context.MODE_PRIVATE);
+        String token=sharedPreferences.getString("token","");
+        if(token.length()>2){
+            Intent i=new Intent(this,DisclaimerActivity.class);
+            //startActivity(i);
+            startActivityForResult(i, 0);
+            // finish();
+        }
 
         /////////////////////////////////////////////////////////////////////////
         //removed inputType="textPassword" from style and the following change to password text field
@@ -281,7 +291,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor.putString("password",userLoginResult.getUser().getPassword());
                             sharedPreferences.edit();
                             editor.commit();
-                           // workOrderListIntent.putExtra("token", token);
+                            // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
                                     "MyPREFERENCES1", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
@@ -289,6 +299,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             sharedPreferences.edit();
                             editor1.commit();
                             startActivityForResult(workOrderListIntent, 0);
+                            finish();
                         }
                         else{
                             sharedPreferences = getSharedPreferences(
@@ -298,7 +309,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor.putString("password","");
                             sharedPreferences.edit();
                             editor.commit();
-                           // workOrderListIntent.putExtra("token", token);
+                            // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
                                     "MyPREFERENCES1", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
@@ -306,6 +317,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             sharedPreferences.edit();
                             editor1.commit();
                             startActivityForResult(workOrderListIntent, 0);
+                            finish();
 
                         }
                     }
