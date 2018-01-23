@@ -1,4 +1,4 @@
-#Thu Jan 18 12:27:10 EST 2018
-base.0=C\:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Tue Jan 23 13:40:25 EST 2018
+base.0=C\:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
