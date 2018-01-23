@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 public class DisclaimerActivity extends Activity
 {
+    // test
 	String token;
 	int clickCount;
 	
