@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LoginActivity" >
+    <item android:id="@+id/actionSettings"
+        android:title="@string/action_settings"
+        android:showAsAction="never" />
+    <item android:id="@+id/actionWorkOrderList"
+        android:title="@string/work_order_list"
+        android:showAsAction="never" />
+    <item android:id="@+id/actionTraining"
+        android:title="@string/training"
+        android:showAsAction="never" />
+    <item android:id="@+id/actionSupport"
+        android:title="@string/Support"
+        android:showAsAction="never" />
+    <item android:id="@+id/actionLogOut"
+        android:title="@string/logout"
+        android:showAsAction="never" />
+</menu>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Termidor HP</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="Support">Support</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="work_order_list">Workorders</string>
+    <string name="training_work_order_list">Training Workorders</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="work_order" formatted="false">Workorder #%1s</string>
+    <string name="work_order_title" formatted="false">WO #%1s</string>
+    <string name="last_activity">Last Activity</string>
+    <string name="address">Address:</string>
+    <string name="workorder_status">Workorder Status:</string>
+    <string name="linear_distance">Linear distance:</string>
+    <string name="send_to_hp">Send to Unit</string>
+    <string name="resend_to_hp">Resend to Unit</string>
+    <string name="on_hold">On Hold</string>
+    <string name="complete">Complete</string>
+    <string name="order_successfully_sent">The order was successfully sent.</string>
+    <string name="order_put_on_hold">The order was put on hold.</string>
+    <string name="order_completed">The order was completed.</string>
+    <string name="dou_you_want_to_send_order">Send Workorder #%1s to Unit?</string>
+    <string name="dou_you_want_complete_order">Complete Workorder #%1s?</string>
+    <string name="dou_you_want_onhold_order">Put Workorder #%1s On Hold?</string>
+    <string name="settings">Settings</string>
+    <string name="units">Units</string>
+    <string name="connected">connected</string>
+    <string name="training">Training Mode</string>
+    <string name="work">Work Mode</string>
+    <string name="ai_ht">Chemical - HT Mode: </string>
+    <string name="ai_sa">Chemical - SA Mode: </string>
+    <string name="injection_count">Injection Count: </string>
+    <string name="water_sa">Water in SA Mode: </string>
+    <string name="ht_mode">HT Mode: </string>
+    <string name="sa_mode">SA Mode: </string>
+    <string name="chemical">Chemical Used: </string>
+    <string name="unit_volume_gal">Litres</string>
+    <string name="unit_volume_oz">Millilitres</string>
+    <string name="unit_volume_liters">Litres</string>    
+    <string name="unit_distance">Metres</string>
+    <string name="unit_distance_meters">Metres</string>    
+    <string name="webservice_url">http://ea-day-basf.evanhoe.com/tango_v0.1</string>
+    <string name="dev_webservice_url">http://termidorma.evanhoe.com/tango_v0.1</string>
+    <string name="preprod_webservice_url">https://termidorma.evanhoe.com/tango_v0.1</string>
+    <string name="prod_webservice_url">https://termidorma.termidorhpdata.com/tango_v0.1</string>
+    <string name="disclaimer_activity">Disclaimer</string>
+    <string name="disclaimer_caution">Caution:</string>
+    <string name="disclaimer">Before operating this equipment you must be trained and certified by a BASF authorized TERMIDOR HP instructor/trainer.</string>
+    <string name="disclaimerContinue">Continue</string>
+    <string name="newVersionTitle">New Application Version</string>
+    <string name="newVersionMessage">A new version of this application is now available. The new version will now download. Please click the install button when you are prompted.</string>
+    <string name="unitConnectErrorMessage">Unable to Connect to Unit.</string>
+    <string name="unitSendErrorMessage">Unable to Send Workorder to Unit.</string>
+    <string name="noUnitSelectedTitle">No Unit Selected</string>
+    <string name="noUnitSelectedMessage">No Unit is currently selected. Please select a unit from the following Settings screen.</string>
+    <string name="support_activity">Support</string>
+    <string name="support">For any operating or service questions please use the following number or email address:</string>
+    <string name="phoneNumber">Phone Number: 1&#8211;800&#8211;669&#8211;7741</string>
+    <string name="email">Email: Termidor-HP@basf.com </string>
+</resources>

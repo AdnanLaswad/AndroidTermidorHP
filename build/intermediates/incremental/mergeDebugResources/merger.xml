@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res"/><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build\generated\res\rs\debug"/><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build\generated\res\resValues\debug"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res"><file name="bluelogo" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\bluelogo.gif" qualifiers="" type="drawable"/><file name="circle_bullet_blank" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\circle_bullet_blank.png" qualifiers="" type="drawable"/><file name="circle_bullet_green" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\circle_bullet_green.png" qualifiers="" type="drawable"/><file name="circle_bullet_red" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\circle_bullet_red.png" qualifiers="" type="drawable"/><file name="t1" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\t1.png" qualifiers="" type="drawable"/><file name="t2" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable\t2.png" qualifiers="" type="drawable"/><file name="action_bar" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\action_bar.xml" qualifiers="nodpi-v4" type="drawable"/><file name="button" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\button.xml" qualifiers="nodpi-v4" type="drawable"/><file name="button_cancel" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\button_cancel.xml" qualifiers="nodpi-v4" type="drawable"/><file name="button_login" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\button_login.xml" qualifiers="nodpi-v4" type="drawable"/><file name="list_item" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\list_item.xml" qualifiers="nodpi-v4" type="drawable"/><file name="text_edit" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\text_edit.xml" qualifiers="nodpi-v4" type="drawable"/><file name="text_edit_pw" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\text_edit_pw.xml" qualifiers="nodpi-v4" type="drawable"/><file name="text_edit_un" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-nodpi\text_edit_un.xml" qualifiers="nodpi-v4" type="drawable"/><file name="arrow_right" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\arrow_right.png" qualifiers="xhdpi-v4" type="drawable"/><file name="basf_logo" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\basf_logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="check" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\check.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_back" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_action_back.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_next_item" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_action_next_item.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_action_overflow" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_action_overflow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_dot_inprogress" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_dot_inprogress.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_dot_onhold" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_dot_onhold.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_launcher2" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\ic_launcher2.png" qualifiers="xhdpi-v4" type="drawable"/><file name="logo" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\logo.png" qualifiers="xhdpi-v4" type="drawable"/><file name="menu_overflow" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\menu_overflow.png" qualifiers="xhdpi-v4" type="drawable"/><file name="termidor_hp_rgb_red" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xhdpi\termidor_hp_rgb_red.png" qualifiers="xhdpi-v4" type="drawable"/><file name="arrow_right" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\arrow_right.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="basf_logo" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\basf_logo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="check" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\check.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_back" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_action_back.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_next_item" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_action_next_item.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_action_overflow" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_action_overflow.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_dot_inprogress" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_dot_inprogress.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_dot_onhold" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_dot_onhold.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_launcher" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="logo" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\logo.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="termidor_hp_rgb_red" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\drawable-xxhdpi\termidor_hp_rgb_red.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="activity_disclaimer" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_disclaimer.xml" qualifiers="" type="layout"/><file name="activity_login" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_login.xml" qualifiers="" type="layout"/><file name="activity_settings" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_settings.xml" qualifiers="" type="layout"/><file name="activity_support" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_support.xml" qualifiers="" type="layout"/><file name="activity_work_order_details" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_work_order_details.xml" qualifiers="" type="layout"/><file name="activity_work_order_list" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\activity_work_order_list.xml" qualifiers="" type="layout"/><file name="toast_layout" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\toast_layout.xml" qualifiers="" type="layout"/><file name="unit_list_row" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\unit_list_row.xml" qualifiers="" type="layout"/><file name="work_order_list_row" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\work_order_list_row.xml" qualifiers="" type="layout"/><file name="work_order_list_section" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout\work_order_list_section.xml" qualifiers="" type="layout"/><file name="activity_disclaimer" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\activity_disclaimer.xml" qualifiers="land" type="layout"/><file name="activity_login" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\activity_login.xml" qualifiers="land" type="layout"/><file name="activity_settings" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\activity_settings.xml" qualifiers="land" type="layout"/><file name="activity_work_order_details" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\activity_work_order_details.xml" qualifiers="land" type="layout"/><file name="activity_work_order_list" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\activity_work_order_list.xml" qualifiers="land" type="layout"/><file name="toast_layout" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\toast_layout.xml" qualifiers="land" type="layout"/><file name="unit_list_row" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\unit_list_row.xml" qualifiers="land" type="layout"/><file name="work_order_list_row" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\work_order_list_row.xml" qualifiers="land" type="layout"/><file name="work_order_list_section" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\layout-land\work_order_list_section.xml" qualifiers="land" type="layout"/><file name="menu" path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\menu\menu.xml" qualifiers="" type="menu"/><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values\colors.xml" qualifiers=""><color name="white">#ffffff</color><color name="darkblue">#004a96</color><color name="darkbluestrip">#a6c0da</color><color name="gray">#707070</color><color name="black">#000000</color></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values\strings.xml" qualifiers=""><string name="app_name">Termidor HP</string><string name="ok">OK</string><string name="cancel">Cancel</string><string name="login">Login</string><string name="logout">Log Out</string><string name="Support">Support</string><string name="action_settings">Settings</string><string name="username">Username</string><string name="password">Password</string><string name="work_order_list">Workorders</string><string name="training_work_order_list">Training Workorders</string><string name="hello_world">Hello world!</string><string formatted="false" name="work_order">Workorder #%1s</string><string formatted="false" name="work_order_title">WO #%1s</string><string name="last_activity">Last Activity</string><string name="address">Address:</string><string name="workorder_status">Workorder Status:</string><string name="linear_distance">Linear distance:</string><string name="send_to_hp">Send to Unit</string><string name="resend_to_hp">Resend to Unit</string><string name="on_hold">On Hold</string><string name="complete">Complete</string><string name="order_successfully_sent">The order was successfully sent.</string><string name="order_put_on_hold">The order was put on hold.</string><string name="order_completed">The order was completed.</string><string name="dou_you_want_to_send_order">Send Workorder #%1s to Unit?</string><string name="dou_you_want_complete_order">Complete Workorder #%1s?</string><string name="dou_you_want_onhold_order">Put Workorder #%1s On Hold?</string><string name="settings">Settings</string><string name="units">Units</string><string name="connected">connected</string><string name="training">Training Mode</string><string name="work">Work Mode</string><string name="ai_ht">Chemical - HT Mode: </string><string name="ai_sa">Chemical - SA Mode: </string><string name="injection_count">Injection Count: </string><string name="water_sa">Water in SA Mode: </string><string name="ht_mode">HT Mode: </string><string name="sa_mode">SA Mode: </string><string name="chemical">Chemical Used: </string><string name="unit_volume_gal">Gallons</string><string name="unit_volume_oz">Ounces</string><string name="unit_volume_liters">Litres</string><string name="unit_distance">Feet</string><string name="unit_distance_meters">Metres</string><string name="webservice_url">http://ea-day-basf.evanhoe.com/tango_v0.1</string><string name="dev_webservice_url">http://termidorma.evanhoe.com/tango_v0.1</string><string name="preprod_webservice_url">https://termidorma.evanhoe.com/tango_v0.1</string><string name="prod_webservice_url">https://termidorma.termidorhpdata.com/tango_v0.1</string><string name="disclaimer_activity">Disclaimer</string><string name="disclaimer_caution">Caution:</string><string name="disclaimer">Before operating this equipment you must be trained and certified by a BASF authorized TERMIDOR HP instructor/trainer.</string><string name="disclaimerContinue">Continue</string><string name="newVersionTitle">New Application Version</string><string name="newVersionMessage">A new version of this application is now available. The new version will now download. Please click the install button when you are prompted.</string><string name="unitConnectErrorMessage">Unable to Connect to Unit.</string><string name="unitSendErrorMessage">Unable to Send Workorder to Unit.</string><string name="noUnitSelectedTitle">No Unit Selected</string><string name="noUnitSelectedMessage">No Unit is currently selected. Please select a unit from the following Settings screen.</string><string name="support_activity">Support</string><string name="support">For any operating or service questions please use the following number or email address:</string><string name="phoneNumber">Phone Number: 1–800–669–7741</string><string name="email">Email: Termidor-HP@basf.com </string></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values\styles.xml" qualifiers=""><color name="message_error">#FF4444</color><color name="message_completed">#99CC00</color><color name="message_success">#333333</color><color name="theme_background_color">#FFF</color><color name="alt_theme_color">#0099CC</color><color name="theme_color">#C50022</color><color name="item_touched_color">#77DDFF</color><color name="alt_item_touched_color">#33B5E5</color><color name="list_item_selected_color">#33B5E5</color><color name="list_item_color">#FFFFFF</color><color name="details_color">#FFFFFF</color><color name="data_color">#EFEFEF</color><color name="label_color">#A3A3A3</color><color name="container_frame_color">#EFEFEF</color><color name="data_frame_color">#FFFFFF</color><color name="detail_frame_color">#EFEFEF</color><color name="separator_color">#EFEFEF</color><color name="container_color">#FFFFFF</color><color name="button_cancel_color">#0099CC</color><color name="button_cancel_touched_color">#33B5E5</color><style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:dropDownListViewStyle">
+            @android:style/Widget.Holo.ListView.DropDown
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style><style name="AppThemeNoBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style><style name="ActionOverflowStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style><style name="FormLabel" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|left</item>
+    </style><style name="Form">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style><style name="FormEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit</item>
+    </style><style name="FormEditTextPW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:background">@drawable/text_edit_pw</item>
+    </style><style name="FormEditTextUN">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit_un</item>
+    </style><style name="StatusTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/detail_frame_color</item>
+    </style><style name="Button" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="LeftButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="RightButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="ButtonLogin" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_login</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="ButtonRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/details_color</item>
+    </style><style name="ButtonCancel" parent="Button">
+        <item name="android:background">@drawable/button_cancel</item>
+    </style><style name="Container">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@color/container_color</item>
+    </style><style name="ContainerWithFrame" parent="Container">
+        <item name="android:background">@color/container_frame_color</item>
+    </style><style name="ListView">
+        <item name="android:divider">@color/container_frame_color</item>
+        <item name="android:dividerHeight">8dp</item>
+    </style><style name="ListViewPlain">
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+    </style><style name="Details">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/details_color</item>
+    </style><style name="Data">
+        <item name="android:paddingLeft">205dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/data_color</item>
+    </style><style name="Label" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style><style name="DetailsValue" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style><style name="Heading" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style><style name="StatusValue" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style><style name="Disclaimer">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="Support">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="SupportInfo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        
+    </style></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values-en-rAU\colors.xml" qualifiers="en-rAU"><color name="white">#ffffff</color><color name="darkblue">#004a96</color><color name="darkbluestrip">#a6c0da</color><color name="gray">#707070</color><color name="black">#000000</color></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values-en-rAU\strings.xml" qualifiers="en-rAU"><string name="app_name">Termidor HP</string><string name="ok">OK</string><string name="cancel">Cancel</string><string name="login">Login</string><string name="logout">Log Out</string><string name="Support">Support</string><string name="action_settings">Settings</string><string name="username">Username</string><string name="password">Password</string><string name="work_order_list">Workorders</string><string name="training_work_order_list">Training Workorders</string><string name="hello_world">Hello world!</string><string formatted="false" name="work_order">Workorder #%1s</string><string formatted="false" name="work_order_title">WO #%1s</string><string name="last_activity">Last Activity</string><string name="address">Address:</string><string name="workorder_status">Workorder Status:</string><string name="linear_distance">Linear distance:</string><string name="send_to_hp">Send to Unit</string><string name="resend_to_hp">Resend to Unit</string><string name="on_hold">On Hold</string><string name="complete">Complete</string><string name="order_successfully_sent">The order was successfully sent.</string><string name="order_put_on_hold">The order was put on hold.</string><string name="order_completed">The order was completed.</string><string name="dou_you_want_to_send_order">Send Workorder #%1s to Unit?</string><string name="dou_you_want_complete_order">Complete Workorder #%1s?</string><string name="dou_you_want_onhold_order">Put Workorder #%1s On Hold?</string><string name="settings">Settings</string><string name="units">Units</string><string name="connected">connected</string><string name="training">Training Mode</string><string name="work">Work Mode</string><string name="ai_ht">Chemical - HT Mode: </string><string name="ai_sa">Chemical - SA Mode: </string><string name="injection_count">Injection Count: </string><string name="water_sa">Water in SA Mode: </string><string name="ht_mode">HT Mode: </string><string name="sa_mode">SA Mode: </string><string name="chemical">Chemical Used: </string><string name="unit_volume_gal">Litres</string><string name="unit_volume_oz">Millilitres</string><string name="unit_volume_liters">Litres</string><string name="unit_distance">Metres</string><string name="unit_distance_meters">Metres</string><string name="webservice_url">http://ea-day-basf.evanhoe.com/tango_v0.1</string><string name="dev_webservice_url">http://termidorma.evanhoe.com/tango_v0.1</string><string name="preprod_webservice_url">https://termidorma.evanhoe.com/tango_v0.1</string><string name="prod_webservice_url">https://termidorma.termidorhpdata.com/tango_v0.1</string><string name="disclaimer_activity">Disclaimer</string><string name="disclaimer_caution">Caution:</string><string name="disclaimer">Before operating this equipment you must be trained and certified by a BASF authorized TERMIDOR HP instructor/trainer.</string><string name="disclaimerContinue">Continue</string><string name="newVersionTitle">New Application Version</string><string name="newVersionMessage">A new version of this application is now available. The new version will now download. Please click the install button when you are prompted.</string><string name="unitConnectErrorMessage">Unable to Connect to Unit.</string><string name="unitSendErrorMessage">Unable to Send Workorder to Unit.</string><string name="noUnitSelectedTitle">No Unit Selected</string><string name="noUnitSelectedMessage">No Unit is currently selected. Please select a unit from the following Settings screen.</string><string name="support_activity">Support</string><string name="support">For any operating or service questions please use the following number or email address:</string><string name="phoneNumber">Phone Number: 1–800–669–7741</string><string name="email">Email: Termidor-HP@basf.com </string></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values-en-rAU\styles.xml" qualifiers="en-rAU"><color name="message_error">#FF4444</color><color name="message_completed">#99CC00</color><color name="message_success">#333333</color><color name="theme_background_color">#FFF</color><color name="alt_theme_color">#0099CC</color><color name="theme_color">#C50022</color><color name="item_touched_color">#77DDFF</color><color name="alt_item_touched_color">#33B5E5</color><color name="list_item_selected_color">#33B5E5</color><color name="list_item_color">#FFFFFF</color><color name="details_color">#FFFFFF</color><color name="data_color">#EFEFEF</color><color name="label_color">#A3A3A3</color><color name="container_frame_color">#EFEFEF</color><color name="data_frame_color">#FFFFFF</color><color name="detail_frame_color">#EFEFEF</color><color name="separator_color">#EFEFEF</color><color name="container_color">#FFFFFF</color><color name="button_cancel_color">#0099CC</color><color name="button_cancel_touched_color">#33B5E5</color><style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:dropDownListViewStyle">
+            @android:style/Widget.Holo.ListView.DropDown
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style><style name="AppThemeNoBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style><style name="ActionOverflowStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style><style name="FormLabel" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|left</item>
+    </style><style name="Form">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style><style name="FormEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit</item>
+    </style><style name="FormEditTextPW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:background">@drawable/text_edit_pw</item>
+    </style><style name="FormEditTextUN">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit_un</item>
+    </style><style name="StatusTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/detail_frame_color</item>
+    </style><style name="Button" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="LeftButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="RightButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="ButtonLogin" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_login</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style><style name="ButtonRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/details_color</item>
+    </style><style name="ButtonCancel" parent="Button">
+        <item name="android:background">@drawable/button_cancel</item>
+    </style><style name="Container">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@color/container_color</item>
+    </style><style name="ContainerWithFrame" parent="Container">
+        <item name="android:background">@color/container_frame_color</item>
+    </style><style name="ListView">
+        <item name="android:divider">@color/container_frame_color</item>
+        <item name="android:dividerHeight">8dp</item>
+    </style><style name="ListViewPlain">
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+    </style><style name="Details">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/details_color</item>
+    </style><style name="Data">
+        <item name="android:paddingLeft">205dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/data_color</item>
+    </style><style name="Label" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style><style name="DetailsValue" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style><style name="Heading" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style><style name="StatusValue" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style><style name="Disclaimer">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">left</item>
+    </style><style name="Support">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+    </style><style name="SupportInfo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        </style></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values-v11\styles.xml" qualifiers="v11"><style name="Theme.Default" parent="@android:style/Theme.Holo"/><style name="Theme.NoTitle" parent="@android:style/Theme.Holo.NoActionBar"/><style name="Theme.FullScreen" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen"/></file><file path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\res\values-v14\styles.xml" qualifiers="v14"><style name="Theme.Default" parent="@android:style/Theme.Holo.Light"/><style name="Theme.NoTitle" parent="@android:style/Theme.Holo.Light.NoActionBar"/><style name="Theme.FullScreen" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen"/></file></source><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build\generated\res\rs\debug"/><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build\generated\res\resValues\debug"/></dataSet><dataSet config="debug$Generated" generated="true"><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build-types\debug\res"/></dataSet><dataSet config="debug" generated-set="debug$Generated"><source path="C:\Users\Laswada\Desktop\Final Code\Training Mode\trunk\mobile\build-types\debug\res"/></dataSet><mergedItems/></merger>

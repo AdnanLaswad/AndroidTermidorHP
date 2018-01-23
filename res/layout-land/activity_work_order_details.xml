@@ -1,0 +1,246 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WorkOrderListActivity">
+
+    <LinearLayout
+        
+        style="@style/StatusTitle">
+        
+
+
+        <TextView
+            android:id="@+id/woStatus"
+            style="@style/StatusValue" />
+        
+       <ImageView
+		android:id="@+id/statusIcon"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:paddingLeft="10dp" />
+       
+    </LinearLayout>
+    
+    <LinearLayout
+
+        style="@style/Details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        
+        <TextView
+            style="@style/Label"
+            android:text="@string/address" />
+
+        <TextView
+            android:id="@+id/tvAddress1"
+            style="@style/Heading" />
+
+        <TextView
+            android:id="@+id/tvAddress2"
+            style="@style/DetailsValue" />
+
+        <TextView
+            android:id="@+id/tvAddressCityState"
+            style="@style/Heading" />
+        
+        
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:text="@string/linear_distance" />
+
+
+        
+        <TextView
+            android:id="@+id/tvLinearDistance"
+            style="@style/DetailsValue" />
+        </LinearLayout>
+		
+        
+ <LinearLayout
+		android:id="@+id/llDetailData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">        
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:text="@string/last_activity" />
+        </LinearLayout>
+        
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        
+        
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvChemicalLabel"
+            android:text="@string/chemical" />
+
+        <TextView
+            android:id="@+id/tvChemical"
+            style="@style/DetailsValue" />
+        </LinearLayout>
+     
+     
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvAIHTLabel"
+            android:text="@string/ai_ht" />
+
+        <TextView
+            android:id="@+id/tvAIHT"
+            style="@style/DetailsValue" />
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            android:id="@+id/tvAISALabel"
+            style="@style/Label"
+            android:text="@string/ai_sa" />
+
+        <TextView
+            android:id="@+id/tvAISA"
+            style="@style/DetailsValue" />
+        </LinearLayout>        
+		<LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvInjectionCountLabel"
+            android:text="@string/injection_count"/>
+        
+         <TextView
+            android:id="@+id/tvInjectionCount"
+            style="@style/DetailsValue"/>
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvWaterSALabel"
+            android:text="@string/water_sa" />
+
+        <TextView
+            android:id="@+id/tvWaterSA"
+            style="@style/DetailsValue" />
+        </LinearLayout>  
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvHTModeLabel"
+            android:text="@string/ht_mode" />
+
+        <TextView
+            android:id="@+id/tvHTMode"
+            style="@style/DetailsValue" />
+        </LinearLayout>
+        <LinearLayout 
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:orientation="horizontal"
+            >
+        <TextView
+            style="@style/Label"
+            android:id="@+id/tvSAModeLabel"
+            android:text="@string/sa_mode" />
+
+        <TextView
+            android:id="@+id/tvSAMode"
+            style="@style/DetailsValue" />
+        </LinearLayout>        
+   </LinearLayout>              
+		
+		
+		
+		
+		
+
+
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/ButtonRow">
+
+        <Button
+            android:id="@+id/btnSendData"
+            style="@style/Button"
+            android:onClick="send"
+            android:text="@string/send_to_hp"
+            android:visibility="visible" />
+        
+        <Button
+            android:id="@+id/btnOnHold"
+            style="@style/LeftButton"
+            android:onClick="putOnHold"
+            android:text="@string/on_hold"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/resend"
+            style="@style/Button"
+            android:onClick="send"
+            android:text="@string/resend_to_hp"
+            android:visibility="gone"
+            />
+
+        <Button
+            android:id="@+id/btnComplete"
+            style="@style/RightButton"
+            android:onClick="complete"
+            android:visibility="gone"
+            android:text="@string/complete" />
+
+
+    </LinearLayout>
+
+ 	<LinearLayout
+ 	    android:id="@+id/Actions"
+ 	    style="@style/Data"
+ 	    android:layout_width="match_parent"
+ 	    android:layout_height="wrap_content"
+ 	    android:orientation="vertical"
+ 	    android:visibility="gone" >
+   
+
+ 	    
+    </LinearLayout>
+
+</LinearLayout>

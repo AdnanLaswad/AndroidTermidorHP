@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.evanhoe.tango"
+    android:versionCode="14"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.evanhoe.tango.TangoApplication"
+        android:debuggable="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.evanhoe.tango.LoginActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeNoBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.WorkOrderListActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/work_order_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.WorkOrderDetailActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/work_order"
+            android:parentActivityName="com.evanhoe.tango.WorkOrderListActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.WorkOrderSendActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.FullScreen" >
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.SettingsActivity"
+            android:label="@string/settings"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.DisclaimerActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/disclaimer_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.evanhoe.tango.SupportActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/support_activity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+    </application>
+
+</manifest>

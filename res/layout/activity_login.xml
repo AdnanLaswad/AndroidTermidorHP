@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+	android:background="@color/theme_background_color">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+		android:background="@color/theme_background_color">
+		
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/logo"
+            android:background="@color/theme_background_color"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            style="@style/Form">
+
+
+            <EditText
+                android:id="@+id/et_username"
+                android:hint="@string/username"
+                style="@style/FormEditTextUN" 
+                android:singleLine="true"/>
+
+
+            <EditText
+                android:id="@+id/et_password"
+                android:hint="@string/password"
+                style="@style/FormEditTextPW"
+                android:singleLine="true" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:text="@string/login"
+                style="@style/ButtonLogin"
+                android:onClick="loginPressed"
+                android:paddingBottom="15dp"
+                />
+
+			<CheckBox
+			    android:id="@+id/chk_remember"
+			    android:layout_width="wrap_content"
+			    android:layout_height="match_parent"
+			    android:gravity="center"
+			    android:layout_gravity="center"
+			    android:text="Remember Me"			    
+			    android:textColor="@color/black" 
+			    />
+            
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

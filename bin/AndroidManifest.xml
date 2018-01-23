@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.evanhoe.tango"
+      android:versionCode="14"
+      android:versionName="3.0">
+      
+        <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> 
+    <uses-permission android:name="android.permission.BLUETOOTH" />     
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+   	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   	
+   	
+    
+    <application android:name="TangoApplication"
+                 android:label="@string/app_name"
+                 android:theme="@style/AppTheme"
+                 android:icon="@drawable/ic_launcher">
+        <activity android:name="LoginActivity"
+                  android:label="@string/app_name" 
+                  android:theme="@style/AppThemeNoBar"                 
+                  android:screenOrientation="portrait"
+   			   	  android:configChanges="orientation|keyboardHidden"
+   			   	  android:windowSoftInputMode="stateVisible|adjustResize">
+   			   	  
+                  
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="WorkOrderListActivity"
+               android:screenOrientation="portrait"
+   			   android:configChanges="orientation|keyboardHidden"
+   			   android:label="@string/work_order_list"
+   			   >
+        </activity>
+        <activity android:name="WorkOrderDetailActivity"
+            android:label="@string/work_order"
+            android:parentActivityName=".WorkOrderListActivity"
+            android:screenOrientation="portrait"
+   			android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity android:name="WorkOrderSendActivity"
+               android:screenOrientation="portrait"
+   			   android:configChanges="orientation|keyboardHidden"
+   			   android:theme="@style/Theme.FullScreen"
+   			   android:noHistory="true" >
+        </activity>     
+        <activity
+            android:name=".SettingsActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/settings" >
+        </activity>        
+        <activity android:name="DisclaimerActivity"
+            android:label="@string/disclaimer_activity"
+            android:screenOrientation="portrait"
+   			android:configChanges="orientation|keyboardHidden" >
+        </activity>
+                <activity android:name="SupportActivity"
+            android:label="@string/support_activity"
+            android:screenOrientation="portrait"
+   			android:configChanges="orientation|keyboardHidden" >
+        </activity>
+        <activity android:name="net.hockeyapp.android.UpdateActivity" />
+    </application>
+</manifest>
