@@ -197,7 +197,7 @@ public class CommonUtilities {
 	        	//syncThisDetail.setSyncTime( sdf.format ( cal.getTime() ) + " " + CommonUtilities.getOffsetGMT() );
 	            String username = ((TangoApplication) appContext).getUser().getUsername();
 	            String password = ((TangoApplication) appContext).getUser().getPassword();
-	        	String syncTime = WebService.sendWorkOrderDetail ( "", password, syncThisDetail,token );
+	        	String syncTime = WebService.sendWorkOrderDetail ( username, password, syncThisDetail,token );
 	        	if ( syncTime != null )
 	            {
 	                // success
@@ -297,7 +297,8 @@ public class CommonUtilities {
     	}
     	
     }
-    
+
+
     public static UserLoginResult login(Context appContext, String username, String password, boolean rememberMe){
     	
     	User user = null;

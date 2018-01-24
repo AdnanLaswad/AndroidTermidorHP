@@ -33,40 +33,40 @@ public class OptionsMenuActivity extends BaseActivity {
             startActivity(new Intent(this, SettingsActivity.class));
         }
         if (id == R.id.actionWorkOrderList) {
-            startActivity(new Intent(this, WorkOrderListActivity.class));
+            startActivity(new Intent(this, WorkOrderListActivity.class));           
         }
         if (id == R.id.actionSupport) {
-            startActivity(new Intent(this, SupportActivity.class));
+            startActivity(new Intent(this, SupportActivity.class));           
         }
         if (id == R.id.actionLogOut) {
 
             // workOrderListIntent.putExtra("token", token);
-            SharedPreferences      sharedPreferences1 = getSharedPreferences(
+      SharedPreferences      sharedPreferences1 = getSharedPreferences(
                     "MyPREFERENCES1", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor1 = sharedPreferences1.edit();
             editor1.putString("token","");
             sharedPreferences1.edit();
             editor1.commit();
-            Intent intent = new Intent(this, LoginActivity.class);
-            intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Removes other Activities from stack
-            startActivity(intent);
+        	Intent intent = new Intent(this, LoginActivity.class);
+        	intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Removes other Activities from stack
+        	startActivity(intent);
             return true;
         }
         if (id == R.id.actionTraining) {
-            boolean isTrainingMode = !(((TangoApplication) this.getApplication()).getIsTrainingMode());
-            ((TangoApplication) this.getApplication()).setIsTrainingMode(isTrainingMode);
-
-            finish();
-            final Intent workOrderListIntent = new Intent ( this, WorkOrderListActivity.class );
-            startActivityForResult ( workOrderListIntent, 0 );
-
-            if(isTrainingMode){
-                getActionBar().setTitle(R.string.training_work_order_list);
-            }else{
-                getActionBar().setTitle(R.string.work_order_list);
-            }
-
-
+        	boolean isTrainingMode = !(((TangoApplication) this.getApplication()).getIsTrainingMode());
+        	((TangoApplication) this.getApplication()).setIsTrainingMode(isTrainingMode);
+        	
+        	finish();
+        	final Intent workOrderListIntent = new Intent ( this, WorkOrderListActivity.class );
+        	startActivityForResult ( workOrderListIntent, 0 );
+        	
+        	if(isTrainingMode){
+        		getActionBar().setTitle(R.string.training_work_order_list);
+        	}else{
+        		getActionBar().setTitle(R.string.work_order_list);
+        	}
+        	
+        	
         }
         return super.onOptionsItemSelected(item);
     }

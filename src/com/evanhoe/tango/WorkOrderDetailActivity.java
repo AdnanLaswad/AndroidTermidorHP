@@ -63,7 +63,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_work_order_details);
-		SharedPreferences sharedPreferences = getSharedPreferences(
+	SharedPreferences sharedPreferences = getSharedPreferences(
 				"MyPREFERENCES1", Context.MODE_PRIVATE);
 		token=sharedPreferences.getString("token","");
 		//tv = (TextView) findViewById(R.id.textViewWithScroll);
@@ -355,7 +355,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		{
 			case R.id.btnSendData:
 
-				new AlertDialog.Builder(WorkOrderDetailActivity.this)
+			new AlertDialog.Builder(WorkOrderDetailActivity.this)
 						.setTitle("Send Work Order")
 						.setMessage(getString(R.string.dou_you_want_to_send_order,selectedWorkOrder.getServiceManagementWorkorderId()))
 						.setPositiveButton("Yes",
@@ -654,7 +654,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						thisDetail.setVolumeMeasurementUnit_act  ( selectedWorkOrder.getVolumeMeasurementUnit() );
 
 
-						// Null check for GPS location
+								// Null check for GPS location
 						double latitude, longitude;
 						latitude = longitude = 0.0;
 						if ( whereAmI != null )
@@ -1001,28 +1001,28 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
                     // do complete stuff
                     finish();
                 }*/
-					if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
-					{
-						hideDetailData();
-					}
-					else
-					{
-						showDetailData();
-						updateDetailDataOnScreen();
-					}
-					if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
-						btnSendData.setVisibility ( View.GONE );
-						if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
-							btnComplete.setVisibility(View.VISIBLE);
-						}else{
-							btnOnHold.setVisibility(View.GONE);
-							btnComplete.setVisibility(View.GONE);
-						}
-					}else{
-						btnSendData.setVisibility ( View.VISIBLE );
-						btnOnHold.setVisibility(View.GONE);
-						btnComplete.setVisibility(View.GONE);
-					}
+            if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
+	            {
+	            	hideDetailData();
+	            }
+	            else
+	            {
+	            	showDetailData();
+	            	updateDetailDataOnScreen();
+	            }
+                if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
+                	btnSendData.setVisibility ( View.GONE );
+                	if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
+                		btnComplete.setVisibility(View.VISIBLE);
+                	}else{
+                		btnOnHold.setVisibility(View.GONE);
+                		btnComplete.setVisibility(View.GONE);
+                	}
+                }else{
+                	btnSendData.setVisibility ( View.VISIBLE );
+            		btnOnHold.setVisibility(View.GONE);
+            		btnComplete.setVisibility(View.GONE);
+                }
 					if (onHoldIndicator) {
 						Toast toast = CreateToast(getResources().getColor(R.color.message_completed), "Workorder Placed On Hold", Gravity.TOP);
 						toast.show();

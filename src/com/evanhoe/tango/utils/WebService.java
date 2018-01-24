@@ -48,7 +48,37 @@ public class WebService {
 
         return returnString;
     }
-	
+
+
+	public static String getToken(String username, String password){
+
+
+		try {
+			JSONObject postDataParams = new JSONObject();
+
+			postDataParams.put("password", password);
+			postDataParams.put("username", username);
+			postDataParams.put("grant_type", "password");
+			String strResponseJSON1 = HttpUtils.sendGet("http://stage.evergreen.datacore.us/oauth/token", postDataParams);
+
+
+			JSONObject jj;
+			jj = new JSONObject(strResponseJSON1);
+			if (jj.getString("access_token").length() > 0) {
+				// System.out.print(j.getString("access_token"));
+
+				String token = jj.getString("access_token");
+				return token;
+			}
+		} catch (JSONException e) {
+			e.printStackTrace();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return "";
+
+	}
 	/**
 	 * check if a username and password are valid
 	 * @param username
@@ -136,9 +166,11 @@ public class WebService {
 		} catch (RuntimeException e){
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-
+           if(e.getMessage().contains("400"))
 			userLoginResult = new UserLoginResult(null,true,true,token);
-			return userLoginResult;
+			else
+			   userLoginResult = new UserLoginResult(null,false,true,token);
+           return userLoginResult;
 		} catch (Exception e) {
 			e.printStackTrace();
 			userLoginResult = new UserLoginResult(null,false,true,token);
@@ -333,6 +365,7 @@ try {
 	public static String sendWorkOrderDetail(String username, String password, WorkOrderDetail woDetail,String token) {
 		
 		try {
+
 
 			JSONObject postJSON = woDetail.toJSONObject();
 			//postJSON.put("username", username);

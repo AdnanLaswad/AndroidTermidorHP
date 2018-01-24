@@ -66,7 +66,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             Intent i=new Intent(this,DisclaimerActivity.class);
             //startActivity(i);
             startActivityForResult(i, 0);
-            // finish();
+           // finish();
         }
 
         /////////////////////////////////////////////////////////////////////////
@@ -291,7 +291,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor.putString("password",userLoginResult.getUser().getPassword());
                             sharedPreferences.edit();
                             editor.commit();
-                            // workOrderListIntent.putExtra("token", token);
+                           // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
                                     "MyPREFERENCES1", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
@@ -299,7 +299,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             sharedPreferences.edit();
                             editor1.commit();
                             startActivityForResult(workOrderListIntent, 0);
-                            finish();
+finish();
                         }
                         else{
                             sharedPreferences = getSharedPreferences(
@@ -309,7 +309,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor.putString("password","");
                             sharedPreferences.edit();
                             editor.commit();
-                            // workOrderListIntent.putExtra("token", token);
+                           // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
                                     "MyPREFERENCES1", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
@@ -317,7 +317,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             sharedPreferences.edit();
                             editor1.commit();
                             startActivityForResult(workOrderListIntent, 0);
-                            finish();
+finish();
 
                         }
                     }

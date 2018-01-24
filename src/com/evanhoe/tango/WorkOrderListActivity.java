@@ -67,7 +67,7 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 	ListAdapter lAdapter = null;
 
 	ImageButton filterButton;
-   String token="";
+     String token="";
 	/** Called when the activity is first created. */
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
@@ -119,6 +119,7 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 		catch ( Exception e )
 		{
 			e.printStackTrace();
+			//Toast.makeText(getApplicationContext(),e.getMessage(),Toast.LENGTH_LONG).show();
 		}
 	}
 	public boolean onPrepareOptionsMenu(Menu menu) {
@@ -296,7 +297,8 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 	}
 
 	public void logout(View view) {
-		return;
+		Toast.makeText(getApplicationContext(),"log out",Toast.LENGTH_LONG).show();
+		//return;
 	}
 	class RetrieveWOListTask extends AsyncTask<Object, Void, Integer>
 	{

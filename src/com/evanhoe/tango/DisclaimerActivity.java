@@ -23,87 +23,142 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class DisclaimerActivity extends Activity {
-    String token;
-    int clickCount;
-    String username = "";
-    String password = "";
-
-    /**
-     * Called when the activity is first created.
-     */
+public class DisclaimerActivity extends Activity
+{
+	String token;
+	int clickCount;
+	String username="";
+	String password="";
+	
+    /** Called when the activity is first created. */
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    public void onCreate ( Bundle savedInstanceState )
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_disclaimer);
-        token = getIntent().getStringExtra("token");
+        token=getIntent().getStringExtra("token");
         TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
         tvVersion.setText("Version");
         try {
-            if (CommonUtilities.getEnv() == 1 || CommonUtilities.getEnv() == 2) {
-                tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName + " Testing");
-            } else {
-                tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+            if(CommonUtilities.getEnv() == 1 || CommonUtilities.getEnv() == 2){
+            	tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName + " Testing");
+            }else{
+            	tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
             }
-        } catch (NameNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-
+		} catch (NameNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        
         clickCount = 0;
-        TextView btn = (TextView) findViewById(R.id.txtCaution);
+        TextView btn=(TextView) findViewById(R.id.txtCaution);
         btn.setOnClickListener(new OnClickListener() {
 
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                //DO you work here
-                clickCount++;
-                if (clickCount == 7) {
-
-
-                    new AlertDialog.Builder(DisclaimerActivity.this)
-                            .setTitle("Clear DB")
-                            .setMessage("Do you wish to clear the database?")
-                            .setPositiveButton("Yes",
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int which) {
-                                            CommonUtilities.clearDB(TangoApplication.getTangoApplicationContext());
-
-                                            Toast.makeText(TangoApplication.getTangoApplicationContext(), "Database Wiped",
-                                                    Toast.LENGTH_SHORT).show();
-
-                                            finish();
-                                        }
-                                    })
-                            .setNegativeButton("No",
-                                    new DialogInterface.OnClickListener() {
-                                        public void onClick(DialogInterface dialog, int which) {
-                                            clickCount = 0;
-                                        }
-                                    })
-                            .show();
-
-                } else if (clickCount > 7) {
-                    clickCount = 0;
+                @Override
+                public void onClick(View v) {
+                    // TODO Auto-generated method stub
+                    //DO you work here
+                	clickCount++;
+                	if(clickCount==7){
+                		
+                		
+                		new AlertDialog.Builder(DisclaimerActivity.this)               	
+                        .setTitle("Clear DB")
+                        .setMessage("Do you wish to clear the database?")
+                        .setPositiveButton("Yes",
+                            new DialogInterface.OnClickListener() {
+                                    public void onClick(DialogInterface dialog, int which) 
+                                    {
+                                    	CommonUtilities.clearDB(TangoApplication.getTangoApplicationContext());
+                                    	
+                                    	Toast.makeText(TangoApplication.getTangoApplicationContext(),"Database Wiped", 
+                                                Toast.LENGTH_SHORT).show();
+                                    	
+                                    	finish();
+                                    }
+                                })
+                        .setNegativeButton("No",
+                            new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) 
+                                {
+                                	clickCount = 0;
+                                }
+                            })
+                        .show();
+                		
+                	}else if(clickCount > 7){
+                		clickCount = 0;               		
+                	}
                 }
-            }
-        });
+            });
     }
 
-    public void continueButton(View view) {
-        SharedPreferences sharedPreferences = getSharedPreferences(
+    public void continueButton ( View view )
+    {
+     SharedPreferences sharedPreferences = getSharedPreferences(
                 "MyPREFERENCES", Context.MODE_PRIVATE);
-        username = sharedPreferences.getString("username", "");
-        password = sharedPreferences.getString("password", "");
-        User u = UserDAO.getByUsername(getApplicationContext(), username);
+        username=sharedPreferences.getString("username","");
+        password=sharedPreferences.getString("password","");
+        User u= UserDAO.getByUsername(getApplicationContext(),username);
         ((TangoApplication) getApplicationContext()).setUser(u);
-        // new RetrieveWOListTask().execute();
+       // new RetrieveWOListTask().execute();
 
-        final Intent workorderListIntent = new Intent(this, WorkOrderListActivity.class);
-        // workorderListIntent.putExtra("token",token);
-        startActivity(workorderListIntent);
+        final Intent workorderListIntent = new Intent ( this, WorkOrderListActivity.class );
+       // workorderListIntent.putExtra("token",token);
+        startActivity ( workorderListIntent );
         finish();
     }
 
+
+    class RetrieveWOListTask extends AsyncTask<Object, Void, String>
+    {
+        boolean error = false;
+        ProgressDialog sendReceivPB = null;
+        @Override
+        protected void onPostExecute(String result)
+        {
+          SharedPreferences  sharedPreferences = getSharedPreferences(
+                    "MyPREFERENCES1", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor1 = sharedPreferences.edit();
+            editor1.putString("token",token);
+            sharedPreferences.edit();
+            editor1.commit();
+
+            final Intent workorderListIntent = new Intent ( DisclaimerActivity.this, WorkOrderListActivity.class );
+            /// workorderListIntent.putExtra("token",token);
+            startActivity ( workorderListIntent );
+           finish();
+
+        }
+
+        @Override
+        protected void onPreExecute()
+        {
+            // Things to be done before execution of long running operation. For
+            // example showing ProgessDialog
+
+            //sendReceivPB = (ProgressBar)findViewById(R.id.progressBar1);
+            //sendReceivPB.setVisibility(View.VISIBLE);
+
+            sendReceivPB = ProgressDialog.show(DisclaimerActivity.this,null,null);
+            sendReceivPB.setContentView(new ProgressBar(DisclaimerActivity.this));
+
+        }
+        @Override
+        protected String doInBackground(Object... params) {
+
+            // TODO Auto-generated method stub
+            //CommonUtilities.syncTheUnsynced(WorkOrderListActivity.this.getApplicationContext());
+            //loadWorkOrdersToDB();
+           String s= WebService.getToken(username,password);
+
+
+
+            //CommonUtilities.checkIfWorkorderChanges(WorkOrderListActivity.this.getApplicationContext());
+
+            return s;
+
+        }
+
+    }
 }
