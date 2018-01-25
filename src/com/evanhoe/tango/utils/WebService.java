@@ -59,7 +59,7 @@ public class WebService {
 			postDataParams.put("password", password);
 			postDataParams.put("username", username);
 			postDataParams.put("grant_type", "password");
-			String strResponseJSON1 = HttpUtils.sendGet("http://stage.evergreen.datacore.us/oauth/token", postDataParams);
+			String strResponseJSON1 = HttpUtils.sendGet("https://basf.datacore.us/Pest/HPServices/oauth/token", postDataParams);
 
 
 			JSONObject jj;
@@ -95,7 +95,7 @@ public class WebService {
 			postDataParams.put("password", password);
 			postDataParams.put("username", username);
 			postDataParams.put("grant_type","password");
-			String strResponseJSON1 = HttpUtils.sendGet("http://stage.evergreen.datacore.us/oauth/token",postDataParams);
+			String strResponseJSON1 = HttpUtils.sendGet("https://basf.datacore.us/Pest/HPServices/oauth/token",postDataParams);
 
 
 			JSONObject jj;
@@ -106,7 +106,7 @@ public class WebService {
                 token=jj.getString("access_token");
 
 
-				String url="http://stage.evergreen.datacore.us/Person?UserLoginName="+""+username;
+				String url="https://basf.datacore.us/Pest/HPServices/Person?UserLoginName="+""+username;
 				String strResponseJSON2 = HttpUtils.sendGet1(url,jj.getString("access_token"));
                 JSONObject j=new JSONObject(strResponseJSON2);
 
@@ -196,7 +196,7 @@ public class WebService {
 		ArrayList<WorkOrder> workOrders = new ArrayList<WorkOrder>();
 		try{
 
-			String url="http://stage.evergreen.datacore.us/WorkOrders";
+			String url="https://basf.datacore.us/Pest/HPServices/WorkOrders";
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			JSONArray jsonperson1 = new JSONArray(strResponseJSON2);
 			for(int i=0;i<jsonperson1.length();i++) {
@@ -300,7 +300,7 @@ public class WebService {
 		JSONObject j;
 		//JSONObject j2,j3;
 		try {
-			String url="http://stage.evergreen.datacore.us/WorkOrderDetail?WO_Number="+number;
+			String url="https://basf.datacore.us/Pest/HPServices/WorkOrderDetail?WO_Number="+number;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			//JSONObject jj=new JSONObject(strResponseJSON2);
 			j = new JSONObject(strResponseJSON2);
@@ -375,16 +375,18 @@ try {
 // TODO: Remove this debugging
           //  System.out.println ( strPostJSON );
 
-			String url="http://stage.evergreen.datacore.us/SaveWorkOrderDetail";
+			String url="https://basf.datacore.us/Pest/HPServices/SaveWorkOrderDetail";
 			String strResponseJSON = HttpUtils.saveData(url,postJSON,token);
-
+			return "yes";
+/*
 			JSONObject j;
 			j = new JSONObject(strResponseJSON);
 
 			if (j.getString("status").equalsIgnoreCase("1")
 					&& j.getString("entry").equalsIgnoreCase("1")) {
 				return j.getString("LastSyncTime");
-			}
+			}*/
+
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
@@ -437,7 +439,7 @@ try {
 
 
 
-			String url="http://stage.evergreen.datacore.us/WorkOrderDetailAfterTime?WO_Number="+number+"&SyncTime="+syncTime;
+			String url="https://basf.datacore.us/Pest/HPServices/WorkOrderDetailAfterTime?WO_Number="+number+"&SyncTime="+syncTime;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			JSONObject jj=new JSONObject(strResponseJSON2);
 			/*
@@ -491,7 +493,7 @@ return workOrderDetails;
 
 try{
 
-		String url="http://stage.evergreen.datacore.us/WorkOrders";
+		String url="https://basf.datacore.us/Pest/HPServices/WorkOrders";
 		String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 		JSONArray jj = new JSONArray(strResponseJSON2);
 		for(int i=0;i<jj.length();i++) {
@@ -564,7 +566,7 @@ try{
 
 
 		ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>();
-		String url="http://stage.evergreen.datacore.us/InjectionStations";
+		String url="https://basf.datacore.us/Pest/HPServices/InjectionStations";
 		String strResponseJSON2 = null;
 		try {
 			strResponseJSON2 = HttpUtils.sendGet1(url,token);
@@ -656,7 +658,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		
 		ArrayList<TermicideType> termicideTypes = new ArrayList<TermicideType>();
 
-		String url="http://stage.evergreen.datacore.us/TermicideTypes";
+		String url="https://basf.datacore.us/Pest/HPServices/TermicideTypes";
 		String strResponseJSON2 = null;
 		try {
 			strResponseJSON2 = HttpUtils.sendGet1(url,token);

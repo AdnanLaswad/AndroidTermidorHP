@@ -200,9 +200,12 @@ public class CommonUtilities {
 	        	String syncTime = WebService.sendWorkOrderDetail ( username, password, syncThisDetail,token );
 	        	if ( syncTime != null )
 	            {
+					Calendar cal = Calendar.getInstance();
+					SimpleDateFormat sdf = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss" );
 	                // success
 	                syncThisDetail.setSyncStatus ( "Y" );
-	                syncThisDetail.setSyncTime(syncTime);
+
+	                syncThisDetail.setSyncTime(sdf.format ( cal.getTime()));
 	                WorkorderDetailDAO.updateRecord(appContext, syncThisDetail);
 	            }
 	            else

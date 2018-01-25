@@ -906,7 +906,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 
 
-						String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
+						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
 						//was successful send delete command
 						boolean test = thisService.eraseData();
 
