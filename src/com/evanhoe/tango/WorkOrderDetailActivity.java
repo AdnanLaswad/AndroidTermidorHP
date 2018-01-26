@@ -26,6 +26,7 @@ import android.os.Bundle;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.location.Location;
+import android.os.Handler;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.View;
@@ -63,7 +64,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_work_order_details);
-	SharedPreferences sharedPreferences = getSharedPreferences(
+		SharedPreferences sharedPreferences = getSharedPreferences(
 				"MyPREFERENCES1", Context.MODE_PRIVATE);
 		token=sharedPreferences.getString("token","");
 		//tv = (TextView) findViewById(R.id.textViewWithScroll);
@@ -355,7 +356,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		{
 			case R.id.btnSendData:
 
-			new AlertDialog.Builder(WorkOrderDetailActivity.this)
+				new AlertDialog.Builder(WorkOrderDetailActivity.this)
 						.setTitle("Send Work Order")
 						.setMessage(getString(R.string.dou_you_want_to_send_order,selectedWorkOrder.getServiceManagementWorkorderId()))
 						.setPositiveButton("Yes",
@@ -654,7 +655,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						thisDetail.setVolumeMeasurementUnit_act  ( selectedWorkOrder.getVolumeMeasurementUnit() );
 
 
-								// Null check for GPS location
+						// Null check for GPS location
 						double latitude, longitude;
 						latitude = longitude = 0.0;
 						if ( whereAmI != null )
@@ -667,10 +668,10 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 						thisDetail.setMinutesWorkedInSession_act ( Integer.toString(newData.getTimeToComplete()) );
 						thisDetail.setWorkorderSlotLocationUsed ( "1" );
-						thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD );
+						thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD);
 
 						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
-						WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+				boolean test=		WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
 
 						//was successful send delete command
 						boolean status = thisService.eraseData();
@@ -692,7 +693,9 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						if(CommonUtilities.checkIfWorkorderChanges(WorkOrderDetailActivity.this.getApplicationContext(),token)){
 							CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 						}else{
+
 							CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
+							CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 						}
 
 					}
@@ -764,6 +767,13 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 				}
 				recreate();
 			}
+
+
+
+
+
+
+
 
 
 		}
@@ -889,12 +899,13 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 							}else{
 								thisDetail.setWorkorderStatusCode ( WorkorderStatus.CLOSED );
 							}
-							WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+						boolean	test=WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+						int r=90;
 						}
 						else
 						{
 							thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD );
-							WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+						boolean test=	WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
 
 							if ( onHoldIndicator ){
 								writeBlankRecord(WorkorderStatus.ONHOLD);
@@ -937,6 +948,8 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 					CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 				}else{
 					CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
+					CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
+
 				}
 			}
 			catch (Exception e)
@@ -954,6 +967,16 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		@Override
 		protected void onPostExecute(String result)
 		{
+
+
+
+
+
+
+			//	new Handler().postDelayed(new Runnable() {
+
+			//		@Override
+			//		public void run() {
 			// execution of result of Long time consuming operation
 
 			// try to catch exception java.lang.IllegalArgumentException: View=com.android.internal.policy.impl.PhoneWindow$DecorView{41c7d1b0 V.E..... R......D 0,0-586,64} not attached to window manager
@@ -1001,28 +1024,28 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
                     // do complete stuff
                     finish();
                 }*/
-            if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
-	            {
-	            	hideDetailData();
-	            }
-	            else
-	            {
-	            	showDetailData();
-	            	updateDetailDataOnScreen();
-	            }
-                if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
-                	btnSendData.setVisibility ( View.GONE );
-                	if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
-                		btnComplete.setVisibility(View.VISIBLE);
-                	}else{
-                		btnOnHold.setVisibility(View.GONE);
-                		btnComplete.setVisibility(View.GONE);
-                	}
-                }else{
-                	btnSendData.setVisibility ( View.VISIBLE );
-            		btnOnHold.setVisibility(View.GONE);
-            		btnComplete.setVisibility(View.GONE);
-                }
+					if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
+					{
+						hideDetailData();
+					}
+					else
+					{
+						showDetailData();
+						updateDetailDataOnScreen();
+					}
+					if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
+						btnSendData.setVisibility ( View.GONE );
+						if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
+							btnComplete.setVisibility(View.VISIBLE);
+						}else{
+							btnOnHold.setVisibility(View.GONE);
+							btnComplete.setVisibility(View.GONE);
+						}
+					}else{
+						btnSendData.setVisibility ( View.VISIBLE );
+						btnOnHold.setVisibility(View.GONE);
+						btnComplete.setVisibility(View.GONE);
+					}
 					if (onHoldIndicator) {
 						Toast toast = CreateToast(getResources().getColor(R.color.message_completed), "Workorder Placed On Hold", Gravity.TOP);
 						toast.show();
@@ -1041,6 +1064,12 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 			//showWorkorderStatus();
 			recreate();
+
+			//		}
+			//	}, 15000);
+
+
+
 		}
 		@Override
 		protected void onPreExecute()
