@@ -96,69 +96,39 @@ public class DisclaimerActivity extends Activity
     public void continueButton ( View view )
     {
      SharedPreferences sharedPreferences = getSharedPreferences(
-                "MyPREFERENCES", Context.MODE_PRIVATE);
+                "userdata", Context.MODE_PRIVATE);
         username=sharedPreferences.getString("username","");
         password=sharedPreferences.getString("password","");
-        User u= UserDAO.getByUsername(getApplicationContext(),username);
-        ((TangoApplication) getApplicationContext()).setUser(u);
-       // new RetrieveWOListTask().execute();
+        if(username.length()>3&&password.length()>3) {
+            User u = UserDAO.getByUsername(getApplicationContext(), username);
+            ((TangoApplication) getApplicationContext()).setUser(u);
+            // new RetrieveWOListTask().execute();
 
-        final Intent workorderListIntent = new Intent ( this, WorkOrderListActivity.class );
-       // workorderListIntent.putExtra("token",token);
-        startActivity ( workorderListIntent );
-        finish();
-    }
-
-
-    class RetrieveWOListTask extends AsyncTask<Object, Void, String>
-    {
-        boolean error = false;
-        ProgressDialog sendReceivPB = null;
-        @Override
-        protected void onPostExecute(String result)
-        {
-          SharedPreferences  sharedPreferences = getSharedPreferences(
-                    "MyPREFERENCES1", Context.MODE_PRIVATE);
-            SharedPreferences.Editor editor1 = sharedPreferences.edit();
-            editor1.putString("token",token);
-            sharedPreferences.edit();
+            final Intent workorderListIntent = new Intent(this, WorkOrderListActivity.class);
+            // workorderListIntent.putExtra("token",token);
+            startActivity(workorderListIntent);
+           // finish();
+        }
+        else{
+            Toast.makeText(getApplicationContext(),"Need login Again",Toast.LENGTH_LONG).show();
+            SharedPreferences      sharedPreferences1 = getSharedPreferences(
+                    "userdata", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor1 = sharedPreferences1.edit();
+            editor1.putString("username","");
+            editor1.putString("password","");
+            editor1.putString("token","");
+            sharedPreferences1.edit();
             editor1.commit();
-
-            final Intent workorderListIntent = new Intent ( DisclaimerActivity.this, WorkOrderListActivity.class );
-            /// workorderListIntent.putExtra("token",token);
-            startActivity ( workorderListIntent );
-           finish();
-
+            final Intent workorderListIntent = new Intent(this, LoginActivity.class);
+            // workorderListIntent.putExtra("token",token);
+            startActivity(workorderListIntent);
+            finish();
         }
-
-        @Override
-        protected void onPreExecute()
-        {
-            // Things to be done before execution of long running operation. For
-            // example showing ProgessDialog
-
-            //sendReceivPB = (ProgressBar)findViewById(R.id.progressBar1);
-            //sendReceivPB.setVisibility(View.VISIBLE);
-
-            sendReceivPB = ProgressDialog.show(DisclaimerActivity.this,null,null);
-            sendReceivPB.setContentView(new ProgressBar(DisclaimerActivity.this));
-
-        }
-        @Override
-        protected String doInBackground(Object... params) {
-
-            // TODO Auto-generated method stub
-            //CommonUtilities.syncTheUnsynced(WorkOrderListActivity.this.getApplicationContext());
-            //loadWorkOrdersToDB();
-           String s= WebService.getToken(username,password);
+    }
 
 
-
-            //CommonUtilities.checkIfWorkorderChanges(WorkOrderListActivity.this.getApplicationContext());
-
-            return s;
-
-        }
 
     }
-}
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+

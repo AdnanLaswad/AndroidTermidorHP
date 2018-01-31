@@ -65,7 +65,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_work_order_details);
 		SharedPreferences sharedPreferences = getSharedPreferences(
-				"MyPREFERENCES1", Context.MODE_PRIVATE);
+				"userdata", Context.MODE_PRIVATE);
 		token=sharedPreferences.getString("token","");
 		//tv = (TextView) findViewById(R.id.textViewWithScroll);
 		String locale = getResources().getConfiguration().locale.getCountry();

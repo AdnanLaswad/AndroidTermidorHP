@@ -42,11 +42,21 @@ public class OptionsMenuActivity extends BaseActivity {
 
             // workOrderListIntent.putExtra("token", token);
       SharedPreferences      sharedPreferences1 = getSharedPreferences(
-                    "MyPREFERENCES1", Context.MODE_PRIVATE);
+                    "userdata", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor1 = sharedPreferences1.edit();
+            editor1.putString("username","");
+            editor1.putString("password","");
             editor1.putString("token","");
             sharedPreferences1.edit();
             editor1.commit();
+            SharedPreferences      sharedPreferences = getSharedPreferences(
+                    "userdata1", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("username","");
+            editor.putString("password","");
+
+            sharedPreferences.edit();
+            editor.commit();
         	Intent intent = new Intent(this, LoginActivity.class);
         	intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Removes other Activities from stack
         	startActivity(intent);

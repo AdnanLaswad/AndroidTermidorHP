@@ -80,7 +80,7 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 	public void onResume() {
 		super.onResume();
 		SharedPreferences sharedPreferences = getSharedPreferences(
-				"MyPREFERENCES1", Context.MODE_PRIVATE);
+				"userdata", Context.MODE_PRIVATE);
 		token=sharedPreferences.getString("token","");
 		items.clear();
 		lvwWorkOrdersInProgress = (ListView) findViewById(R.id.lvwWorkOrdersInProgress);

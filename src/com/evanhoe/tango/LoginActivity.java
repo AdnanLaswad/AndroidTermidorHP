@@ -60,15 +60,14 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         //setContentView(R.layout.login);
         setContentView(R.layout.activity_login);
         sharedPreferences = getSharedPreferences(
-                "MyPREFERENCES1", Context.MODE_PRIVATE);
+                "userdata", Context.MODE_PRIVATE);
         String token=sharedPreferences.getString("token","");
         if(token.length()>2){
             Intent i=new Intent(this,DisclaimerActivity.class);
             //startActivity(i);
             startActivityForResult(i, 0);
-           // finish();
+            //finish();
         }
-
         /////////////////////////////////////////////////////////////////////////
         //removed inputType="textPassword" from style and the following change to password text field
         //so that font for the hint text would be correct
@@ -92,7 +91,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         EditText passwordEntry = (EditText) findViewById ( R.id.et_password );
         CheckBox rememberBox = (CheckBox) findViewById ( R.id.chk_remember );
         sharedPreferences = getSharedPreferences(
-                "MyPREFERENCES", Context.MODE_PRIVATE);
+                "userdata1", Context.MODE_PRIVATE);
         String username=sharedPreferences.getString("username","");
         String password=sharedPreferences.getString("password","");
         User user = UserDAO.getLastUser(getApplicationContext());
@@ -285,7 +284,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                         //sendReceivPB.setVisibility(View.GONE);
                         if(rememberBox.isChecked()) {
                             sharedPreferences = getSharedPreferences(
-                                    "MyPREFERENCES", Context.MODE_PRIVATE);
+                                    "userdata", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor = sharedPreferences.edit();
                             editor.putString("username",userLoginResult.getUser().getUsername());
                             editor.putString("password",userLoginResult.getUser().getPassword());
@@ -293,31 +292,43 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor.commit();
                            // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
-                                    "MyPREFERENCES1", Context.MODE_PRIVATE);
+                                    "userdata", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
                             editor1.putString("token",token);
                             sharedPreferences.edit();
                             editor1.commit();
+
+                            sharedPreferences = getSharedPreferences(
+                                    "userdata1", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor editor2 = sharedPreferences.edit();
+                            editor2.putString("username",userLoginResult.getUser().getUsername());
+                            editor2.putString("password",userLoginResult.getUser().getPassword());
+                            sharedPreferences.edit();
+                            editor2.commit();
                             startActivityForResult(workOrderListIntent, 0);
-finish();
+                           //finish();///////////// 1 change
                         }
                         else{
                             sharedPreferences = getSharedPreferences(
-                                    "MyPREFERENCES", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            editor.putString("username","");
-                            editor.putString("password","");
+                                    "userdata", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor editor = sharedPreferences.edit();// edit calss to edit the value that saved in the shared pref
+
+                             editor.putString("username",userLoginResult.getUser().getUsername());
+                             editor.putString("password",userLoginResult.getUser().getPassword());
+
+                          // editor.putString("username","");      //  This is the problem for crashing the code
+                          // editor.putString("password","");
                             sharedPreferences.edit();
                             editor.commit();
                            // workOrderListIntent.putExtra("token", token);
                             sharedPreferences = getSharedPreferences(
-                                    "MyPREFERENCES1", Context.MODE_PRIVATE);
+                                    "userdata", Context.MODE_PRIVATE);
                             SharedPreferences.Editor editor1 = sharedPreferences.edit();
                             editor1.putString("token",token);
                             sharedPreferences.edit();
                             editor1.commit();
                             startActivityForResult(workOrderListIntent, 0);
-finish();
+                            //finish();////////////// 1 change
 
                         }
                     }
