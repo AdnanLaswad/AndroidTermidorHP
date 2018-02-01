@@ -87,6 +87,28 @@
                     }
                 }
             ]
+        },
+        {
+            "outputFile": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "117,283,194",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "188,380,277"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
         }
     ]
 }

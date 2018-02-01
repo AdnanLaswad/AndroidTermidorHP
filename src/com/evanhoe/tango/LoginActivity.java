@@ -51,6 +51,7 @@ import net.hockeyapp.android.UpdateManager;
 public class LoginActivity extends BaseActivity implements OnClickListener
 {
     SharedPreferences sharedPreferences;
+    int count;
 
     /** Called when the activity is first created. */
     @Override
@@ -66,7 +67,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             Intent i=new Intent(this,DisclaimerActivity.class);
             //startActivity(i);
             startActivityForResult(i, 0);
-            //finish();
+            finish();
         }
         /////////////////////////////////////////////////////////////////////////
         //removed inputType="textPassword" from style and the following change to password text field
@@ -87,9 +88,12 @@ public class LoginActivity extends BaseActivity implements OnClickListener
     public void onResume()
     {
         super.onResume();
+        count = 0;
+        TextView btn=(TextView) findViewById(R.id.txtCaution1);
+
         EditText usernameEntry = (EditText) findViewById ( R.id.et_username );
         EditText passwordEntry = (EditText) findViewById ( R.id.et_password );
-        CheckBox rememberBox = (CheckBox) findViewById ( R.id.chk_remember );
+        final CheckBox rememberBox = (CheckBox) findViewById ( R.id.chk_remember );
         sharedPreferences = getSharedPreferences(
                 "userdata1", Context.MODE_PRIVATE);
         String username=sharedPreferences.getString("username","");
@@ -106,7 +110,33 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             passwordEntry.setText("");
             rememberBox.setChecked(false);
         }
+        btn.setOnClickListener(new OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                count++;
+                if(count==7){
+                    EditText usernameEntry = (EditText) findViewById ( R.id.et_username );
+                    String username = usernameEntry.getText().toString();
+                    EditText passwordEntry = (EditText) findViewById ( R.id.et_password );
+                    String password = passwordEntry.getText().toString();
+                    // Toast.makeText(getApplicationContext(),"seven",Toast.LENGTH_LONG).show();
+                    sharedPreferences = getSharedPreferences(
+                            "url", Context.MODE_PRIVATE);
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("urltype","stage");
 
+                    sharedPreferences.edit();
+                    editor.commit();
+
+
+                   rememberBox.setChecked(false);
+
+
+                    new RetrieveLoginTask().execute(username, password);
+
+                }
+            }
+        });
         checkForCrashes();
         checkForUpdates();
     }
@@ -144,6 +174,16 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             //}
 
             // if valid, go to next class
+
+            sharedPreferences = getSharedPreferences(
+                    "url", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("urltype","product");
+
+            sharedPreferences.edit();
+            editor.commit();
+
+
             new RetrieveLoginTask().execute(username, password);
             //User user = WebService.getUser(username, "password");
 
@@ -305,6 +345,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor2.putString("password",userLoginResult.getUser().getPassword());
                             sharedPreferences.edit();
                             editor2.commit();
+
                             startActivityForResult(workOrderListIntent, 0);
                            //finish();///////////// 1 change
                         }

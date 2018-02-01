@@ -4,12 +4,13 @@
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
 	android:background="@color/theme_background_color">
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:orientation="vertical"
 		android:background="@color/theme_background_color">
-		
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="80dp"
@@ -56,6 +57,12 @@
 			    />
             
         </LinearLayout>
+		<TextView
+			android:id="@+id/txtCaution1"
 
+			android:layout_width="match_parent"
+			android:layout_height="500dp"
+			/>
     </LinearLayout>
+
 </ScrollView>

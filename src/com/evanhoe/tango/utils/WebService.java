@@ -24,7 +24,11 @@ import com.evanhoe.tango.objs.WorkOrderDetail;
 
 public class WebService {
 	
-	
+	//public final static String mainurl="https://basf.datacore.us/Pest/HPServices";
+
+	public final static String stageurl="https://basf.datacore.us/Pest/HPServices";
+	public final static String producturl="https://basf.datacore.us/Pest/HPServices";
+     public static String application=producturl;
 	private final static String devUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.dev_webservice_url );
 	private final static String urlBase = TangoApplication.getResourcesStatic().getString ( R.string.preprod_webservice_url );
 	private final static String prodUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.prod_webservice_url );
@@ -35,7 +39,7 @@ public class WebService {
      */
     private static String getURL ( String webServiceName )
     {
-    	
+
         //String returnString = "http://" + urlBase + "/" + webServiceName + "/";
     	String returnString = urlBase + "/" + webServiceName + "/";
 
@@ -52,6 +56,15 @@ public class WebService {
 
 	public static String getToken(String username, String password){
 
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 
 		try {
 			JSONObject postDataParams = new JSONObject();
@@ -59,7 +72,7 @@ public class WebService {
 			postDataParams.put("password", password);
 			postDataParams.put("username", username);
 			postDataParams.put("grant_type", "password");
-			String strResponseJSON1 = HttpUtils.sendGet("https://basf.datacore.us/Pest/HPServices/oauth/token", postDataParams);
+			String strResponseJSON1 = HttpUtils.sendGet(application+"/oauth/token", postDataParams);
 
 
 			JSONObject jj;
@@ -87,6 +100,16 @@ public class WebService {
 	 */
 	public static UserLoginResult getUser(String username, String password) {
 		String token="";
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		UserLoginResult userLoginResult = null;
 
 		try {
@@ -95,7 +118,7 @@ public class WebService {
 			postDataParams.put("password", password);
 			postDataParams.put("username", username);
 			postDataParams.put("grant_type","password");
-			String strResponseJSON1 = HttpUtils.sendGet("https://basf.datacore.us/Pest/HPServices/oauth/token",postDataParams);
+			String strResponseJSON1 = HttpUtils.sendGet(application+"/oauth/token",postDataParams);
 
 
 			JSONObject jj;
@@ -106,7 +129,7 @@ public class WebService {
                 token=jj.getString("access_token");
 
 
-				String url="https://basf.datacore.us/Pest/HPServices/Person?UserLoginName="+""+username;
+				String url=application+"/Person?UserLoginName="+""+username;
 				String strResponseJSON2 = HttpUtils.sendGet1(url,jj.getString("access_token"));
                 JSONObject j=new JSONObject(strResponseJSON2);
 
@@ -193,10 +216,19 @@ public class WebService {
 	 */
 	public static ArrayList<WorkOrder> getWorkOrderList(String username, String password,String token) {
 
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		ArrayList<WorkOrder> workOrders = new ArrayList<WorkOrder>();
 		try{
 
-			String url="https://basf.datacore.us/Pest/HPServices/WorkOrders";
+			String url=application+"/WorkOrders";
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			JSONArray jsonperson1 = new JSONArray(strResponseJSON2);
 			for(int i=0;i<jsonperson1.length();i++) {
@@ -268,6 +300,16 @@ public class WebService {
 	 */
 	public static ArrayList<WorkOrderDetail> getWorkOrderDetail(String username, String password, String number,String token) {
 
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		ArrayList<WorkOrderDetail> workOrderDetails = new ArrayList<WorkOrderDetail>();
 /*
 		JSONObject jpost = new JSONObject();
@@ -300,7 +342,7 @@ public class WebService {
 		JSONObject j;
 		//JSONObject j2,j3;
 		try {
-			String url="https://basf.datacore.us/Pest/HPServices/WorkOrderDetail?WO_Number="+number;
+			String url=application+"/WorkOrderDetail?WO_Number="+number;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			//JSONObject jj=new JSONObject(strResponseJSON2);
 			j = new JSONObject(strResponseJSON2);
@@ -334,8 +376,20 @@ public class WebService {
 
 	public static String getStatus( String number,String token) {
 String status="";
+
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
+
 try {
-	String url="http://stage.evergreen.datacore.us/WorkOrderDetail?WO_Number="+number;
+	String url=application+"/WorkOrderDetail?WO_Number="+number;
 	String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 	JSONObject jj = new JSONObject(strResponseJSON2);
 	if(number.equals(jj.getString("ServiceWorkorderID"))) {
@@ -363,7 +417,17 @@ try {
 	 * @return boolean
 	 */
 	public static String sendWorkOrderDetail(String username, String password, WorkOrderDetail woDetail,String token) {
-		
+
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		try {
 
 
@@ -375,7 +439,7 @@ try {
 // TODO: Remove this debugging
           //  System.out.println ( strPostJSON );
 
-			String url="https://basf.datacore.us/Pest/HPServices/SaveWorkOrderDetail";
+			String url=application+"/SaveWorkOrderDetail";
 			String strResponseJSON = HttpUtils.saveData(url,postJSON,token);
 			return "yes";
 /*
@@ -419,6 +483,16 @@ try {
 	 */
 	public static ArrayList<WorkOrderDetail> getWorkOrderDetail(String username, String password, ArrayList<WorkOrder> workorders,String syncTime,String token) {
 
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		ArrayList<WorkOrderDetail> workOrderDetails = new ArrayList<WorkOrderDetail>();
 			try {
 			String number="";
@@ -439,7 +513,7 @@ try {
 
 
 
-			String url="https://basf.datacore.us/Pest/HPServices/WorkOrderDetailAfterTime?WO_Number="+number+"&SyncTime="+syncTime;
+			String url=application+"/WorkOrderDetailAfterTime?WO_Number="+number+"&SyncTime="+syncTime;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			JSONObject jj=new JSONObject(strResponseJSON2);
 			/*
@@ -485,7 +559,17 @@ return workOrderDetails;
 	
 	
 	public static ArrayList<WorkOrderBrief> getWorkOrderBriefs(String username, String password,String token) {
-		
+
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		ArrayList<WorkOrderBrief> workOrderBriefs = new ArrayList<WorkOrderBrief>();
 
 
@@ -493,7 +577,7 @@ return workOrderDetails;
 
 try{
 
-		String url="https://basf.datacore.us/Pest/HPServices/WorkOrders";
+		String url=application+"/WorkOrders";
 		String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 		JSONArray jj = new JSONArray(strResponseJSON2);
 		for(int i=0;i<jj.length();i++) {
@@ -564,9 +648,18 @@ try{
 	
 	public static ArrayList<InjectionStation> getAllowedInjectionStations(String username, String password,String token){
 
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 
 		ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>();
-		String url="https://basf.datacore.us/Pest/HPServices/InjectionStations";
+		String url=application+"/InjectionStations";
 		String strResponseJSON2 = null;
 		try {
 			strResponseJSON2 = HttpUtils.sendGet1(url,token);
@@ -655,10 +748,19 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 	}
 	
 	public static ArrayList<TermicideType> getTermicideTypes(String username, String password,String token){
-		
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			application=stageurl;
+		}
+		else{
+			application=producturl;
+		}
 		ArrayList<TermicideType> termicideTypes = new ArrayList<TermicideType>();
 
-		String url="https://basf.datacore.us/Pest/HPServices/TermicideTypes";
+		String url=application+"/TermicideTypes";
 		String strResponseJSON2 = null;
 		try {
 			strResponseJSON2 = HttpUtils.sendGet1(url,token);

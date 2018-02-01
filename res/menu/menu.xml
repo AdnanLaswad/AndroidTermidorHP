@@ -13,7 +13,8 @@
     <item android:id="@+id/actionSupport"
         android:title="@string/Support"
         android:showAsAction="never" />
-    <item android:id="@+id/actionLogOut"
-        android:title="@string/logout"
-        android:showAsAction="never" />
+    <item
+        android:id="@+id/actionLogOut"
+        android:showAsAction="never"
+        android:title="@string/logout" />
 </menu>

@@ -49,14 +49,24 @@ public class OptionsMenuActivity extends BaseActivity {
             editor1.putString("token","");
             sharedPreferences1.edit();
             editor1.commit();
-            SharedPreferences      sharedPreferences = getSharedPreferences(
+
+
+          SharedPreferences  sharedPreferences = getSharedPreferences(
+                    "url", Context.MODE_PRIVATE);
+            SharedPreferences.Editor editor = sharedPreferences.edit();
+            editor.putString("urltype","product");
+
+            sharedPreferences.edit();
+            editor.commit();
+
+         /*   SharedPreferences      sharedPreferences = getSharedPreferences(
                     "userdata1", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putString("username","");
             editor.putString("password","");
 
             sharedPreferences.edit();
-            editor.commit();
+            editor.commit();*/
         	Intent intent = new Intent(this, LoginActivity.class);
         	intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP); // Removes other Activities from stack
         	startActivity(intent);

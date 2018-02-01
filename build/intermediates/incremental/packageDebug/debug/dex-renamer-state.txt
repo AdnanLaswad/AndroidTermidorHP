@@ -1,4 +1,4 @@
-#Wed Jan 31 12:00:07 EST 2018
-base.0=C\:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Thu Feb 01 13:37:13 EST 2018
+base.0=C\:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 renamed.0=classes.dex
-file.0=C\:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex
+file.0=C\:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

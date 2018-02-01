@@ -6,12 +6,6 @@
     android:orientation="vertical"
     tools:context=".DisclaimerActivity">
 
-    <TextView
-        style="@style/Disclaimer"
-        android:layout_width="match_parent"
-        android:layout_alignParentTop="true"
-        android:textStyle="bold"
-        android:text="@string/disclaimer_caution" />
 
     <TextView
         style="@style/Disclaimer"
