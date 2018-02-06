@@ -27,9 +27,12 @@ public class WebService {
 	//public final static String mainurl="https://basf.datacore.us/Pest/HPServices";
 
 	public final static String stageurl="https://basf.datacore.us/Pest/HPServices";
-	public final static String producturl="https://basf.datacore.us/Pest/HPServices";
+	//public final static String producturl="https://basf.datacore.us/Pest/HPServices";
+    public final static String producturl="https://termidorhpdataservices.com/hpservices";
      public static String application=producturl;
-	private final static String devUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.dev_webservice_url );
+
+
+     private final static String devUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.dev_webservice_url );
 	private final static String urlBase = TangoApplication.getResourcesStatic().getString ( R.string.preprod_webservice_url );
 	private final static String prodUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.prod_webservice_url );
 	
@@ -178,8 +181,8 @@ public class WebService {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			
-			userLoginResult = new UserLoginResult(null,false,true,token);
-			return userLoginResult;
+		//	userLoginResult = new UserLoginResult(null,false,true,token);
+		//	return userLoginResult;
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -194,7 +197,8 @@ public class WebService {
 			else
 			   userLoginResult = new UserLoginResult(null,false,true,token);
            return userLoginResult;
-		} catch (Exception e) {
+		}
+		catch (Exception e) {
 			e.printStackTrace();
 			userLoginResult = new UserLoginResult(null,false,true,token);
 
@@ -204,8 +208,8 @@ public class WebService {
 
 
 
-		//userLoginResult = new UserLoginResult(null,true,true);
-		//return userLoginResult;
+		userLoginResult = new UserLoginResult(null,false,true);
+		return userLoginResult;
 
 	}
 

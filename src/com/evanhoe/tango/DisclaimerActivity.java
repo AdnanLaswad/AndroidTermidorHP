@@ -95,7 +95,10 @@ public class DisclaimerActivity extends Activity
 
     public void continueButton ( View view )
     {
-     SharedPreferences sharedPreferences = getSharedPreferences(
+        final Intent workorderListIntent = new Intent(this, WorkOrderListActivity.class);
+        // workorderListIntent.putExtra("token",token);
+        startActivity(workorderListIntent);
+     /*SharedPreferences sharedPreferences = getSharedPreferences(
                 "userdata", Context.MODE_PRIVATE);
         username=sharedPreferences.getString("username","");
         password=sharedPreferences.getString("password","");
@@ -110,7 +113,7 @@ public class DisclaimerActivity extends Activity
            // finish();
         }
         else{
-            Toast.makeText(getApplicationContext(),"Need login Again",Toast.LENGTH_LONG).show();
+           // Toast.makeText(getApplicationContext(),"Need login Again",Toast.LENGTH_LONG).show();
             SharedPreferences      sharedPreferences1 = getSharedPreferences(
                     "userdata", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor1 = sharedPreferences1.edit();
@@ -123,7 +126,7 @@ public class DisclaimerActivity extends Activity
             // workorderListIntent.putExtra("token",token);
             startActivity(workorderListIntent);
             finish();
-        }
+        } */
     }
 
 

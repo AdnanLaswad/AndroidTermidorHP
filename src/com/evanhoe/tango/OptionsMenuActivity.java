@@ -54,7 +54,7 @@ public class OptionsMenuActivity extends BaseActivity {
           SharedPreferences  sharedPreferences = getSharedPreferences(
                     "url", Context.MODE_PRIVATE);
             SharedPreferences.Editor editor = sharedPreferences.edit();
-            editor.putString("urltype","product");
+            editor.putString("urltype","stage");
 
             sharedPreferences.edit();
             editor.commit();

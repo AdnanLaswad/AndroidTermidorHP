@@ -60,15 +60,15 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.login);
         setContentView(R.layout.activity_login);
-        sharedPreferences = getSharedPreferences(
+     /*   sharedPreferences = getSharedPreferences(
                 "userdata", Context.MODE_PRIVATE);
         String token=sharedPreferences.getString("token","");
-        if(token.length()>2){
+     /*   if(token.length()>2){
             Intent i=new Intent(this,DisclaimerActivity.class);
             //startActivity(i);
             startActivityForResult(i, 0);
             finish();
-        }
+        }*/
         /////////////////////////////////////////////////////////////////////////
         //removed inputType="textPassword" from style and the following change to password text field
         //so that font for the hint text would be correct
@@ -134,6 +134,9 @@ public class LoginActivity extends BaseActivity implements OnClickListener
 
                     new RetrieveLoginTask().execute(username, password);
 
+                }
+                if(count>7){
+                    count=0;
                 }
             }
         });
@@ -368,6 +371,15 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                             editor1.putString("token",token);
                             sharedPreferences.edit();
                             editor1.commit();
+
+                            sharedPreferences = getSharedPreferences(
+                                    "userdata1", Context.MODE_PRIVATE);
+                            SharedPreferences.Editor editor2 = sharedPreferences.edit();
+                            editor2.putString("username","");
+                            editor2.putString("password","");
+                            sharedPreferences.edit();
+                            editor2.commit();
+
                             startActivityForResult(workOrderListIntent, 0);
                             //finish();////////////// 1 change
 
