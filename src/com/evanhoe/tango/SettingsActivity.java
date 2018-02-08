@@ -9,6 +9,7 @@ import android.content.Context;
 import android.content.BroadcastReceiver;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -17,6 +18,7 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -31,6 +33,7 @@ import com.evanhoe.tango.utils.CommonUtilities;
 
 public class SettingsActivity extends Activity {
 
+    int chker=0;
     ArrayList<Unit> units = new ArrayList<Unit>();
     SettingsBroadcastReceiver myReceiver = new SettingsBroadcastReceiver();
     UnitArrayAdapter unitViewAdapter = null;
@@ -43,8 +46,21 @@ public class SettingsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
+        SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+                "url", Context.MODE_PRIVATE);
+        String selecturl=sharedPreferences.getString("urltype","");
+        if(selecturl.contains("stage")){
+            setTheme(R.style.AppTheme);
+            chker=1;
+        }
+        else{
+            setTheme(R.style.AppTheme1);
+        }
         setContentView(R.layout.activity_settings);
-
+        Button staging=(Button)findViewById(R.id.stag3);
+        if(chker==0){
+            staging.setVisibility(View.INVISIBLE);
+        }
         unitViewAdapter = new UnitArrayAdapter ( this, R.layout.unit_list_row, units );
         ListView listView = (ListView) findViewById(R.id.unitList);
         listView.setAdapter(unitViewAdapter);

@@ -4,13 +4,15 @@
     
 
 
-    <color name="message_error">#FF4444</color>
+    <color name="message_error">#ff4444</color>
     <color name="message_completed">#99CC00</color>
     <color name="message_success">#333333</color>
     <color name="theme_background_color">#FFF</color>
 	<color name="alt_theme_color">#0099CC</color>    
 	<color name="theme_color">#C50022</color>
-	
+
+    <color name="theme_color1">#808080</color>
+
     <color name="item_touched_color">#77DDFF</color>
     <color name="alt_item_touched_color">#33B5E5</color>
     
@@ -23,7 +25,7 @@
     <color name="data_frame_color">#FFFFFF</color>
     <color name="detail_frame_color">#EFEFEF</color>
     <color name="separator_color">#EFEFEF</color>
-    <color name="container_color">#FFFFFF</color>
+    <color name="container_color">#faf7f7</color>
     <color name="button_cancel_color">#0099CC</color>
     <color name="button_cancel_touched_color">#33B5E5</color>
 
@@ -42,7 +44,7 @@
     </style>
 
     <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:background">@drawable/action_bar1</item>
         <item name="android:icon">@android:color/transparent</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
@@ -244,5 +246,19 @@
         <item name="android:gravity">center</item>
         <item name="android:padding">10dp</item>
         
+    </style>
+    <style name="AppTheme1" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar1</item>
+        <item name="android:dropDownListViewStyle">
+            @android:style/Widget.Holo.ListView.DropDown
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style>
+    <style name="ActionBar1" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
     </style>
 </resources>

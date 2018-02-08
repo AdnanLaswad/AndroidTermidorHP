@@ -45,6 +45,28 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\values-v14\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,291,197",
+                        "endColumns": "81,107,93",
+                        "endOffsets": "192,394,286"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,130,231",
+                        "endColumns": "74,100,86",
+                        "endOffsets": "125,226,313"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
             "map": [
                 {

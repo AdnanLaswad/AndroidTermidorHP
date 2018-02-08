@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
@@ -10,13 +10,29 @@
         style="@style/ListView"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:layout_alignParentLeft="true"
+        android:layout_above="@+id/stag2"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="0dp"
         android:dividerHeight="2dp"
         android:paddingLeft="0dp"
-        android:visibility="visible" >
+        android:visibility="visible">
 
     </ListView>
+    <Button
 
-</LinearLayout>
+        android:id="@+id/stag2"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Actions"
+        android:background="@color/message_error"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Staging Server Data"
+        android:textAppearance="@style/Button"
+        android:textColor="@color/container_color"
+        android:textSize="18sp" />
+</RelativeLayout>

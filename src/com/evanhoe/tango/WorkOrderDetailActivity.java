@@ -56,6 +56,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	ImageView statusIcon;
 	boolean usUnits = true;
 	String token="";
+	int chker=0;
 	//ProgressDialog sendReceivPB = null;
 
 
@@ -63,7 +64,21 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		SharedPreferences sharedPreferences1 = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences1.getString("urltype","");
+		if(selecturl.contains("stage")){
+			setTheme(R.style.AppTheme);
+			chker=1;
+		}
+		else{
+			setTheme(R.style.AppTheme1);
+		}
 		setContentView(R.layout.activity_work_order_details);
+		Button staging=(Button)findViewById(R.id.stag1);
+		if(chker==0){
+			staging.setVisibility(View.INVISIBLE);
+		}
 		SharedPreferences sharedPreferences = getSharedPreferences(
 				"userdata", Context.MODE_PRIVATE);
 		token=sharedPreferences.getString("token","");

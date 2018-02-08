@@ -23,35 +23,38 @@ import com.evanhoe.tango.objs.WorkOrderBrief;
 import com.evanhoe.tango.objs.WorkOrderDetail;
 
 public class WebService {
-	
+
 	//public final static String mainurl="https://basf.datacore.us/Pest/HPServices";
 
 	public final static String stageurl="https://basf.datacore.us/Pest/HPServices";
-	public final static String producturl="https://basf.datacore.us/Pest/HPServices";
-     public static String application=producturl;
+	//public final static String producturl="https://basf.datacore.us/Pest/HPServices";
+	public final static String producturl="https://termidorhpdataservices.com/hpservices";
+	public static String application=producturl;
+
+
 	private final static String devUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.dev_webservice_url );
 	private final static String urlBase = TangoApplication.getResourcesStatic().getString ( R.string.preprod_webservice_url );
 	private final static String prodUrlBase = TangoApplication.getResourcesStatic().getString ( R.string.prod_webservice_url );
-	
-    /**
-     * returns the full URL of the Web Service Call
-     * @param webServiceName
-     */
-    private static String getURL ( String webServiceName )
-    {
 
-        //String returnString = "http://" + urlBase + "/" + webServiceName + "/";
-    	String returnString = urlBase + "/" + webServiceName + "/";
+	/**
+	 * returns the full URL of the Web Service Call
+	 * @param webServiceName
+	 */
+	private static String getURL ( String webServiceName )
+	{
 
-    	//if(isProd){
-        if(CommonUtilities.getEnv() == 3){
-    		returnString = prodUrlBase + "/" + webServiceName + "/";
-    	}else if(CommonUtilities.getEnv() == 1){
-    		returnString = devUrlBase + "/" + webServiceName + "/";
-    	}
+		//String returnString = "http://" + urlBase + "/" + webServiceName + "/";
+		String returnString = urlBase + "/" + webServiceName + "/";
 
-        return returnString;
-    }
+		//if(isProd){
+		if(CommonUtilities.getEnv() == 3){
+			returnString = prodUrlBase + "/" + webServiceName + "/";
+		}else if(CommonUtilities.getEnv() == 1){
+			returnString = devUrlBase + "/" + webServiceName + "/";
+		}
+
+		return returnString;
+	}
 
 
 	public static String getToken(String username, String password){
@@ -119,32 +122,43 @@ public class WebService {
 			postDataParams.put("username", username);
 			postDataParams.put("grant_type","password");
 			String strResponseJSON1 = HttpUtils.sendGet(application+"/oauth/token",postDataParams);
-
+			if(strResponseJSON1.contains("400")){
+				userLoginResult = new UserLoginResult(null,true,true,token);       // handel the 400 & 503 & 500 status code
+				return userLoginResult;
+			}
+			if(strResponseJSON1.contains("503")){
+				userLoginResult = new UserLoginResult(null,false,true,token);
+				return userLoginResult;
+			}
+			if(strResponseJSON1.contains("500")){
+				userLoginResult = new UserLoginResult(null,false,true,token);
+				return userLoginResult;
+			}
 
 			JSONObject jj;
 			jj = new JSONObject(strResponseJSON1);
 			if(jj.getString("access_token").length()>0) {
-                // System.out.print(j.getString("access_token"));
+				// System.out.print(j.getString("access_token"));
 
-                token=jj.getString("access_token");
+				token=jj.getString("access_token");
 
 
 				String url=application+"/Person?UserLoginName="+""+username;
 				String strResponseJSON2 = HttpUtils.sendGet1(url,jj.getString("access_token"));
-                JSONObject j=new JSONObject(strResponseJSON2);
+				JSONObject j=new JSONObject(strResponseJSON2);
 
 
 
 
 
-			//	User user1 = new User(username,password,personID,UserRoleCode,UserSubRoleCode,GroupID,GroupName,FirstName,LastName,canDoTraining,remoteValidationRequired,mobileAppVersion);
+				//	User user1 = new User(username,password,personID,UserRoleCode,UserSubRoleCode,GroupID,GroupName,FirstName,LastName,canDoTraining,remoteValidationRequired,mobileAppVersion);
 				// The Mobile app is now set via User/JSON constructor.
 				//user.setMobileAppVersion(j.getString("CurrentMobileAppVersionNumber"));
-                User user=new User(j,username,password);
+				User user=new User(j,username,password);
 				userLoginResult = new UserLoginResult(user, true, true,token);
 				return userLoginResult;
 			}
-           else{
+			else{
 				userLoginResult = new UserLoginResult(null, true, true,token);
 				return userLoginResult;
 			}
@@ -177,24 +191,25 @@ public class WebService {
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			
-			userLoginResult = new UserLoginResult(null,false,true,token);
-			return userLoginResult;
+
+			//	userLoginResult = new UserLoginResult(null,false,true,token);
+			//	return userLoginResult;
 		} catch (JSONException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			
+
 			userLoginResult = new UserLoginResult(null,false,true,token);
 			return userLoginResult;
 		} catch (RuntimeException e){
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-           if(e.getMessage().contains("400"))
-			userLoginResult = new UserLoginResult(null,true,true,token);
+			if(e.getMessage().contains("400"))
+				userLoginResult = new UserLoginResult(null,true,true,token);
 			else
-			   userLoginResult = new UserLoginResult(null,false,true,token);
-           return userLoginResult;
-		} catch (Exception e) {
+				userLoginResult = new UserLoginResult(null,false,true,token);
+			return userLoginResult;
+		}
+		catch (Exception e) {
 			e.printStackTrace();
 			userLoginResult = new UserLoginResult(null,false,true,token);
 
@@ -204,8 +219,8 @@ public class WebService {
 
 
 
-		//userLoginResult = new UserLoginResult(null,true,true);
-		//return userLoginResult;
+		userLoginResult = new UserLoginResult(null,false,true,token);
+		return userLoginResult;
 
 	}
 
@@ -241,12 +256,12 @@ public class WebService {
 		JSONObject jpost = new JSONObject();
 		try {
 			jpost.put("username", username);
-			jpost.put("password", password);				
+			jpost.put("password", password);
 		} catch (JSONException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
 		}
-		
+
 		ArrayList<WorkOrder> workOrders = new ArrayList<WorkOrder>();
 
 		String strJSON = "";
@@ -268,16 +283,16 @@ public class WebService {
 			j = new JSONObject(strJSON);
 
 			String workOrderCount = j.getString("workOrderCount");
-			
+
 			JSONArray arrJSON = j.getJSONArray("workOrderEntries");
 
 			for (int i = 0; i < arrJSON.length(); i++) {
 				WorkOrder workOrder = new WorkOrder(arrJSON.getJSONObject(i));
-				
+
 				/*String syncTime = arrJSON.getJSONObject(i).getJSONObject("LastSyncTime").getString("date")+ " " + arrJSON.getJSONObject(i).getJSONObject("LastSyncTime").getString("timezone");
 				workOrder.setSyncTime(syncTime);*/
 
-		//workOrders.add(workOrder);
+			//workOrders.add(workOrder);
 			return  workOrders;
 
 		} catch (JSONException e) {
@@ -315,7 +330,7 @@ public class WebService {
 		JSONObject jpost = new JSONObject();
 		try {
 			jpost.put("username", username);
-			jpost.put("password", password);				
+			jpost.put("password", password);
 			jpost.put("wo_number", woNumber);
 		} catch (JSONException e1) {
 			// TODO Auto-generated catch block
@@ -324,7 +339,7 @@ public class WebService {
 
 		ArrayList<WorkOrderDetail> workOrderDetails = new ArrayList<WorkOrderDetail>();
 		String strJSON = "";
-		
+
 		try {
 			strJSON = HttpUtils
 					.sendPost( getURL("wo_details"), jpost.toString());
@@ -347,18 +362,18 @@ public class WebService {
 			//JSONObject jj=new JSONObject(strResponseJSON2);
 			j = new JSONObject(strResponseJSON2);
 
-		//	String workOrderCount = j.getString("workOrderDetailCount");
-			
+			//	String workOrderCount = j.getString("workOrderDetailCount");
+
 			//JSONArray arrJSON = j.getJSONArray("workOrderDetailEntries");
 
 			//for (int i = 0; i < arrJSON.length(); i++) {
-				WorkOrderDetail woDetail = new WorkOrderDetail(j);
-				woDetail.setSyncStatus ( "Y" );
+			WorkOrderDetail woDetail = new WorkOrderDetail(j);
+			woDetail.setSyncStatus ( "Y" );
 				/*j2 = new JSONObject(woDetail.getEntryTime());
-				woDetail.setEntryTime(j2.getString("date") + " " + j2.getString("timezone"));		
+				woDetail.setEntryTime(j2.getString("date") + " " + j2.getString("timezone"));
 				j3 = new JSONObject(woDetail.getSyncTime());
 				woDetail.setSyncTime(j3.getString("date") + " " + j3.getString("timezone"));	*/
-				workOrderDetails.add(woDetail);
+			workOrderDetails.add(woDetail);
 
 			//}
 		} catch (JSONException e) {
@@ -370,12 +385,12 @@ public class WebService {
 		}
 
 		return workOrderDetails;
-		
-				
+
+
 	}
 
 	public static String getStatus( String number,String token) {
-String status="";
+		String status="";
 
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -388,22 +403,22 @@ String status="";
 			application=producturl;
 		}
 
-try {
-	String url=application+"/WorkOrderDetail?WO_Number="+number;
-	String strResponseJSON2 = HttpUtils.sendGet1(url,token);
-	JSONObject jj = new JSONObject(strResponseJSON2);
-	if(number.equals(jj.getString("ServiceWorkorderID"))) {
-		 status = jj.getString("WorkorderStatusCode");
-	}
-	return  status;
-} catch (JSONException e) {
-	e.printStackTrace();
-	return e.getMessage();
-} catch (Exception e) {
-	//return e.getMessage();
-	e.printStackTrace();
-	return e.getMessage();
-}
+		try {
+			String url=application+"/WorkOrderDetail?WO_Number="+number;
+			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
+			JSONObject jj = new JSONObject(strResponseJSON2);
+			if(number.equals(jj.getString("ServiceWorkorderID"))) {
+				status = jj.getString("WorkorderStatusCode");
+			}
+			return  status;
+		} catch (JSONException e) {
+			e.printStackTrace();
+			return e.getMessage();
+		} catch (Exception e) {
+			//return e.getMessage();
+			e.printStackTrace();
+			return e.getMessage();
+		}
 
 
 		//return "";
@@ -434,10 +449,10 @@ try {
 			JSONObject postJSON = woDetail.toJSONObject();
 			//postJSON.put("username", username);
 			//postJSON.put("password", password);
-			
+
 			String strPostJSON = postJSON.toString();
 // TODO: Remove this debugging
-          //  System.out.println ( strPostJSON );
+			//  System.out.println ( strPostJSON );
 
 			String url=application+"/SaveWorkOrderDetail";
 			String strResponseJSON = HttpUtils.saveData(url,postJSON,token);
@@ -470,9 +485,9 @@ try {
 
 
 		return null;
-				
+
 	}
-	
+
 	/**
 	 * returns workorder details that match workorders and have later entry time into server database than syncTime
 	 * @param username
@@ -494,20 +509,20 @@ try {
 			application=producturl;
 		}
 		ArrayList<WorkOrderDetail> workOrderDetails = new ArrayList<WorkOrderDetail>();
-			try {
+		try {
 			String number="";
 
 			JSONObject j = new JSONObject();
 			j.put("username", username);
 			j.put("password", password);
-			
+
 			JSONArray ja = new JSONArray();
 			for(int i=0;i < workorders.size();i++){
 				JSONObject j2 = new JSONObject();
 				j2.put("wo_number", workorders.get(i).getServiceWorkOrderId());
 				ja.put(i, j2);
 				number=workorders.get(i).getServiceWorkOrderId();
-			}			
+			}
 			j.put("wo_numbers", ja);
 			j.put("sync_time", syncTime);
 
@@ -526,13 +541,13 @@ try {
 			String workOrderCount = jResponse.getString("workOrderDetailCount");
 			*/
 			JSONArray arrJSON = new JSONArray(jj);
-			
+
 
 			for (int i = 0; i < arrJSON.length(); i++) {
 				WorkOrderDetail woDetail = new WorkOrderDetail(arrJSON.getJSONObject(i));
 				woDetail.setSyncStatus ( "Y" );
 				/*jResponse2 = new JSONObject(woDetail.getEntryTime());
-				woDetail.setEntryTime(jResponse2.getString("date") + " " + jResponse2.getString("timezone"));	
+				woDetail.setEntryTime(jResponse2.getString("date") + " " + jResponse2.getString("timezone"));
 				jResponse3 = new JSONObject(woDetail.getSyncTime());
 				woDetail.setSyncTime(jResponse3.getString("date") + " " + jResponse3.getString("timezone"));*/
 				workOrderDetails.add(woDetail);
@@ -550,14 +565,14 @@ try {
 		} catch (RuntimeException e){
 			// TODO Auto-generated catch block
 			e.printStackTrace();
-			return null;	
+			return null;
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-return workOrderDetails;
+		return workOrderDetails;
 	}
-	
-	
+
+
 	public static ArrayList<WorkOrderBrief> getWorkOrderBriefs(String username, String password,String token) {
 
 
@@ -575,17 +590,17 @@ return workOrderDetails;
 
 
 
-try{
+		try{
 
-		String url=application+"/WorkOrders";
-		String strResponseJSON2 = HttpUtils.sendGet1(url,token);
-		JSONArray jj = new JSONArray(strResponseJSON2);
-		for(int i=0;i<jj.length();i++) {
-            JSONObject j2=jj.getJSONObject(i);
-			WorkOrderBrief wob = new WorkOrderBrief(j2.optString("LastSyncTime"),j2.optString("ServiceWorkorderID"));
-			workOrderBriefs.add(wob);
+			String url=application+"/WorkOrders";
+			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
+			JSONArray jj = new JSONArray(strResponseJSON2);
+			for(int i=0;i<jj.length();i++) {
+				JSONObject j2=jj.getJSONObject(i);
+				WorkOrderBrief wob = new WorkOrderBrief(j2.optString("LastSyncTime"),j2.optString("ServiceWorkorderID"));
+				workOrderBriefs.add(wob);
 
-		}
+			}
 
 
 
@@ -620,7 +635,7 @@ try{
 			j = new JSONObject(strJSON);
 
 			String workOrderCount = j.getString("workOrderCount");
-			
+
 			JSONArray arrJSON = j.getJSONArray("workOrderEntries");
 
 			for (int i = 0; i < arrJSON.length(); i++) {
@@ -628,10 +643,10 @@ try{
 				JSONObject jResponse2 = arrJSON.getJSONObject(i);
 				//jResponse2.get("LastSyncTime");
 				//jResponse2.get("ServiceWorkorderID");
-				
+
 				/*JSONObject jResponse3 = new JSONObject(jResponse2.get("LastSyncTime").toString());
 				WorkOrderBrief wob = new WorkOrderBrief(jResponse3.getString("date") + " " + jResponse3.getString("timezone"),jResponse2.get("ServiceWorkorderID").toString());*/
-				
+
 				/*WorkOrderBrief wob = new WorkOrderBrief(jResponse2.get("LastSyncTime").toString(),jResponse2.get("ServiceWorkorderID").toString());
 				workOrderBriefs.add(wob);*/
 
@@ -640,12 +655,12 @@ try{
 			e.printStackTrace();
 			return null;
 		} catch (Exception e) {
-	e.printStackTrace();
-}
+			e.printStackTrace();
+		}
 
-		return workOrderBriefs;		
+		return workOrderBriefs;
 	}
-	
+
 	public static ArrayList<InjectionStation> getAllowedInjectionStations(String username, String password,String token){
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -663,7 +678,7 @@ try{
 		String strResponseJSON2 = null;
 		try {
 			strResponseJSON2 = HttpUtils.sendGet1(url,token);
-		//	JSONObject j=new JSONObject(strResponseJSON2);
+			//	JSONObject j=new JSONObject(strResponseJSON2);
 			JSONArray arrJSON = new JSONArray(strResponseJSON2);
 			for (int i = 0; i < arrJSON.length(); i++) {
 				//WorkOrder workOrder = new WorkOrder(arrJSON.getJSONObject(i));
@@ -693,7 +708,7 @@ try{
 
 /*
 ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>();
-		
+
 		JSONObject j = new JSONObject();
 		try {
 			j.put("username", username);
@@ -701,8 +716,8 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		} catch (JSONException e1) {
 			// TODO Auto-generated catch block
 			e1.printStackTrace();
-		}	
-		
+		}
+
 		String strJSON = "";
 		try {
 			strJSON = HttpUtils
@@ -720,7 +735,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		JSONObject jResponse;
 		try {
 			j = new JSONObject(strJSON);
-			
+
 			JSONArray arrJSON = j.getJSONArray("injectionStations");
 
 			for (int i = 0; i < arrJSON.length(); i++) {
@@ -728,12 +743,12 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 				JSONObject jResponse2 = arrJSON.getJSONObject(i);
 				//jResponse2.get("LastSyncTime");
 				//jResponse2.get("ServiceWorkorderID");
-				
+
 				/*JSONObject jResponse3 = new JSONObject(jResponse2.get("LastSyncTime").toString());
 				WorkOrderBrief wob = new WorkOrderBrief(jResponse3.getString("date") + " " + jResponse3.getString("timezone"),jResponse2.get("ServiceWorkorderID").toString());*/
-				
+
 				/*InjectionStation injStation = new InjectionStation(jResponse2.get("InjectionStationID").toString(),jResponse2.get("IPAddress").toString(),jResponse2.get("ControllerIPAddress").toString(),jResponse2.get("InjectionStationName").toString());
-								
+
 				allowedInjStations.add(injStation);
 			}
 		} catch (JSONException e) {
@@ -742,11 +757,11 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 			return null;
 		}*/
 
-		return allowedInjStations;		
-		
-		
+		return allowedInjStations;
+
+
 	}
-	
+
 	public static ArrayList<TermicideType> getTermicideTypes(String username, String password,String token){
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -791,8 +806,8 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 				} catch (JSONException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
-				}	
-				
+				}
+
 				String strJSON = "";
 				try {
 					strJSON = HttpUtils
@@ -810,7 +825,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 				JSONObject jResponse;
 				try {
 					j = new JSONObject(strJSON);
-					
+
 					JSONArray arrJSON = j.getJSONArray("TermicideTypes");
 
 					for (int i = 0; i < arrJSON.length(); i++) {
@@ -818,12 +833,12 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 						JSONObject jResponse2 = arrJSON.getJSONObject(i);
 						//jResponse2.get("LastSyncTime");
 						//jResponse2.get("ServiceWorkorderID");
-						
+
 						/*JSONObject jResponse3 = new JSONObject(jResponse2.get("LastSyncTime").toString());
 						WorkOrderBrief wob = new WorkOrderBrief(jResponse3.getString("date") + " " + jResponse3.getString("timezone"),jResponse2.get("ServiceWorkorderID").toString());*/
-						
+
 					/*	TermicideType type = new TermicideType(jResponse2.get("TermicideTypeCode").toString(),jResponse2.get("TermicideTypeName").toString(),Double.parseDouble(jResponse2.get("DilutionRatio").toString()),Double.parseDouble(jResponse2.get("InjectionCountFactor").toString()));
-										
+
 						termicideTypes.add(type);
 					}
 				} catch (JSONException e) {
@@ -832,14 +847,14 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 					return null;
 				}*/
 
-				return termicideTypes;		
-				
-				
-			}
-	
-	
+		return termicideTypes;
+
+
+	}
+
+
 /*	public static String getLatestVersionNumber(){
-				
+
 		String versionNumber = null;
 
 		String strJSON = "";
@@ -857,7 +872,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		JSONObject j;
 		try {
 			j = new JSONObject(strJSON);
-			
+
 			JSONObject j2 = j.getJSONObject("result");
 			versionNumber = j2.getString("CurrentMobileAppVersionNumber");
 
@@ -868,34 +883,34 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		}
 
 		return versionNumber;
-				
+
 	}*/
 
-    /*
+	/*
      * downloadNewVersion - This method will download the new APK version from the web service
-     * 
+     *
      */
-    public static String downloadNewVersion ( String username, String password )
-    {
-        String apkFilename = null;
-        String strUrl = getURL ( "get_latest_app" );
-        String jsonData = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
+	public static String downloadNewVersion ( String username, String password )
+	{
+		String apkFilename = null;
+		String strUrl = getURL ( "get_latest_app" );
+		String jsonData = "{\"username\":\"" + username + "\",\"password\":\"" + password + "\"}";
 
-        try
-        {
-            apkFilename = HttpUtils.sendPostBinaryResponse ( strUrl, jsonData );
-        }
-        catch ( IOException e )
-        {
-            apkFilename = "IOException: " + e.getMessage();
-            e.printStackTrace();
-        }
-        catch ( RuntimeException e2 )
-        {
-            apkFilename = "RunTimeException: " + e2.getMessage();
-            e2.printStackTrace();
-        }
+		try
+		{
+			apkFilename = HttpUtils.sendPostBinaryResponse ( strUrl, jsonData );
+		}
+		catch ( IOException e )
+		{
+			apkFilename = "IOException: " + e.getMessage();
+			e.printStackTrace();
+		}
+		catch ( RuntimeException e2 )
+		{
+			apkFilename = "RunTimeException: " + e2.getMessage();
+			e2.printStackTrace();
+		}
 
-        return apkFilename;
-    }
+		return apkFilename;
+	}
 }

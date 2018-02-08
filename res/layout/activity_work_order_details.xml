@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     
     android:layout_width="match_parent"
@@ -7,25 +7,26 @@
     tools:context=".WorkOrderListActivity">
 
     <LinearLayout
-        
+        android:id="@+id/title123"
         style="@style/StatusTitle">
-        
+
 
 
         <TextView
             android:id="@+id/woStatus"
             style="@style/StatusValue" />
-        
+
        <ImageView
 		android:id="@+id/statusIcon"
         android:layout_width="20dp"
         android:layout_height="20dp"
         android:paddingLeft="10dp" />
-       
+
     </LinearLayout>
     
     <LinearLayout
-
+        android:layout_below="@id/title123"
+android:id="@+id/dd"
         style="@style/Details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -196,7 +197,9 @@
     </LinearLayout>
 
 
-    <LinearLayout style="@style/ButtonRow">
+    <LinearLayout style="@style/ButtonRow"
+        android:layout_below="@+id/dd"
+   >
 
         <Button
             android:id="@+id/btnSendData"
@@ -243,4 +246,21 @@
  	    
     </LinearLayout>
 
-</LinearLayout>
+    <Button
+
+        android:id="@+id/stag1"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Actions"
+        android:background="@color/message_error"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Staging Server Data"
+        android:textAppearance="@style/Button"
+        android:textColor="@color/container_color"
+        android:textSize="18sp" />
+</RelativeLayout>

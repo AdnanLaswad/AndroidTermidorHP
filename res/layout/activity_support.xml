@@ -1,4 +1,4 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
 
     android:layout_width="match_parent"
@@ -8,19 +8,39 @@
 
 
     <TextView
+        android:id="@+id/supo"
         style="@style/Support"
         android:layout_width="match_parent"
         android:text="@string/support" />
     <TextView
+        android:layout_below="@id/supo"
+        android:id="@+id/sup1"
         style="@style/SupportInfo"
         android:layout_width="match_parent"
         android:text="@string/phoneNumber" />
     <TextView
+        android:layout_below="@+id/sup1"
         style="@style/SupportInfo"
         android:layout_width="match_parent"
         android:text="@string/email" />
 
 
+    <Button
 
+        android:id="@+id/stag4"
 
-</LinearLayout>
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/Actions"
+        android:background="@color/message_error"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:text="Staging Server Data"
+        android:textAppearance="@style/Button"
+        android:textColor="@color/container_color"
+        android:textSize="18sp" />
+
+</RelativeLayout>

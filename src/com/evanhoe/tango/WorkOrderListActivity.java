@@ -65,7 +65,7 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 	ArrayList<WorkOrder> workOrders = null;
 	ArrayList<WorkOrderViewItem> items = new ArrayList<WorkOrderViewItem>();
 	ListAdapter lAdapter = null;
-
+int chker=0;
 	ImageButton filterButton;
      String token="";
 	/** Called when the activity is first created. */
@@ -73,7 +73,23 @@ public class WorkOrderListActivity extends OptionsMenuActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//overridePendingTransition ( R.anim.fadein, R.anim.fadeout );
+
+		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+				"url", Context.MODE_PRIVATE);
+		String selecturl=sharedPreferences.getString("urltype","");
+		if(selecturl.contains("stage")){
+			setTheme(R.style.AppTheme);
+			chker=1;
+		}
+		else{
+			setTheme(R.style.AppTheme1);
+		}
+
 		setContentView(R.layout.activity_work_order_list);
+		Button staging=(Button)findViewById(R.id.stag2);
+		if(chker==0){
+			staging.setVisibility(View.INVISIBLE);
+		}
 	}
 
 	@Override

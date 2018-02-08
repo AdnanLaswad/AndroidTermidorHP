@@ -19,6 +19,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -27,6 +28,7 @@ public class DisclaimerActivity extends Activity
 {
 	String token;
 	int clickCount;
+	int chker=0;
 	String username="";
 	String password="";
 	
@@ -35,7 +37,23 @@ public class DisclaimerActivity extends Activity
     public void onCreate ( Bundle savedInstanceState )
     {
         super.onCreate(savedInstanceState);
+
+        SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
+                "url", Context.MODE_PRIVATE);
+        String selecturl=sharedPreferences.getString("urltype","");
+        if(selecturl.contains("stage")){
+            setTheme(R.style.AppTheme);
+            chker=1;
+        }
+        else{
+            setTheme(R.style.AppTheme1);
+        }
+
         setContentView(R.layout.activity_disclaimer);
+        Button staging=(Button)findViewById(R.id.disclaimer);
+        if(chker==0){
+            staging.setVisibility(View.INVISIBLE);
+        }
         token=getIntent().getStringExtra("token");
         TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
         tvVersion.setText("Version");
@@ -95,7 +113,12 @@ public class DisclaimerActivity extends Activity
 
     public void continueButton ( View view )
     {
-     SharedPreferences sharedPreferences = getSharedPreferences(
+
+
+        final Intent workorderListIntent = new Intent(this, WorkOrderListActivity.class);
+        // workorderListIntent.putExtra("token",token);
+        startActivity(workorderListIntent);
+   /*  SharedPreferences sharedPreferences = getSharedPreferences(
                 "userdata", Context.MODE_PRIVATE);
         username=sharedPreferences.getString("username","");
         password=sharedPreferences.getString("password","");
@@ -123,7 +146,7 @@ public class DisclaimerActivity extends Activity
             // workorderListIntent.putExtra("token",token);
             startActivity(workorderListIntent);
             finish();
-        }
+        }*/
     }
 
 
