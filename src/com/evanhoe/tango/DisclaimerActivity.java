@@ -54,7 +54,7 @@ public class DisclaimerActivity extends Activity
         if(chker==0){
             staging.setVisibility(View.INVISIBLE);
         }
-        token=getIntent().getStringExtra("token");
+       token=getIntent().getStringExtra("token");
         TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
         tvVersion.setText("Version");
         try {
@@ -147,8 +147,7 @@ public class DisclaimerActivity extends Activity
             startActivity(workorderListIntent);
             finish();
         }*/
-    }
-
+   }
 
 
     }

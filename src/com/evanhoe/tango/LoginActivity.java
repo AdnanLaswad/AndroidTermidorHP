@@ -31,6 +31,8 @@ import android.os.Bundle;
 import android.content.Intent;
 import android.graphics.Color;
 import android.net.Uri;
+import android.os.Handler;
+import android.os.Looper;
 import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
 import android.view.Gravity;
@@ -52,7 +54,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
 {
     SharedPreferences sharedPreferences;
     int count;
-
+  int checkkstatus=0;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -135,7 +137,27 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                    rememberBox.setChecked(false);
 
 
-                    new RetrieveLoginTask().execute(username, password);
+
+
+            final  RetrieveLoginTask r=new RetrieveLoginTask();
+
+
+                    r.execute(username,password);
+new Handler().postDelayed(new Runnable() {
+    @Override
+    public void run() {
+        if(checkkstatus==0) {
+           // Toast.makeText(getApplicationContext(),"Login SERVICE UNAVAILABLE ",Toast.LENGTH_LONG).show();
+            Toast toast = CreateToast(getResources().getColor(R.color.message_error), "Login Service Unavailable", Gravity.BOTTOM);
+            toast.show();
+            r.cancel(true);
+            Intent i = new Intent(LoginActivity.this, LoginActivity.class);
+            startActivity(i);
+            finish();
+        }
+    }
+},7000);
+                    // new RetrieveLoginTask().execute(username, password);
 
                 }
                 if(count>7){
@@ -190,10 +212,28 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             editor.commit();
 
 
-            new RetrieveLoginTask().execute(username, password);
+          //  new RetrieveLoginTask().execute(username, password);
             //User user = WebService.getUser(username, "password");
 
+            final  RetrieveLoginTask r=new RetrieveLoginTask();
 
+
+            r.execute(username,password);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    if(checkkstatus==0) {
+                      //  Toast.makeText(getApplicationContext(),"Login SERVICE UNAVAILABLE ",Toast.LENGTH_LONG).show();
+
+                        Toast toast = CreateToast(getResources().getColor(R.color.message_error), "Login Service Unavailable", Gravity.BOTTOM);
+                        toast.show();
+                        r.cancel(true);
+                        Intent i = new Intent(LoginActivity.this, LoginActivity.class);
+                        startActivity(i);
+                        finish();
+                    }
+                }
+            },7000);
 
         }
     }
@@ -233,6 +273,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         @Override
         protected void onPostExecute(Integer result)
         {
+            checkkstatus=1;
             // execution of result of Long time consuming operation
             //sendReceivPB.setVisibility(View.GONE);
             sendReceivPB.dismiss();
@@ -297,6 +338,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
             CheckBox rememberBox = (CheckBox) findViewById ( R.id.chk_remember );
 
             UserLoginResult userLoginResult = CommonUtilities.login(LoginActivity.this.getApplication(), params[0].toString(), params[1].toString(), rememberBox.isChecked());
+
             if (userLoginResult.getUser()!=null)
             {
                 if ( CommonUtilities.isNewVersionAvailable ( getApplicationContext() ) )
@@ -327,67 +369,72 @@ public class LoginActivity extends BaseActivity implements OnClickListener
                     final Intent workOrderListIntent = new Intent ( LoginActivity.this, DisclaimerActivity.class );
                     try
                     {
-                        //sendReceivPB.setVisibility(View.GONE);
-                        if(rememberBox.isChecked()) {
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sharedPreferences.edit();
-                            editor.putString("username",userLoginResult.getUser().getUsername());
-                            editor.putString("password",userLoginResult.getUser().getPassword());
-                            sharedPreferences.edit();
-                            editor.commit();
-                           // workOrderListIntent.putExtra("token", token);
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor1 = sharedPreferences.edit();
-                            editor1.putString("token",token);
-                            sharedPreferences.edit();
-                            editor1.commit();
+                        if(isCancelled()){
 
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata1", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor2 = sharedPreferences.edit();
-                            editor2.putString("username",userLoginResult.getUser().getUsername());
-                            editor2.putString("password",userLoginResult.getUser().getPassword());
-                            sharedPreferences.edit();
-                            editor2.commit();
-
-                            startActivityForResult(workOrderListIntent, 0);
-                           //finish();///////////// 1 change
                         }
-                        else{
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor = sharedPreferences.edit();// edit calss to edit the value that saved in the shared pref
+                        else {
+                            checkkstatus=1;
+                            //sendReceivPB.setVisibility(View.GONE);
+                            if (rememberBox.isChecked()) {
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPreferences.edit();
+                                editor.putString("username", userLoginResult.getUser().getUsername());
+                                editor.putString("password", userLoginResult.getUser().getPassword());
+                                sharedPreferences.edit();
+                                editor.commit();
+                                // workOrderListIntent.putExtra("token", token);
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor1 = sharedPreferences.edit();
+                                editor1.putString("token", token);
+                                sharedPreferences.edit();
+                                editor1.commit();
 
-                             editor.putString("username",userLoginResult.getUser().getUsername());
-                             editor.putString("password",userLoginResult.getUser().getPassword());
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata1", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor2 = sharedPreferences.edit();
+                                editor2.putString("username", userLoginResult.getUser().getUsername());
+                                editor2.putString("password", userLoginResult.getUser().getPassword());
+                                sharedPreferences.edit();
+                                editor2.commit();
 
-                          // editor.putString("username","");      //  This is the problem for crashing the code
-                          // editor.putString("password","");
-                            sharedPreferences.edit();
-                            editor.commit();
-                           // workOrderListIntent.putExtra("token", token);
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor1 = sharedPreferences.edit();
-                            editor1.putString("token",token);
-                            sharedPreferences.edit();
-                            editor1.commit();
+                                startActivityForResult(workOrderListIntent, 0);
+                                //finish();///////////// 1 change
+                            } else {
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor = sharedPreferences.edit();// edit calss to edit the value that saved in the shared pref
+
+                                editor.putString("username", userLoginResult.getUser().getUsername());
+                                editor.putString("password", userLoginResult.getUser().getPassword());
+
+                                // editor.putString("username","");      //  This is the problem for crashing the code
+                                // editor.putString("password","");
+                                sharedPreferences.edit();
+                                editor.commit();
+                                // workOrderListIntent.putExtra("token", token);
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor1 = sharedPreferences.edit();
+                                editor1.putString("token", token);
+                                sharedPreferences.edit();
+                                editor1.commit();
 
 
-                            sharedPreferences = getSharedPreferences(
-                                    "userdata1", Context.MODE_PRIVATE);
-                            SharedPreferences.Editor editor2 = sharedPreferences.edit();
-                            editor2.putString("username","");
-                            editor2.putString("password","");
-                            sharedPreferences.edit();
-                            editor2.commit();
+                                sharedPreferences = getSharedPreferences(
+                                        "userdata1", Context.MODE_PRIVATE);
+                                SharedPreferences.Editor editor2 = sharedPreferences.edit();
+                                editor2.putString("username", "");
+                                editor2.putString("password", "");
+                                sharedPreferences.edit();
+                                editor2.commit();
 
 
-                            startActivityForResult(workOrderListIntent, 0);
-                            //finish();////////////// 1 change
+                                startActivityForResult(workOrderListIntent, 0);
+                                //finish();////////////// 1 change
 
+                            }
                         }
                     }
                     catch ( Exception e )
@@ -414,11 +461,18 @@ public class LoginActivity extends BaseActivity implements OnClickListener
 
                 }else if(userLoginResult.isOnline() && userLoginResult.isServiceAvailable()==false){
 
+                    if(userLoginResult.isServiceAvailable()==false){
+                        result = RESULT_INVALID_SERVICE_UNAVAILABLE;
+                    }
+                    else{
+                        result = RESULT_INVALID_LOGIN;
+                    }
+                    /*
                     if(CommonUtilities.isUsernameInLocalDB(LoginActivity.this, params[0].toString())){
                         result = RESULT_INVALID_LOGIN;
                     }else{
                         result = RESULT_INVALID_SERVICE_UNAVAILABLE;
-                    }
+                    }*/
 
                 }
 

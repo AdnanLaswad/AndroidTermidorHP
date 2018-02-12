@@ -309,7 +309,9 @@ public class CommonUtilities {
     	if(isOnline(appContext)){
 	    	//use webservice	    	
     		UserLoginResult userLoginResult = WebService.getUser(username, password);
-    		
+    		if(userLoginResult.getToken().equals("0")){
+    			return userLoginResult;
+			}
 			if (userLoginResult.getUser()!=null)
 	        {
 				user = userLoginResult.getUser();

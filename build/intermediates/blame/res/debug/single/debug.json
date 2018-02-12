@@ -1,83 +1,63 @@
 [
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\list_item.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_section.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_row.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
-    },
-    {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher2.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t2.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button_cancel.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_next_item.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\bluelogo.gif"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_back.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
@@ -88,56 +68,40 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable\\bluelogo.gif"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_settings.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t2.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_blank.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_list.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_back.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_list.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\work_order_list_section.xml"
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_blank.png"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
@@ -148,8 +112,8 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_list.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_back.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
@@ -160,52 +124,32 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_pw.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\toast_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\toast_layout.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\action_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
@@ -216,20 +160,20 @@
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_disclaimer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
@@ -252,28 +196,12 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_support.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
-    },
-    {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\basf_logo.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
@@ -284,104 +212,68 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_support.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\menu_overflow.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\bluelogo.gif"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\text_edit_pw.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\check.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\basf_logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button_cancel.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\text_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_section.xml"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
@@ -400,52 +292,24 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
-    },
-    {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\check.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\bluelogo.gif"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\unit_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_back.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_back.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\unit_list_row.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_dot_onhold.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_work_order_list.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
@@ -460,16 +324,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_overflow.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
@@ -492,6 +348,862 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_overflow.png"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t1.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_green.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\bluelogo.gif"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar1.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_pw.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button_cancel.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t2.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\work_order_list_section.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_support.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\text_edit_pw.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\basf_logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\bluelogo.gif"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_back.png"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\menu\\menu.xml"
     },
@@ -500,16 +1212,8 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
@@ -528,32 +1232,16 @@
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_back.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
@@ -564,16 +1252,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\arrow_right.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
@@ -588,92 +1268,40 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_pw.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\toast_layout.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_settings.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\unit_list_row.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher2.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\basf_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_green.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t1.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_green.png"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_green.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_green.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_overflow.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
@@ -704,20 +1332,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\unit_list_row.xml"
     },
     {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_disclaimer.xml"
-    },
-    {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\t1.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_row.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\work_order_list_row.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
@@ -728,44 +1348,24 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\basf_logo.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_overflow.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\text_edit.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\arrow_right.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\menu\\menu.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_basf_logo.png.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\basf_logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\arrow_right.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
@@ -792,16 +1392,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher2.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\list_item.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
@@ -812,8 +1404,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_back.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_support.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
@@ -828,36 +1420,32 @@
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_arrow_right.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_back.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
@@ -872,16 +1460,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_arrow_right.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\arrow_right.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
@@ -892,16 +1476,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_back.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_work_order_list.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button_login.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_work_order_list.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
@@ -916,8 +1496,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar1.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar1.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_pw.xml.flat",
@@ -944,6 +1528,10 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_settings.xml"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_onhold.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_onhold.png"
     },
@@ -956,16 +1544,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_support.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
@@ -976,20 +1560,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_disclaimer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_red.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_section.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
@@ -1000,20 +1572,12 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_login.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable\\bluelogo.gif"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
@@ -1022,10 +1586,6 @@
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\action_bar.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\logo.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
@@ -1040,10 +1600,6 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
     },
@@ -1054,18 +1610,6 @@
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\ic_action_next_item.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_back.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\circle_bullet_red.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
@@ -1080,20 +1624,20 @@
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_pw.xml"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar1.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar1.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t1.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\t1.png"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_onhold.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_dot_onhold.png"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_bluelogo.gif.flat",
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable\\bluelogo.gif"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\check.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
@@ -1104,20 +1648,16 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_support.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\toast_layout.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\menu_menu.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\menu\\menu.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_list.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_list.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\logo.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_section.xml.flat",
@@ -1144,16 +1684,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\toast_layout.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
@@ -1164,8 +1696,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_dot_inprogress.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_overflow.png"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_unit_list_row.xml.flat",
@@ -1178,14 +1710,6 @@
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_list_item.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xhdpi\\menu_overflow.png"
     },
     {
         "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
@@ -1212,16 +1736,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_disclaimer.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_check.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\check.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
@@ -1230,6 +1746,10 @@
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_termidor_hp_rgb_red.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\termidor_hp_rgb_red.png"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout\\toast_layout.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher2.png.flat",
@@ -1244,48 +1764,36 @@
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\logo.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_dot_inprogress.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_dot_inprogress.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_basf_logo.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\basf_logo.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_text_edit_un.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\text_edit_un.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_next_item.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\ic_action_next_item.png"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_menu_overflow.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\menu_overflow.png"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_back.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_back.png"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\toast_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_cancel.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_cancel.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button_login.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button_login.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_disclaimer.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_disclaimer.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_row.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
@@ -1304,48 +1812,20 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_overflow.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_work_order_details.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar1.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar1.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\work_order_list_section.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
-    },
-    {
-        "merged": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
-        "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\layout-land\\activity_work_order_details.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_termidor_hp_rgb_red.png.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\drawable-xhdpi\\termidor_hp_rgb_red.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_unit_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\res\\layout-land\\unit_list_row.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable_t2.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\drawable\\t2.png"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
@@ -1356,16 +1836,20 @@
         "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_action_next_item.png.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_activity_work_order_details.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\activity_work_order_details.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\toast_layout.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_work_order_list_section.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\layout-land\\work_order_list_section.xml"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_work_order_details.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_work_order_details.xml"
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_toast_layout.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout-land\\toast_layout.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable_circle_bullet_blank.png.flat",
@@ -1376,16 +1860,8 @@
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable\\circle_bullet_blank.png"
     },
     {
-        "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\Training Mode\\trunk\\mobile\\res\\drawable-nodpi\\button.xml"
-    },
-    {
         "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_button.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\button.xml"
-    },
-    {
-        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout_work_order_list_row.xml.flat",
-        "source": "C:\\Users\\Laswada\\Desktop\\rememberme\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\layout\\work_order_list_row.xml"
     },
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\ChangingTheColor\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_action_overflow.png.flat",
@@ -1402,5 +1878,9 @@
     {
         "merged": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\drawable-nodpi_action_bar.xml.flat",
         "source": "C:\\Users\\Laswada\\Desktop\\Final Code\\TriningModeNew\\trunk\\AndroidTermidorHP\\res\\drawable-nodpi\\action_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_settings.xml.flat",
+        "source": "C:\\Users\\Laswada\\Desktop\\rememberme2\\trunk\\AndroidTermidorHP\\res\\layout-land\\activity_settings.xml"
     }
 ]
