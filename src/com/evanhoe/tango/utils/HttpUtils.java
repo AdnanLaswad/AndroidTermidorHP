@@ -141,18 +141,12 @@ public class HttpUtils {
 try {
     URL url;
 
-    url = new URL("http://192.168.43.30/");
+    url = new URL(strUrl);
     final java.net.HttpURLConnection  conn = (java.net.HttpURLConnection) url.openConnection();
     conn.setDoOutput(true);
     conn.setDoInput(true);
     conn.setRequestMethod("GET");
-
-
-
-
-
-
-
+ 
         OutputStream os = conn.getOutputStream();
 
         BufferedWriter writer = new BufferedWriter(
