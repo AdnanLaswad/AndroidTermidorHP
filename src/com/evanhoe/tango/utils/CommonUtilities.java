@@ -185,6 +185,7 @@ public class CommonUtilities {
     public static void syncTheUnsynced(Context appContext,String token){
 	 // get unsynched details, and send to web server
     	if(isOnline(appContext)){
+    		
     	
 	    ArrayList<WorkOrderDetail> unsyncedDetails;
 	    unsyncedDetails = WorkorderDetailDAO.getByUnsynchronized ( appContext );
@@ -554,7 +555,6 @@ public class CommonUtilities {
                 syncTime = "1970-01-01 00:00:00";
             }
 	    	ArrayList<WorkOrderDetail> wodList = WebService.getWorkOrderDetail(username, password, workorders, syncTime,token);
-	    	
 	    	if(wodList != null){
 	    		for(WorkOrderDetail wod : wodList){   
 	    			//wod.setSyncTime ( "1900-01-01 12:59:00" );

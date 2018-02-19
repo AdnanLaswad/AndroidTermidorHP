@@ -368,7 +368,7 @@ int chker=0;
 			// TODO Auto-generated method stub
 			//CommonUtilities.syncTheUnsynced(WorkOrderListActivity.this.getApplicationContext());
 			//loadWorkOrdersToDB();
-
+			//CommonUtilities.refreshWorkOrders(WorkOrderListActivity.this.getApplicationContext(),token);
 
 			if(CommonUtilities.checkIfWorkorderChanges(WorkOrderListActivity.this.getApplicationContext(),token)){
 				CommonUtilities.refreshWorkOrders(WorkOrderListActivity.this.getApplicationContext(),token);

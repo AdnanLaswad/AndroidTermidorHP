@@ -584,7 +584,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	    sendReceivPB = null;
 	}*/
 
-	private class AsyncTaskRunner extends AsyncTask<String, Void, String>
+	private class AsyncTaskRunner extends AsyncTask<Integer, Void, Integer>
 	{
 		boolean error = false;
 		String errorString="SUCCESS";
@@ -598,7 +598,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 
 		@Override
-		protected String doInBackground(String... params)
+		protected Integer doInBackground(Integer... params)
 		{
 			try
 			{
@@ -686,8 +686,18 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD);
 
 						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
-				boolean test=		WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+						boolean test=		WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+					/*	String syncTime = WebService.sendWorkOrderDetail ( "", "",thisDetail ,token );
+						if ( syncTime != null )
+						{
+							Calendar cal1 = Calendar.getInstance();
+							SimpleDateFormat sdf1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss" );
+							// success
+							thisDetail.setSyncStatus ( "Y" );
 
+							thisDetail.setSyncTime(sdf1.format ( cal1.getTime()));
+							WorkorderDetailDAO.updateRecord(WorkOrderDetailActivity.this, thisDetail);
+						}*/
 						//was successful send delete command
 						boolean status = thisService.eraseData();
 						//status = status;
@@ -703,7 +713,8 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 					if (sendSuccess)
 					{
 						writeBlankRecord(WorkorderStatus.OPEN);
-
+						//CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
+						//String syncTime = WebService.sendWorkOrderDetail ( "", "", ,token );
 						// get unsynched details, and send to web server
 						if(CommonUtilities.checkIfWorkorderChanges(WorkOrderDetailActivity.this.getApplicationContext(),token)){
 							CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
@@ -729,10 +740,10 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 			thisService.deInitialize();
 
-			return null;
+			return 1;
 		}
 		@Override
-		protected void onPostExecute(String result)
+		protected void onPostExecute(Integer result)
 		{
 			// execution of result of Long time consuming operation
 			//sendReceivPB.setVisibility(View.GONE);
@@ -914,13 +925,13 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 							}else{
 								thisDetail.setWorkorderStatusCode ( WorkorderStatus.CLOSED );
 							}
-						boolean	test=WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
-						int r=90;
+							boolean	test=WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+							int r=90;
 						}
 						else
 						{
 							thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD );
-						boolean test=	WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+							boolean test=	WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
 
 							if ( onHoldIndicator ){
 								writeBlankRecord(WorkorderStatus.ONHOLD);
@@ -932,7 +943,18 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 
 
-						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
+						/*String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
+						if ( syncTime != null )
+						{
+							Calendar cal1 = Calendar.getInstance();
+							SimpleDateFormat sdf1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss" );
+							// success
+							thisDetail.setSyncStatus ( "Y" );
+
+							thisDetail.setSyncTime(sdf1.format ( cal1.getTime()));
+							WorkorderDetailDAO.updateRecord(WorkOrderDetailActivity.this, thisDetail);
+						}
+*/
 						//was successful send delete command
 						boolean test = thisService.eraseData();
 
@@ -955,7 +977,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						writeBlankRecord(WorkorderStatus.CLOSED);
 					}
 				}
-
+//				CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 
 
 				// get unsynched details, and send to web server
@@ -1140,6 +1162,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		@Override
 		protected Integer doInBackground(Object... params) {
 
+			//	CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
 			if(CommonUtilities.checkIfWorkorderChanges(WorkOrderDetailActivity.this.getApplicationContext(),token)){
 				CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 			}else{

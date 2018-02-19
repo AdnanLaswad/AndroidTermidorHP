@@ -146,7 +146,7 @@ try {
     conn.setDoOutput(true);
     conn.setDoInput(true);
     conn.setRequestMethod("GET");
- 
+
         OutputStream os = conn.getOutputStream();
 
         BufferedWriter writer = new BufferedWriter(

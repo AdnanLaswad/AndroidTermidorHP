@@ -19,6 +19,7 @@ import com.evanhoe.tango.utils.CommonUtils;
 import com.evanhoe.tango.utils.HttpUtils;
 import com.evanhoe.tango.utils.SqlLiteDbHelper;
 import com.evanhoe.tango.utils.WebService;
+import com.google.firebase.analytics.FirebaseAnalytics;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -55,6 +56,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
     SharedPreferences sharedPreferences;
     int count;
   int checkkstatus=0;
+    //private FirebaseAnalytics mFirebaseAnalytics;
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState)
@@ -63,7 +65,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         //setContentView(R.layout.login);
         //setTheme(R.style.AppTheme1);
         setContentView(R.layout.activity_login);
-
+        //mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
      /*
         sharedPreferences = getSharedPreferences(
                 "userdata", Context.MODE_PRIVATE);
