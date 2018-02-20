@@ -185,7 +185,7 @@ public class CommonUtilities {
     public static void syncTheUnsynced(Context appContext,String token){
 	 // get unsynched details, and send to web server
     	if(isOnline(appContext)){
-
+    		
     	
 	    ArrayList<WorkOrderDetail> unsyncedDetails;
 	    unsyncedDetails = WorkorderDetailDAO.getByUnsynchronized ( appContext );

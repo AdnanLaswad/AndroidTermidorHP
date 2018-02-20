@@ -65,7 +65,7 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         //setContentView(R.layout.login);
         //setTheme(R.style.AppTheme1);
         setContentView(R.layout.activity_login);
-       // mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+        //mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
      /*
         sharedPreferences = getSharedPreferences(
                 "userdata", Context.MODE_PRIVATE);
