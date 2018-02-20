@@ -19,7 +19,8 @@ import com.evanhoe.tango.utils.CommonUtils;
 import com.evanhoe.tango.utils.HttpUtils;
 import com.evanhoe.tango.utils.SqlLiteDbHelper;
 import com.evanhoe.tango.utils.WebService;
-import com.google.firebase.analytics.FirebaseAnalytics;
+
+
 
 import android.app.Activity;
 import android.app.AlertDialog;

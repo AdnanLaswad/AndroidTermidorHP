@@ -1,0 +1,8 @@
+<!-- see. http://stackoverflow.com/questions/1521640/standard-android-button-with-a-different-color -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <solid android:color="@color/theme_color1" />
+        </shape>
+    </item>
+</selector>
