@@ -1,33 +1,5 @@
 package com.evanhoe.tango.utils;
 
-import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Locale;
-import java.util.TimeZone;
-
-import org.json.JSONObject;
-
-import com.evanhoe.tango.LoginActivity;
-import com.evanhoe.tango.TangoApplication;
-import com.evanhoe.tango.WorkOrderDetailActivity;
-import com.evanhoe.tango.WorkOrderListActivity;
-import com.evanhoe.tango.dao.AssignInjectionStationDAO;
-import com.evanhoe.tango.dao.InjectionStationDAO;
-import com.evanhoe.tango.dao.TermicideTypeDAO;
-import com.evanhoe.tango.dao.UserDAO;
-import com.evanhoe.tango.dao.WorkOrderDAO;
-import com.evanhoe.tango.dao.WorkorderDetailDAO;
-import com.evanhoe.tango.objs.AssignInjectionStation;
-import com.evanhoe.tango.objs.InjectionStation;
-import com.evanhoe.tango.objs.TermicideType;
-import com.evanhoe.tango.objs.User;
-import com.evanhoe.tango.objs.UserLoginResult;
-import com.evanhoe.tango.objs.WorkOrder;
-import com.evanhoe.tango.objs.WorkOrderBrief;
-import com.evanhoe.tango.objs.WorkOrderDetail;
-import com.evanhoe.tango.objs.WorkorderStatus;
-
 import android.content.ActivityNotFoundException;
 import android.content.ComponentName;
 import android.content.Context;
@@ -38,6 +10,27 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.util.Log;
 
+import com.evanhoe.tango.TangoApplication;
+import com.evanhoe.tango.dao.InjectionStationDAO;
+import com.evanhoe.tango.dao.TermicideTypeDAO;
+import com.evanhoe.tango.dao.UserDAO;
+import com.evanhoe.tango.dao.WorkOrderDAO;
+import com.evanhoe.tango.dao.WorkorderDetailDAO;
+import com.evanhoe.tango.objs.InjectionStation;
+import com.evanhoe.tango.objs.TermicideType;
+import com.evanhoe.tango.objs.User;
+import com.evanhoe.tango.objs.UserLoginResult;
+import com.evanhoe.tango.objs.WorkOrder;
+import com.evanhoe.tango.objs.WorkOrderBrief;
+import com.evanhoe.tango.objs.WorkOrderDetail;
+import com.evanhoe.tango.objs.WorkorderStatus;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Locale;
+import java.util.TimeZone;
+
 public class CommonUtilities {
 	
 	public static int getEnv(){
@@ -46,7 +39,7 @@ public class CommonUtilities {
 		// 3 - PROD
 		return 3;		
 	}
-	
+
 	public static boolean clearDB(Context appContext){
 		
 		InjectionStationDAO.deleteAll(appContext);
@@ -274,7 +267,7 @@ public class CommonUtilities {
         String username = ((TangoApplication) appContext).getUser().getUsername();
         String password = ((TangoApplication) appContext).getUser().getPassword();
  
-    	if(isOnline(appContext)){
+    	if(isOnline(appContext) ){
         
     		syncTheUnsynced(appContext,token);
 	        ArrayList<WorkOrder> workOrderList = WebService.getWorkOrderList ( username,password ,token);
@@ -301,6 +294,42 @@ public class CommonUtilities {
     	}
     	
     }
+    //////////////////////// I start from here
+	public static void refreshWorkOrders2(Context appContext,String token){
+
+		String username = ((TangoApplication) appContext).getUser().getUsername();
+		String password = ((TangoApplication) appContext).getUser().getPassword();
+
+		if(isOnline(appContext) ){
+
+			syncTheUnsynced(appContext,token);
+			ArrayList<WorkOrder> workOrderList = WebService.getWorkOrderList ( username,password ,token);
+
+			if ( workOrderList != null )
+			{
+				try {
+					// Empty the table before populating
+					WorkOrderDAO.deleteAll ( appContext);
+
+					// insert records into database
+					for ( WorkOrder thisWorkOrder : workOrderList )
+					{
+						WorkOrderDAO.add ( appContext, thisWorkOrder );
+						refreshWorkOrderDetails(appContext, thisWorkOrder.getServiceWorkOrderId(),token);
+					}
+				} catch (Exception e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				//((TangoApplication) appContext).getUser().updateSyncTimeToCurrent();
+			}
+
+
+		}
+
+	}
+
+	///////////////////////////////// till here
 
 
     public static UserLoginResult login(Context appContext, String username, String password, boolean rememberMe){

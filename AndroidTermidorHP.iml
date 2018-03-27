@@ -46,13 +46,6 @@
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/build-types/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -60,6 +53,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/assets" type="java-resource" />
@@ -102,8 +102,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\Laswada\Desktop\rememberme2\trunk\AndroidTermidorHP\libs\HockeySDK-3.5.0.jar:unspecified@jar" level="project" />
-    <orderEntry type="library" name="__local_aars__:C.\Users\Laswada\Desktop\rememberme2\trunk\AndroidTermidorHP\libs\API_ADK.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Android_Github\Android_TermidorHP_v2_101\AndroidTermidorHP\libs\API_ADK.jar:unspecified@jar" level="project" />
+    <orderEntry type="library" name="__local_aars__:C.\Android_Github\Android_TermidorHP_v2_101\AndroidTermidorHP\libs\HockeySDK-3.5.0.jar:unspecified@jar" level="project" />
     <orderEntry type="library" name="android-android-19" level="project" />
   </component>
 </module>

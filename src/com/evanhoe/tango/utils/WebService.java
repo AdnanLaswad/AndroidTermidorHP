@@ -15,6 +15,7 @@ import org.json.JSONObject;
 
 import com.evanhoe.tango.TangoApplication;
 import com.evanhoe.tango.R;
+import com.evanhoe.tango.WorkOrderListActivity;
 import com.evanhoe.tango.objs.InjectionStation;
 import com.evanhoe.tango.objs.PersonInfo;
 import com.evanhoe.tango.objs.TermicideType;
@@ -86,7 +87,9 @@ public class WebService {
 				// System.out.print(j.getString("access_token"));
 
 				String token = jj.getString("access_token");
+				//CommonUtilities.refreshWorkOrders( appContext.getApplicationContext(),token);
 				return token;
+
 			}
 		} catch (JSONException e) {
 			e.printStackTrace();
@@ -456,7 +459,7 @@ try {
 			String strPostJSON = postJSON.toString();
 // TODO: Remove this debugging
           //  System.out.println ( strPostJSON );
-
+          // String synctime=woDetail.getSyncTime();
 			String url=application+"/SaveWorkOrderDetail";
 			String strResponseJSON = HttpUtils.saveData(url,postJSON,token);
 			return "yes";
@@ -816,7 +819,6 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 
 				/*
 								JSONObject j = new JSONObject();

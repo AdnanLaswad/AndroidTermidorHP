@@ -1,60 +1,36 @@
 package com.evanhoe.tango;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.provider.SyncStateContract.Constants;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.text.Html;
-import android.text.Spanned;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
-import com.evanhoe.tango.LoginActivity.RetrieveLoginTask;
-import com.evanhoe.tango.WorkOrderDetailActivity.RetrieveDetailTask;
 import com.evanhoe.tango.dao.WorkOrderDAO;
-import com.evanhoe.tango.dao.WorkorderDetailDAO;
-import com.evanhoe.tango.utils.CommonUtilities;
-import com.evanhoe.tango.utils.HttpUtils;
-import com.evanhoe.tango.utils.ListAdapter;
-import com.evanhoe.tango.utils.SqlLiteDbHelper;
-import com.evanhoe.tango.utils.WebService;
-
 import com.evanhoe.tango.objs.WorkOrder;
-import com.evanhoe.tango.objs.WorkOrderDetail;
 import com.evanhoe.tango.objs.WorkOrderViewEntryItem;
 import com.evanhoe.tango.objs.WorkOrderViewItem;
 import com.evanhoe.tango.objs.WorkOrderViewSectionItem;
-import com.evanhoe.tango.R;
-
-
-
-import android.app.ListActivity;
-import com.evanhoe.tango.utils.ListAdapter;
 import com.evanhoe.tango.utils.CommonUtilities;
+import com.evanhoe.tango.utils.ListAdapter;
+import com.evanhoe.tango.utils.SqlLiteDbHelper;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
 
 public class WorkOrderListActivity extends OptionsMenuActivity {
 	int inProgressSectionLocation = -1;
@@ -73,16 +49,18 @@ int chker=0;
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//overridePendingTransition ( R.anim.fadein, R.anim.fadeout );
-
+		CommonUtilities.refreshWorkOrders2(WorkOrderListActivity.this.getApplicationContext(),token);
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
 				"url", Context.MODE_PRIVATE);
 		String selecturl=sharedPreferences.getString("urltype","");
 		if(selecturl.contains("stage")){
 			setTheme(R.style.AppTheme);
 			chker=1;
+
 		}
 		else{
 			setTheme(R.style.AppTheme1);
+
 		}
 
 		setContentView(R.layout.activity_work_order_list);
@@ -368,12 +346,13 @@ int chker=0;
 			// TODO Auto-generated method stub
 			//CommonUtilities.syncTheUnsynced(WorkOrderListActivity.this.getApplicationContext());
 			//loadWorkOrdersToDB();
+			// when need to refresh data base after every login
 			//CommonUtilities.refreshWorkOrders(WorkOrderListActivity.this.getApplicationContext(),token);
 
-			if(CommonUtilities.checkIfWorkorderChanges(WorkOrderListActivity.this.getApplicationContext(),token)){
-				CommonUtilities.refreshWorkOrders(WorkOrderListActivity.this.getApplicationContext(),token);
-			}else{
-				CommonUtilities.checkForNewDetails(WorkOrderListActivity.this.getApplicationContext(),token);
+			if (CommonUtilities.checkIfWorkorderChanges(WorkOrderListActivity.this.getApplicationContext(), token)) {
+				CommonUtilities.refreshWorkOrders(WorkOrderListActivity.this.getApplicationContext(), token);
+			} else {
+				CommonUtilities.checkForNewDetails(WorkOrderListActivity.this.getApplicationContext(), token);
 			}
 
 

@@ -67,10 +67,120 @@
             ]
         },
         {
+            "outputFile": "C:\\Users\\Laswada\\Desktop\\old\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Laswada\\Desktop\\old\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Android_Github\\Android_TermidorHP_v2_101\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Android_Github\\Android_TermidorHP_v2_101\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Laswada\\Desktop\\beforechane\\trunk\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Laswada\\Desktop\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Laswada\\Desktop\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\WRK\\AndroidTermidorInMyComputer\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\WRK\\AndroidTermidorInMyComputer\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Laswada\\Desktop\\AndroidCodeInTheFeild\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Laswada\\Desktop\\AndroidCodeInTheFeild\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "2,4,3",
                         "startColumns": "4,4,4",
@@ -115,6 +225,28 @@
             "map": [
                 {
                     "source": "C:\\MyCode\\Final Code\\Training Mode\\trunk\\mobile\\res\\values-v11\\styles.xml",
+                    "from": {
+                        "startLines": "2,4,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "115,279,191",
+                        "endColumns": "75,101,87",
+                        "endOffsets": "186,376,274"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,124,219",
+                        "endColumns": "68,94,80",
+                        "endOffsets": "119,214,295"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\WRK\\Android_TermidorHP_v2_101A\\Android_TermidorHP_v2_101\\AndroidTermidorHP\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+            "map": [
+                {
+                    "source": "C:\\WRK\\Android_TermidorHP_v2_101A\\Android_TermidorHP_v2_101\\AndroidTermidorHP\\res\\values-v11\\styles.xml",
                     "from": {
                         "startLines": "2,4,3",
                         "startColumns": "4,4,4",

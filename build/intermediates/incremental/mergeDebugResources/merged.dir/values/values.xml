@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alt_item_touched_color">#33B5E5</color>
+    <color name="alt_theme_color">#0099CC</color>
+    <color name="black">#000000</color>
+    <color name="button_cancel_color">#0099CC</color>
+    <color name="button_cancel_touched_color">#33B5E5</color>
+    <color name="container_color">#faf7f7</color>
+    <color name="container_frame_color">#EFEFEF</color>
+    <color name="darkblue">#004a96</color>
+    <color name="darkbluestrip">#a6c0da</color>
+    <color name="data_color">#EFEFEF</color>
+    <color name="data_frame_color">#FFFFFF</color>
+    <color name="detail_frame_color">#EFEFEF</color>
+    <color name="details_color">#FFFFFF</color>
+    <color name="gray">#707070</color>
+    <color name="item_touched_color">#77DDFF</color>
+    <color name="label_color">#A3A3A3</color>
+    <color name="list_item_color">#FFFFFF</color>
+    <color name="list_item_selected_color">#33B5E5</color>
+    <color name="message_completed">#99CC00</color>
+    <color name="message_error">#ff4444</color>
+    <color name="message_success">#333333</color>
+    <color name="separator_color">#EFEFEF</color>
+    <color name="theme_background_color">#FFF</color>
+    <color name="theme_color">#C50022</color>
+    <color name="theme_color1">#808080</color>
+    <color name="white">#ffffff</color>
+    <string name="Support">Support</string>
+    <string name="action_settings">Settings</string>
+    <string name="address">Address:</string>
+    <string name="ai_ht">Chemical - HT Mode: </string>
+    <string name="ai_sa">Chemical - SA Mode: </string>
+    <string name="app_name">Termidor HP</string>
+    <string name="cancel">Cancel</string>
+    <string name="chemical">Chemical Used: </string>
+    <string name="complete">Complete</string>
+    <string name="connected">connected</string>
+    <string name="dev_webservice_url">http://termidorma.evanhoe.com/tango_v0.1</string>
+    <string name="disclaimer">Before operating this equipment you must be trained and certified by a BASF authorized TERMIDOR HP instructor/trainer.</string>
+    <string name="disclaimerContinue">Continue</string>
+    <string name="disclaimer_activity">Disclaimer</string>
+    <string name="disclaimer_caution">Caution:</string>
+    <string name="dou_you_want_complete_order">Complete Workorder #%1s?</string>
+    <string name="dou_you_want_onhold_order">Put Workorder #%1s On Hold?</string>
+    <string name="dou_you_want_to_send_order">Send Workorder #%1s to Unit?</string>
+    <string name="email">Email: Termidor-HP@basf.com </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ht_mode">HT Mode: </string>
+    <string name="injection_count">Injection Count: </string>
+    <string name="last_activity">Last Activity</string>
+    <string name="linear_distance">Linear distance:</string>
+    <string name="login">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="newVersionMessage">A new version of this application is now available. The new version will now download. Please click the install button when you are prompted.</string>
+    <string name="newVersionTitle">New Application Version</string>
+    <string name="noUnitSelectedMessage">No Unit is currently selected. Please select a unit from the following Settings screen.</string>
+    <string name="noUnitSelectedTitle">No Unit Selected</string>
+    <string name="ok">OK</string>
+    <string name="on_hold">On Hold</string>
+    <string name="order_completed">The order was completed.</string>
+    <string name="order_put_on_hold">The order was put on hold.</string>
+    <string name="order_successfully_sent">The order was successfully sent.</string>
+    <string name="password">Password</string>
+    <string name="phoneNumber">Phone Number: 1–800–669–7741</string>
+    <string name="preprod_webservice_url">https://termidorma.evanhoe.com/tango_v0.1</string>
+    <string name="prod_webservice_url">https://termidorma.termidorhpdata.com/tango_v0.1</string>
+    <string name="resend_to_hp">Resend to Unit</string>
+    <string name="sa_mode">SA Mode: </string>
+    <string name="send_to_hp">Send to Unit</string>
+    <string name="settings">Settings</string>
+    <string name="support">For any operating or service questions please use the following number or email address:</string>
+    <string name="support_activity">Support</string>
+    <string name="training">Training Mode</string>
+    <string name="training_work_order_list">Training Workorders</string>
+    <string name="unitConnectErrorMessage">Unable to Connect to Unit.</string>
+    <string name="unitSendErrorMessage">Unable to Send Workorder to Unit.</string>
+    <string name="unit_distance">Feet</string>
+    <string name="unit_distance_meters">Metres</string>
+    <string name="unit_volume_gal">Gallons</string>
+    <string name="unit_volume_liters">Litres</string>
+    <string name="unit_volume_oz">Ounces</string>
+    <string name="units">Units</string>
+    <string name="username">Username</string>
+    <string name="water_sa">Water in SA Mode: </string>
+    <string name="webservice_url">http://ea-day-basf.evanhoe.com/tango_v0.1</string>
+    <string name="work">Work Mode</string>
+    <string formatted="false" name="work_order">Workorder #%1s</string>
+    <string name="work_order_list">Workorders</string>
+    <string formatted="false" name="work_order_title">WO #%1s</string>
+    <string name="workorder_status">Workorder Status:</string>
+    <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar1</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style>
+    <style name="ActionBar1" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/action_bar</item>
+        <item name="android:icon">@android:color/transparent</item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style>
+    <style name="ActionOverflowStyle" parent="@android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow</item>
+    </style>
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:dropDownListViewStyle">
+            @android:style/Widget.Holo.ListView.DropDown
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style>
+    <style name="AppTheme1" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ActionBar1</item>
+        <item name="android:dropDownListViewStyle">
+            @android:style/Widget.Holo.ListView.DropDown
+        </item>
+        <item name="android:actionOverflowButtonStyle">@style/ActionOverflowStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_action_back</item>
+    </style>
+    <style name="AppThemeNoBar" parent="AppTheme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="Button" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ButtonCancel" parent="Button">
+        <item name="android:background">@drawable/button_cancel</item>
+    </style>
+    <style name="ButtonLogin" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:background">@drawable/button_login</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ButtonRow">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/details_color</item>
+    </style>
+    <style name="Container">
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:background">@color/container_color</item>
+    </style>
+    <style name="ContainerWithFrame" parent="Container">
+        <item name="android:background">@color/container_frame_color</item>
+    </style>
+    <style name="Data">
+        <item name="android:paddingLeft">205dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/data_color</item>
+    </style>
+    <style name="Details">
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@color/details_color</item>
+    </style>
+    <style name="DetailsValue" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Disclaimer">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="Form">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    <style name="FormEditText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit</item>
+    </style>
+    <style name="FormEditTextPW">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:background">@drawable/text_edit_pw</item>
+    </style>
+    <style name="FormEditTextUN">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:background">@drawable/text_edit_un</item>
+    </style>
+    <style name="FormLabel" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal|left</item>
+    </style>
+    <style name="Heading" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+    <style name="Label" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style>
+    <style name="LeftButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:background">@drawable/button_cancel</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="ListView">
+        <item name="android:divider">@color/container_frame_color</item>
+        <item name="android:dividerHeight">8dp</item>
+    </style>
+    <style name="ListViewPlain">
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:divider">@null</item>
+    </style>
+    <style name="RightButton" parent="android:TextAppearance.Small">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_gravity">right</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="StatusTitle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@color/detail_frame_color</item>
+    </style>
+    <style name="StatusValue" parent="android:TextAppearance.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+        <item name="android:textColor">@color/label_color</item>
+    </style>
+    <style name="Support">
+        <item name="android:textSize">26sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">25dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="SupportInfo">
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingMultiplier">1.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        
+    </style>
+</resources>

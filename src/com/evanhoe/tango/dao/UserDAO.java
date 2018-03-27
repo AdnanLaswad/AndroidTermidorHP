@@ -1,7 +1,5 @@
 package com.evanhoe.tango.dao;
 
-import java.util.ArrayList;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
@@ -9,10 +7,10 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteException;
 
 import com.evanhoe.tango.objs.User;
-import com.evanhoe.tango.objs.WorkOrder;
 import com.evanhoe.tango.objs.WorkOrderDetail;
-import com.evanhoe.tango.utils.EncryptionUtilities;
 import com.evanhoe.tango.utils.SqlLiteDbHelper;
+
+import java.util.ArrayList;
 
 public class UserDAO {
 
@@ -23,7 +21,7 @@ public class UserDAO {
         boolean returnValue = true;
         SqlLiteDbHelper dbHelper;
         SQLiteDatabase sqliteDatabase;
-        EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
+       // EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
 
         try
         {
@@ -38,7 +36,8 @@ public class UserDAO {
             contentValues.put("UserRoleCode", user.getUserRoleCode() );
             contentValues.put("UserSubRoleCode", user.getUserSubRoleCode() );
             contentValues.put("UserLogInName", user.getUsername() );
-            contentValues.put("UserPassword", myEncryptUtils.encrypt ( user.getPassword() ) );
+            //contentValues.put("UserPassword", myEncryptUtils.encrypt ( user.getPassword() ) );
+            contentValues.put("UserPassword",  ( user.getPassword() ) );
             contentValues.put("RemoteValidationRequired",user.getRemoteValidationRequired() );
             //contentValues.put("CanCompleteTrainingSWO",user.getCanDoTraining() );
             contentValues.put("CanCompleteTrainingSWO",user.getCanDoTrainingFromDB() );
@@ -96,7 +95,7 @@ public class UserDAO {
     
     public static User getLastUser ( Context appContext )
     {
-        EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
+        //EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
         SqlLiteDbHelper dbHelper = new SqlLiteDbHelper ( appContext );
         SQLiteDatabase newDB = dbHelper.getWritableDatabase();
         User user = null;
@@ -110,7 +109,8 @@ public class UserDAO {
         	if (c.moveToFirst())
             {
         		user = new User ( getColumnString ( c, "UserLogInName" )
-                    , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                   // , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                        ,  ( getColumnString ( c, "UserPassword" ) )
                     , getColumnString ( c, "PersonID" )
                     , getColumnString ( c, "UserRoleCode" )
                     , getColumnString ( c, "UserSubRoleCode" )
@@ -130,18 +130,23 @@ public class UserDAO {
     
     public static User getByUsername ( Context appContext, String username, String password )
     {
-        EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
+        //EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
         ArrayList<WorkOrderDetail> workorderDetails = new ArrayList<WorkOrderDetail>();
         SqlLiteDbHelper dbHelper = new SqlLiteDbHelper ( appContext );
         SQLiteDatabase newDB = dbHelper.getWritableDatabase();
         User user = null;
         Cursor c = newDB.rawQuery(
         // TODO: Probably a good practice to put the column names here, but for now, we're good
-                    "SELECT *" +
+                   /* "SELECT *" +
                     " FROM " + "m_UserAccess" +
                     " WHERE UserLogInName = '" + username + "'" + " AND UserPassword = '" + 
                     myEncryptUtils.encrypt ( password ) + "'"
-                    , null);
+                    , null);*/
+        "SELECT *" +
+                " FROM " + "m_UserAccess" +
+                " WHERE UserLogInName = '" + username + "'" + " AND UserPassword = '" +
+                 ( password ) + "'"
+                , null);
         if (c != null)
         {
             if (c.moveToFirst())
@@ -149,7 +154,8 @@ public class UserDAO {
                 do
                 {
                     user = new User ( getColumnString ( c, "UserLogInName" )
-                                                 , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                                                // , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                            ,  ( getColumnString ( c, "UserPassword" ) )
                                                  , getColumnString ( c, "PersonID" )
                                                  , getColumnString ( c, "UserRoleCode" )
                                                  , getColumnString ( c, "UserSubRoleCode" )
@@ -174,7 +180,7 @@ public class UserDAO {
     //this is to check if just username is in local db
     public static User getByUsername ( Context appContext, String username)
     {
-        EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
+        //EncryptionUtilities myEncryptUtils = new EncryptionUtilities();
         ArrayList<WorkOrderDetail> workorderDetails = new ArrayList<WorkOrderDetail>();
         SqlLiteDbHelper dbHelper = new SqlLiteDbHelper ( appContext );
         SQLiteDatabase newDB = dbHelper.getWritableDatabase();
@@ -192,7 +198,8 @@ public class UserDAO {
                 do
                 {
                     user = new User ( getColumnString ( c, "UserLogInName" )
-                                                 , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                                                // , myEncryptUtils.decrypt ( getColumnString ( c, "UserPassword" ) )
+                            ,  ( getColumnString ( c, "UserPassword" ) )
                                                  , getColumnString ( c, "PersonID" )
                                                  , getColumnString ( c, "UserRoleCode" )
                                                  , getColumnString ( c, "UserSubRoleCode" )

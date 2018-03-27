@@ -2,45 +2,21 @@ package com.evanhoe.tango;
 
 //import java.io.IOException;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.ArrayList;
-
-import com.evanhoe.tango.WorkOrderListActivity;
-import com.evanhoe.tango.objs.InjectionStation;
-import com.evanhoe.tango.objs.User;
-import com.evanhoe.tango.objs.UserLoginResult;
-import com.evanhoe.tango.dao.UserDAO;
-import com.evanhoe.tango.dao.InjectionStationDAO;
-import com.evanhoe.tango.objs.WorkOrderDetail;
-import com.evanhoe.tango.utils.CommonUtilities;
-//import com.evanhoe.tango.net.NetUtils;
-import com.evanhoe.tango.utils.CommonUtils;
-import com.evanhoe.tango.utils.HttpUtils;
-import com.evanhoe.tango.utils.SqlLiteDbHelper;
-import com.evanhoe.tango.utils.WebService;
-
-
-
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.content.Intent;
-import android.graphics.Color;
-import android.net.Uri;
 import android.os.Handler;
-import android.os.Looper;
 import android.text.method.PasswordTransformationMethod;
 import android.util.Log;
+import android.content.pm.PackageManager.NameNotFoundException;
 import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -49,14 +25,29 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.evanhoe.tango.dao.UserDAO;
+import com.evanhoe.tango.objs.User;
+import com.evanhoe.tango.objs.UserLoginResult;
+import com.evanhoe.tango.utils.CommonUtilities;
+import com.evanhoe.tango.utils.HttpUtils;
+import com.evanhoe.tango.utils.SqlLiteDbHelper;
+import com.evanhoe.tango.utils.WebService;
+
 import net.hockeyapp.android.CrashManager;
 import net.hockeyapp.android.UpdateManager;
 
+import java.io.File;
+import java.io.IOException;
+
+//import com.evanhoe.tango.net.NetUtils;
+
 public class LoginActivity extends BaseActivity implements OnClickListener
 {
+
     SharedPreferences sharedPreferences;
     int count;
   int checkkstatus=0;
+
     //private FirebaseAnalytics mFirebaseAnalytics;
     /** Called when the activity is first created. */
     @Override
@@ -66,6 +57,19 @@ public class LoginActivity extends BaseActivity implements OnClickListener
         //setContentView(R.layout.login);
         //setTheme(R.style.AppTheme1);
         setContentView(R.layout.activity_login);
+        TextView tvVersion = (TextView) findViewById(R.id.tvVersion);
+        tvVersion.setText("Version");
+        try {
+            if(CommonUtilities.getEnv() == 1 || CommonUtilities.getEnv() == 2){
+                tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName + " Testing");
+            }else{
+                tvVersion.setText("Version: " + getPackageManager().getPackageInfo(getPackageName(), 0).versionName);
+            }
+        } catch (NameNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+
         //mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
      /*
         sharedPreferences = getSharedPreferences(
@@ -356,6 +360,7 @@ new Handler().postDelayed(new Runnable() {
 
                         CommonUtilities.loadAuthorizedInjectionStations ( getApplicationContext(),token);
                         CommonUtilities.refreshTermicideTypes(getApplicationContext(),token);
+
                     }
                     //CommonUtilities.getTermicideTypeByName(getApplicationContext(), "Termidor HP");
 
