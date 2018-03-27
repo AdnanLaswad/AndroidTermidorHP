@@ -491,14 +491,14 @@ public class CommonUtilities {
         {
             try
             {
-                String appVersionName = appContext.getPackageManager().getPackageInfo(appContext.getPackageName(), 0).versionName;
+                int appVersionCode = appContext.getPackageManager().getPackageInfo(appContext.getPackageName(), 0).versionCode;
                 User thisUser = ((TangoApplication) appContext).getUser();
 
                 double serverVersionNumber = Double.parseDouble(thisUser.getMobileAppVersion());
-                double appVersionNumber = Double.parseDouble(appVersionName);
+                //double appVersionNumber = Double.parseDouble(appVersionName);
                 
                 // Just in case the User object becomes null, this short circuits the error
-                if ( thisUser != null && thisUser.getMobileAppVersion() != null && appVersionNumber < serverVersionNumber )
+                if ( thisUser != null && thisUser.getMobileAppVersion() != null && appVersionCode < serverVersionNumber )
                 {
                     returnValue = true;
                 }
