@@ -10,8 +10,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6ca9c10-7d4b-4bdf-82c3-0f61b8ffa4b9" name="Default" comment="Version 2.101">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="f6ca9c10-7d4b-4bdf-82c3-0f61b8ffa4b9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -1231,7 +1230,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191373982" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191485430" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1331,7 +1330,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191373982" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191485430" />
       </method>
     </configuration>
     <list size="1">
@@ -1370,6 +1369,14 @@
       <option name="presentableId" value="Default" />
       <updated>1522172966859</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changed Version To 2.1.2 in Manifest, and let the function except String">
+      <created>1522191481042</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522191481042</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1412,7 +1419,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 2.101" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2.101" />
+    <MESSAGE value="Changed Version To 2.1.2 in Manifest, and let the function except String" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Version To 2.1.2 in Manifest, and let the function except String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
