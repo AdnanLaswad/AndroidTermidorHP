@@ -9,6 +9,7 @@ import android.os.Message;
 
 import com.evanhoe.tango.TangoApplication;
 
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -34,14 +35,14 @@ import java.util.concurrent.ScheduledFuture;
 import java.util.concurrent.TimeUnit;
 
 public class HttpUtils {
-	
+
     public final static String APK_MIME_TYPE = "application/vnd.android.package-archive";
 
 //	This function is no longer being used.
 //	/**
 //	 * performs a get request to strUrl, returns response
 //	 * @param urlStr
-//	 * @return 
+//	 * @return
 //	 * @throws IOException
 //	 */
 //	public static String httpGet(String strUrl) throws IOException {
@@ -66,23 +67,23 @@ public class HttpUtils {
 //        conn.disconnect();
 //        return sb.toString();
 //    }
-	
-	
-	/**
-	 * performs a post request to strUrl with strPostData, returns response
-	 * @param strUrl
-	 * @param strPostData
-	 * @return
-	 * @throws IOException 
-	 */
-	public static String sendPost(String strUrl, String strPostData) throws IOException {
+
+
+    /**
+     * performs a post request to strUrl with strPostData, returns response
+     * @param strUrl
+     * @param strPostData
+     * @return
+     * @throws IOException
+     */
+    public static String sendPost(String strUrl, String strPostData) throws IOException {
 
         URL url = new URL(strUrl);
-		java.net.HttpURLConnection conn = (java.net.HttpURLConnection) url.openConnection();
-		conn.setDoOutput(true);
-		conn.setRequestMethod("POST");
-		conn.setRequestProperty("Content-Type", "application/json");
- 
+        java.net.HttpURLConnection conn = (java.net.HttpURLConnection) url.openConnection();
+        conn.setDoOutput(true);
+        conn.setRequestMethod("POST");
+        conn.setRequestProperty("Content-Type", "application/json");
+
         String input = strPostData;
 
         // This **RETURNS** a ByteBuffer, that we aren't receiving. Should we receive
@@ -90,29 +91,29 @@ public class HttpUtils {
         // drop this altogether.
         //Charset.forName("UTF-8").encode(input);
 
-		OutputStream os = conn.getOutputStream();
-		os.write(input.getBytes());
-		os.flush();
-                
-		if (conn.getResponseCode() != 200) {
-			throw new RuntimeException("Failed : HTTP error code : "
-				+ conn.getResponseCode());
-		}
- 
-		BufferedReader br = new BufferedReader(new InputStreamReader(
-				(conn.getInputStream())));
- 
-		String output;
-                StringBuilder sb = new StringBuilder();
-		System.out.println("Output from Server .... \n");
-		while ((output = br.readLine()) != null) {
-			System.out.println(output);
-                        sb.append(output);
-		}
- 
-		conn.disconnect();
-		return sb.toString();
-	}
+        OutputStream os = conn.getOutputStream();
+        os.write(input.getBytes());
+        os.flush();
+
+        if (conn.getResponseCode() != 200) {
+            throw new RuntimeException("Failed : HTTP error code : "
+                    + conn.getResponseCode());
+        }
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(
+                (conn.getInputStream())));
+
+        String output;
+        StringBuilder sb = new StringBuilder();
+        System.out.println("Output from Server .... \n");
+        while ((output = br.readLine()) != null) {
+            System.out.println(output);
+            sb.append(output);
+        }
+
+        conn.disconnect();
+        return sb.toString();
+    }
     public static String getPostDataString(JSONObject params) throws Exception {
 
         StringBuilder result = new StringBuilder();
@@ -138,63 +139,63 @@ public class HttpUtils {
         return result.toString();
     }
     public static String sendGet(String strUrl, JSONObject postDataParams)  {
-try {
-    URL url;
+        try {
+            URL url;
 
-    url = new URL(strUrl);
-    final java.net.HttpURLConnection  conn = (java.net.HttpURLConnection) url.openConnection();
-    conn.setDoOutput(true);
-    conn.setDoInput(true);
-    conn.setRequestMethod("GET");
+            url = new URL(strUrl);
+            final java.net.HttpURLConnection  conn = (java.net.HttpURLConnection) url.openConnection();
+            conn.setDoOutput(true);
+            conn.setDoInput(true);
+            conn.setRequestMethod("GET");
 
-        OutputStream os = conn.getOutputStream();
+            OutputStream os = conn.getOutputStream();
 
-        BufferedWriter writer = new BufferedWriter(
-                new OutputStreamWriter(os, "UTF-8"));
-        writer.write(getPostDataString(postDataParams));
+            BufferedWriter writer = new BufferedWriter(
+                    new OutputStreamWriter(os, "UTF-8"));
+            writer.write(getPostDataString(postDataParams));
 
-        writer.flush();
-        writer.close();
-        os.close();
-
-
+            writer.flush();
+            writer.close();
+            os.close();
 
 
-    if (conn.getResponseCode() != 200) {
-        throw new RuntimeException("Failed : HTTP error code : "
-                + conn.getResponseCode());
-    }
 
-    BufferedReader br = new BufferedReader(new InputStreamReader(
-                (conn.getInputStream())));
 
-        String output;
-        StringBuilder sb = new StringBuilder();
-        System.out.println("Output from Server .... \n");
-        while ((output = br.readLine()) != null) {
-            System.out.println(output);
-            sb.append(output);
+            if (conn.getResponseCode() != 200) {
+                throw new RuntimeException("Failed : HTTP error code : "
+                        + conn.getResponseCode());
+            }
+
+            BufferedReader br = new BufferedReader(new InputStreamReader(
+                    (conn.getInputStream())));
+
+            String output;
+            StringBuilder sb = new StringBuilder();
+            System.out.println("Output from Server .... \n");
+            while ((output = br.readLine()) != null) {
+                System.out.println(output);
+                sb.append(output);
+            }
+
+            br.close();
+            conn.disconnect();
+
+            return sb.toString();
+
         }
 
-        br.close();
-        conn.disconnect();
-
-        return sb.toString();
-
-}
-
-  //return "503";
+        //return "503";
 
 
-catch (Exception e){
-    String ss=e.getMessage();
+        catch (Exception e){
+            String ss=e.getMessage();
 
-    return ss;
+            return ss;
 
-}
+        }
 
 
-             //return "error 503";
+        //return "error 503";
     }
 
 
@@ -250,11 +251,11 @@ catch (Exception e){
         conn.setRequestProperty("Authorization", auth);
         conn.setDoOutput(false);
         conn.setDoInput(true);
-      //  conn.setConnectTimeout(1500);
-  //      conn.setConnectTimeout(1500);
-      // conn.setRequestProperty("Content-Type", "application/json");
+        //  conn.setConnectTimeout(1500);
+        //      conn.setConnectTimeout(1500);
+        // conn.setRequestProperty("Content-Type", "application/json");
 
-      // conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
+        // conn.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
 
 
         if (conn.getResponseCode() != 200) {
@@ -282,7 +283,7 @@ catch (Exception e){
      * @param strUrl
      * @param strPostData
      * @return
-     * @throws IOException 
+     * @throws IOException
      */
     public static String sendPostBinaryResponse(String strUrl, String strPostData) throws IOException
     {
@@ -291,7 +292,7 @@ catch (Exception e){
         conn.setDoOutput(true);
         conn.setRequestMethod("POST");
         conn.setRequestProperty("Content-Type", "application/json");
- 
+
         String input = strPostData;
 
         // This **RETURNS** a ByteBuffer, that we aren't receiving. Should we receive
@@ -302,11 +303,11 @@ catch (Exception e){
         OutputStream os = conn.getOutputStream();
         os.write(input.getBytes());
         os.flush();
-                
+
         if ( conn.getResponseCode() != 200 )
         {
             throw new RuntimeException("Failed : HTTP error code : "
-                + conn.getResponseCode());
+                    + conn.getResponseCode());
         }
 
         if ( ! conn.getHeaderField("Content-type").equals ( APK_MIME_TYPE ) )
@@ -317,7 +318,7 @@ catch (Exception e){
         // Get the download directory
         File downloadDir = Environment.getExternalStoragePublicDirectory ( Environment.DIRECTORY_DOWNLOADS );
         if ( ! downloadDir.exists() )
-        {   
+        {
             downloadDir.mkdirs();
         }
 
@@ -334,7 +335,7 @@ catch (Exception e){
 
         int readLen = -1;
         while ( (readLen=is.read ( data )) != -1 )
-        {   
+        {
             os2.write ( data, 0, readLen );
         }
 
@@ -343,5 +344,45 @@ catch (Exception e){
 
         conn.disconnect();
         return apkFileName.toString();
-    }  
+    }
+    public static String saveData2(String strUrl, String postDataParams, String token) throws Exception {
+
+        URL url = new URL(strUrl);
+        java.net.HttpURLConnection conn = (java.net.HttpURLConnection) url.openConnection();
+        conn.setDoOutput(true);
+        String auth="Bearer  "+token;
+        conn.setRequestProperty("Authorization", auth);
+        conn.setDoInput(true);
+        conn.setRequestMethod("POST");
+        conn.setRequestProperty("Content-Type", "application/json");
+
+
+        OutputStream os = conn.getOutputStream();
+        BufferedWriter writer = new BufferedWriter(
+                new OutputStreamWriter(os, "UTF-8"));
+        writer.write(postDataParams);
+
+        writer.flush();
+        writer.close();
+        os.close();
+
+        if (conn.getResponseCode() != 200) {
+            throw new RuntimeException("Failed : HTTP error code : "
+                    + conn.getResponseCode());
+        }
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(
+                (conn.getInputStream())));
+
+        String output;
+        StringBuilder sb = new StringBuilder();
+        System.out.println("Output from Server .... \n");
+        while ((output = br.readLine()) != null) {
+            System.out.println(output);
+            sb.append(output);
+        }
+
+        conn.disconnect();
+        return sb.toString();
+    }
 }

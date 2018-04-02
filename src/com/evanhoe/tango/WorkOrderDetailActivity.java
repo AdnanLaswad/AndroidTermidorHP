@@ -180,7 +180,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		}
 
 		// Button sendButton = (Button) findViewById ( R.id.btnSendData );
-/*		if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
+		if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
 			btnSendData.setVisibility ( View.GONE );
 			if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
 				btnOnHold.setVisibility(View.VISIBLE);
@@ -193,7 +193,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 			btnSendData.setVisibility ( View.VISIBLE );
 			btnOnHold.setVisibility(View.GONE);
 			btnComplete.setVisibility(View.GONE);
-		}*/
+		}
 	}
 
 	public void hideDetailData() {
@@ -241,8 +241,9 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 			tvChemical.setText( chemicalUsed );
 
+			//   String str=thisWorkOrderDetail.getHTModeEnabled();
 
-			if(thisWorkOrderDetail.getHTModeEnabled().equals("false"))
+			if(thisWorkOrderDetail.getHTModeEnabled().equals("0")||thisWorkOrderDetail.getHTModeEnabled().equals("false"))
 			{
 				tvHTMode.setText("No");
 			}
@@ -250,7 +251,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 			{
 				tvHTMode.setText("Yes");
 			}
-			if(thisWorkOrderDetail.getSAModeEnabled().equals("false"))
+			if(thisWorkOrderDetail.getSAModeEnabled().equals("0")||thisWorkOrderDetail.getSAModeEnabled().equals("false"))
 			{
 				tvSAMode.setText("No");
 			}
@@ -269,8 +270,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	public String showWorkorderStatus(){
 
 		String woStatusString = CommonUtilities.getWorkOrderStatus(WorkOrderDetailActivity.this.getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId());
-
-		//String woStatusString="OPEN";
 		if ((woStatusString.trim().equals("")))
 		{
 			woStatusString="NEW";
@@ -306,7 +305,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
 			btnSendData.setVisibility ( View.GONE );
 			if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
-				btnSendData.setVisibility ( View.GONE );
 				btnOnHold.setVisibility(View.VISIBLE);
 				btnComplete.setVisibility(View.VISIBLE);
 			}else{
@@ -363,14 +361,11 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 				// instead of an infinite loop, make them click a button again.
 				return;
 			}
-
-
 		}
 
 		switch ( v.getId() )
 		{
 			case R.id.btnSendData:
-
 				new AlertDialog.Builder(WorkOrderDetailActivity.this)
 						.setTitle("Send Work Order")
 						.setMessage(getString(R.string.dou_you_want_to_send_order,selectedWorkOrder.getServiceManagementWorkorderId()))
@@ -584,30 +579,22 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 	    sendReceivPB = null;
 	}*/
 
-	private class AsyncTaskRunner extends AsyncTask<Integer, Void, Integer>
+	private class AsyncTaskRunner extends AsyncTask<String, Void, String>
 	{
 		boolean error = false;
 		String errorString="SUCCESS";
 		ProgressDialog sendReceivPB = null;
 		//final TermidorMessageInterface thisService = new CANMessageService();
-
-		TermidorMessageInterface thisService = null;
-		//TermidorMessageInterface thisService = new CanMessageServiceStandard();
+		final TermidorMessageInterface thisService = new CanMessageServiceStandard();
 		//final TermidorMessageInterface thisService = new TestTermidorMessageImpl();
 
 
 
 		@Override
-		protected Integer doInBackground(Integer... params)
+		protected String doInBackground(String... params)
 		{
 			try
 			{
-				if(((TangoApplication) getApplicationContext()).getUnitBtName().contains("BCB-")){
-					thisService = new CanMessageServiceBCB();
-				}else{
-					thisService = new CanMessageServiceStandard();
-				}
-
 				boolean init = thisService.initialize(((TangoApplication) getApplicationContext()).getUnitMacAddress());
 				if(init == false){
 					throw new Exception("Unable to connect to Unit");
@@ -668,8 +655,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						thisDetail.setSA_PumpVolume_act ( Float.toString(newData.getHtModePumpVolume()));
 						thisDetail.setLinearMeasurementUnit_act  ( selectedWorkOrder.getLinearMeasurementUnit());
 						thisDetail.setVolumeMeasurementUnit_act  ( selectedWorkOrder.getVolumeMeasurementUnit() );
-
-
 						// Null check for GPS location
 						double latitude, longitude;
 						latitude = longitude = 0.0;
@@ -683,21 +668,11 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 						thisDetail.setMinutesWorkedInSession_act ( Integer.toString(newData.getTimeToComplete()) );
 						thisDetail.setWorkorderSlotLocationUsed ( "1" );
-						thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD);
+						thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD );
 
-						//String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
-						boolean test=		WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
-					/*	String syncTime = WebService.sendWorkOrderDetail ( "", "",thisDetail ,token );
-						if ( syncTime != null )
-						{
-							Calendar cal1 = Calendar.getInstance();
-							SimpleDateFormat sdf1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss" );
-							// success
-							thisDetail.setSyncStatus ( "Y" );
 
-							thisDetail.setSyncTime(sdf1.format ( cal1.getTime()));
-							WorkorderDetailDAO.updateRecord(WorkOrderDetailActivity.this, thisDetail);
-						}*/
+						WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+
 						//was successful send delete command
 						boolean status = thisService.eraseData();
 						//status = status;
@@ -713,15 +688,12 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 					if (sendSuccess)
 					{
 						writeBlankRecord(WorkorderStatus.OPEN);
-						//CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
-						//String syncTime = WebService.sendWorkOrderDetail ( "", "", ,token );
+
 						// get unsynched details, and send to web server
 						if(CommonUtilities.checkIfWorkorderChanges(WorkOrderDetailActivity.this.getApplicationContext(),token)){
 							CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 						}else{
-
 							CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
-							CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 						}
 
 					}
@@ -740,23 +712,16 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 			thisService.deInitialize();
 
-			return 1;
+			return null;
 		}
 		@Override
-		protected void onPostExecute(Integer result)
+		protected void onPostExecute(String result)
 		{
 			// execution of result of Long time consuming operation
 			//sendReceivPB.setVisibility(View.GONE);
-
-			// try to catch exception java.lang.IllegalArgumentException: View=com.android.internal.policy.impl.PhoneWindow$DecorView{41c7d1b0 V.E..... R......D 0,0-586,64} not attached to window manager
-			//try{
 			if ((sendReceivPB != null) && sendReceivPB.isShowing()) {
 				sendReceivPB.dismiss();
 			}
-			//}catch (Exception e){
-
-			//}
-			//sendReceivPB = null;
 
 			if (error)
 			{
@@ -795,18 +760,10 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 			}
 
 
-
-
-
-
-
-
-
 		}
 		@Override
 		protected void onPreExecute()
 		{
-
 			sendReceivPB = ProgressDialog.show(WorkOrderDetailActivity.this,null,null);
 			sendReceivPB.setContentView(new ProgressBar(WorkOrderDetailActivity.this));
 
@@ -822,8 +779,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		ProgressDialog sendReceivPB = null;
 		ArrayList<WorkOrderDetail> detailList;
 		//final TermidorMessageInterface thisService = new CANMessageService();
-		//final TermidorMessageInterface thisService = new CanMessageServiceStandard();
-		TermidorMessageInterface thisService = null;
+		final TermidorMessageInterface thisService = new CanMessageServiceStandard();
 		//final TermidorMessageInterface thisService = new TestTermidorMessageImpl();
 		AsyncTaskRunner2 ( boolean onHold, Location myLocation )
 		{
@@ -836,12 +792,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		{
 			try
 			{
-
-				if(((TangoApplication) getApplicationContext()).getUnitBtName().contains("BCB-")){
-					thisService = new CanMessageServiceBCB();
-				}else{
-					thisService = new CanMessageServiceStandard();
-				}
 
 				boolean init = thisService.initialize(((TangoApplication) getApplicationContext()).getUnitMacAddress());
 				if(init == false){
@@ -925,13 +875,12 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 							}else{
 								thisDetail.setWorkorderStatusCode ( WorkorderStatus.CLOSED );
 							}
-							boolean	test=WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
-							int r=90;
+							WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
 						}
 						else
 						{
 							thisDetail.setWorkorderStatusCode ( WorkorderStatus.ONHOLD );
-							boolean test=	WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
+							WorkorderDetailDAO.add ( WorkOrderDetailActivity.this.getApplicationContext(), thisDetail );
 
 							if ( onHoldIndicator ){
 								writeBlankRecord(WorkorderStatus.ONHOLD);
@@ -943,18 +892,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 
 
-						/*String syncTime = WebService.sendWorkOrderDetail ( "", "", thisDetail,token );
-						if ( syncTime != null )
-						{
-							Calendar cal1 = Calendar.getInstance();
-							SimpleDateFormat sdf1 = new SimpleDateFormat ( "yyyy-MM-dd HH:mm:ss" );
-							// success
-							thisDetail.setSyncStatus ( "Y" );
 
-							thisDetail.setSyncTime(sdf1.format ( cal1.getTime()));
-							WorkorderDetailDAO.updateRecord(WorkOrderDetailActivity.this, thisDetail);
-						}
-*/
 						//was successful send delete command
 						boolean test = thisService.eraseData();
 
@@ -977,7 +915,7 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 						writeBlankRecord(WorkorderStatus.CLOSED);
 					}
 				}
-//				CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
+
 
 
 				// get unsynched details, and send to web server
@@ -985,8 +923,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 					CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 				}else{
 					CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
-					CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
-
 				}
 			}
 			catch (Exception e)
@@ -1004,27 +940,10 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		@Override
 		protected void onPostExecute(String result)
 		{
-
-
-
-
-
-
-			//	new Handler().postDelayed(new Runnable() {
-
-			//		@Override
-			//		public void run() {
 			// execution of result of Long time consuming operation
-
-			// try to catch exception java.lang.IllegalArgumentException: View=com.android.internal.policy.impl.PhoneWindow$DecorView{41c7d1b0 V.E..... R......D 0,0-586,64} not attached to window manager
-			//try{
 			if ((sendReceivPB != null) && sendReceivPB.isShowing()) {
 				sendReceivPB.dismiss();
 			}
-			//}catch (Exception e){
-
-			//}
-			//sendReceivPB = null;
 
 
 			if (error)
@@ -1061,28 +980,28 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
                     // do complete stuff
                     finish();
                 }*/
-					if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
-					{
-						hideDetailData();
-					}
-					else
-					{
-						showDetailData();
-						updateDetailDataOnScreen();
-					}
-					if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
-						btnSendData.setVisibility ( View.GONE );
-						if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
-							btnComplete.setVisibility(View.VISIBLE);
-						}else{
-							btnOnHold.setVisibility(View.GONE);
-							btnComplete.setVisibility(View.GONE);
-						}
-					}else{
-						btnSendData.setVisibility ( View.VISIBLE );
-						btnOnHold.setVisibility(View.GONE);
-						btnComplete.setVisibility(View.GONE);
-					}
+/*	            if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
+	            {
+	            	hideDetailData();
+	            }
+	            else
+	            {
+	            	showDetailData();
+	            	updateDetailDataOnScreen();
+	            }
+                if(CommonUtilities.areAnyWorkordersOpen(getApplicationContext())){
+                	btnSendData.setVisibility ( View.GONE );
+                	if(CommonUtilities.isThisWorkorderOpen(getApplicationContext(),selectedWorkOrder.getServiceWorkOrderId())){
+                		btnComplete.setVisibility(View.VISIBLE);
+                	}else{
+                		btnOnHold.setVisibility(View.GONE);
+                		btnComplete.setVisibility(View.GONE);
+                	}
+                }else{
+                	btnSendData.setVisibility ( View.VISIBLE );
+            		btnOnHold.setVisibility(View.GONE);
+            		btnComplete.setVisibility(View.GONE);
+                } */
 					if (onHoldIndicator) {
 						Toast toast = CreateToast(getResources().getColor(R.color.message_completed), "Workorder Placed On Hold", Gravity.TOP);
 						toast.show();
@@ -1101,12 +1020,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 
 			//showWorkorderStatus();
 			recreate();
-
-			//		}
-			//	}, 15000);
-
-
-
 		}
 		@Override
 		protected void onPreExecute()
@@ -1126,15 +1039,9 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		@Override
 		protected void onPostExecute(Integer result)
 		{
-			// try to catch exception java.lang.IllegalArgumentException: View=com.android.internal.policy.impl.PhoneWindow$DecorView{41c7d1b0 V.E..... R......D 0,0-586,64} not attached to window manager
-			//try{
 			if ((sendReceivPB != null) && sendReceivPB.isShowing()) {
 				sendReceivPB.dismiss();
 			}
-			//}catch (Exception e){
-
-			//}
-			//sendReceivPB = null;
 
 			if (showWorkorderStatus().equals("") || showWorkorderStatus().equals("ASSIGNED") || showWorkorderStatus().equals("NEW"))
 			{
@@ -1162,7 +1069,6 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		@Override
 		protected Integer doInBackground(Object... params) {
 
-			//	CommonUtilities.checkForNewDetails(WorkOrderDetailActivity.this.getApplicationContext(),token);
 			if(CommonUtilities.checkIfWorkorderChanges(WorkOrderDetailActivity.this.getApplicationContext(),token)){
 				CommonUtilities.refreshWorkOrders(WorkOrderDetailActivity.this.getApplicationContext(),token);
 			}else{
@@ -1173,5 +1079,4 @@ public class WorkOrderDetailActivity extends OptionsMenuActivity implements OnCl
 		}
 
 	}
-
 }

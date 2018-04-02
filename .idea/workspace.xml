@@ -5,13 +5,62 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f6ca9c10-7d4b-4bdf-82c3-0f61b8ffa4b9" name="Default" comment="">
+    <list default="true" id="4095865b-3af3-448f-8da9-bb51829d0a41" name="Default" comment="Changed WorkOrder">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/classAnalysis.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/javaCompile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/javaCompile/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" afterPath="$PROJECT_DIR$/.gradle/4.1/taskHistory/taskHistory.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$3.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$4.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$5.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$6.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$7.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2$1.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$RetrieveDetailTask.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity$RetrieveDetailTask.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderListActivity.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/WorkOrderListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/utils/HttpUtils.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/utils/HttpUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/utils/WebService.class" afterPath="$PROJECT_DIR$/build/intermediates/classes/debug/com/evanhoe/tango/utils/WebService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/pfHQcYOe6WHeDsxwE_hm4Rd3xeA=" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/zip-cache/pfHQcYOe6WHeDsxwE_hm4Rd3xeA=" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" afterPath="$PROJECT_DIR$/build/intermediates/res/debug/resources-debug.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$2.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$3.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$3.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$4.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$4.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$5.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$5.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$6.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$6.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$7.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$7.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2$1.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2$1.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$AsyncTaskRunner2.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$RetrieveDetailTask.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity$RetrieveDetailTask.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderDetailActivity.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderListActivity.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/WorkOrderListActivity.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/utils/HttpUtils.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/utils/HttpUtils.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/utils/WebService.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexBuilder/debug/201/com/evanhoe/tango/utils/WebService.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/0/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/outputs/apk/debug/AndroidTermidorHP-debug.apk" afterPath="$PROJECT_DIR$/build/outputs/apk/debug/AndroidTermidorHP-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/build/intermediates/incremental/packageDebug/debug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" afterPath="$PROJECT_DIR$/build/intermediates/transforms/dexMerger/debug/__content__.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderDetailActivity.java" afterPath="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderListActivity.java" afterPath="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/evanhoe/tango/utils/HttpUtils.java" afterPath="$PROJECT_DIR$/src/com/evanhoe/tango/utils/HttpUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/evanhoe/tango/utils/WebService.java" afterPath="$PROJECT_DIR$/src/com/evanhoe/tango/utils/WebService.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,35 +76,88 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest">
-            <state />
-          </provider>
+    <leaf>
+      <file leaf-file-name="WebService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/WebService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="255">
+              <caret line="562" column="37" lean-forward="false" selection-start-line="562" selection-start-column="37" selection-end-line="562" selection-end-column="62" />
               <folding>
-                <element signature="e#942#960#0" expanded="true" />
-                <element signature="e#1144#1162#0" expanded="true" />
-                <element signature="e#1868#1893#0" expanded="true" />
-                <element signature="e#2008#2028#0" expanded="true" />
-                <element signature="e#2636#2654#0" expanded="true" />
-                <element signature="e#2763#2792#0" expanded="true" />
-                <element signature="e#3004#3030#0" expanded="true" />
+                <element signature="e#1254#1333#0" expanded="true" />
+                <element signature="e#1374#1457#0" expanded="true" />
+                <element signature="e#1502#1582#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonUtilities.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/CommonUtilities.java">
+      <file leaf-file-name="WorkOrderDetailActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderDetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="490" column="9" lean-forward="false" selection-start-line="490" selection-start-column="9" selection-end-line="490" selection-end-column="9" />
+            <state relative-caret-position="27">
+              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+              <folding>
+                <element signature="e#4232#4268#0" expanded="true" />
+                <element signature="e#4618#4682#0" expanded="true" />
+                <element signature="e#4757#4814#0" expanded="true" />
+                <element signature="e#8816#8878#0" expanded="true" />
+                <element signature="e#8937#8999#0" expanded="true" />
+                <element signature="e#9057#9119#0" expanded="true" />
+                <element signature="e#9190#9248#0" expanded="true" />
+                <element signature="e#9307#9365#0" expanded="true" />
+                <element signature="e#9423#9482#0" expanded="true" />
+                <element signature="e#12528#12591#0" expanded="true" />
+                <element signature="e#12611#12676#0" expanded="true" />
+                <element signature="e#12703#12749#0" expanded="true" />
+                <element signature="e#13332#13430#0" expanded="true" />
+                <element signature="e#14444#14541#0" expanded="true" />
+                <element signature="e#15346#15445#0" expanded="true" />
+                <element signature="e#27166#27206#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/dao/UserDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4266">
+              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkOrderListActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderListActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/HttpUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="369" column="29" lean-forward="false" selection-start-line="369" selection-start-column="29" selection-end-line="369" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -1049,17 +1151,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/evanhoe/tango/utils/CommonUtilities.java" />
+        <option value="$PROJECT_DIR$/src/com/evanhoe/tango/utils/WebService.java" />
+        <option value="$PROJECT_DIR$/src/com/evanhoe/tango/utils/HttpUtils.java" />
+        <option value="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderDetailActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderListActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1934" />
-    <option name="height" value="1030" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="AndroidView" proportions="" version="1">
       <flattenPackages />
@@ -1077,7 +1181,6 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -1132,20 +1235,68 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tango" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidTermidorHP" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidTermidorHP" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tango" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidTermidorHP" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidTermidorHP" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="manifests" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidManifestsGroupNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1522172989350" />
-    <property name="device.picker.selection" value="Galaxy_Nexus_API_26" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1522678147759" />
+    <property name="device.picker.selection" value="FA79E1A05032" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1230,7 +1381,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191485430" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522687368638" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1330,7 +1481,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522191485430" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522687368638" />
       </method>
     </configuration>
     <list size="1">
@@ -1358,69 +1509,54 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration>C:\Users\Laswada\AppData\Roaming\Subversion</configuration>
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f6ca9c10-7d4b-4bdf-82c3-0f61b8ffa4b9" name="Default" comment="" />
-      <created>1522172966859</created>
+      <changelist id="4095865b-3af3-448f-8da9-bb51829d0a41" name="Default" comment="" />
+      <created>1522678142816</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1522172966859</updated>
+      <updated>1522678142816</updated>
     </task>
-    <task id="LOCAL-00001" summary="Changed Version To 2.1.2 in Manifest, and let the function except String">
-      <created>1522191481042</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1522191481042</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-10" y="0" width="1934" height="1030" extended-state="0" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3018648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19214208" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2261522" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Version 2.101" />
-    <MESSAGE value="Changed Version To 2.1.2 in Manifest, and let the function except String" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Version To 2.1.2 in Manifest, and let the function except String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1431,58 +1567,71 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#942#960#0" expanded="true" />
-            <element signature="e#1144#1162#0" expanded="true" />
-            <element signature="e#1868#1893#0" expanded="true" />
-            <element signature="e#2008#2028#0" expanded="true" />
-            <element signature="e#2636#2654#0" expanded="true" />
-            <element signature="e#2763#2792#0" expanded="true" />
-            <element signature="e#3004#3030#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#942#960#0" expanded="true" />
-            <element signature="e#1144#1162#0" expanded="true" />
-            <element signature="e#1868#1893#0" expanded="true" />
-            <element signature="e#2008#2028#0" expanded="true" />
-            <element signature="e#2636#2654#0" expanded="true" />
-            <element signature="e#2763#2792#0" expanded="true" />
-            <element signature="e#3004#3030#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider editor-type-id="android-manifest">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/HttpUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="32" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="233">
+          <caret line="369" column="29" lean-forward="false" selection-start-line="369" selection-start-column="29" selection-end-line="369" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4266">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/WorkOrderDetailActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
           <folding>
-            <element signature="e#942#960#0" expanded="true" />
-            <element signature="e#1144#1162#0" expanded="true" />
-            <element signature="e#1868#1893#0" expanded="true" />
-            <element signature="e#2008#2028#0" expanded="true" />
-            <element signature="e#2636#2654#0" expanded="true" />
-            <element signature="e#2763#2792#0" expanded="true" />
-            <element signature="e#3004#3030#0" expanded="true" />
+            <element signature="e#4232#4268#0" expanded="true" />
+            <element signature="e#4618#4682#0" expanded="true" />
+            <element signature="e#4757#4814#0" expanded="true" />
+            <element signature="e#8816#8878#0" expanded="true" />
+            <element signature="e#8937#8999#0" expanded="true" />
+            <element signature="e#9057#9119#0" expanded="true" />
+            <element signature="e#9190#9248#0" expanded="true" />
+            <element signature="e#9307#9365#0" expanded="true" />
+            <element signature="e#9423#9482#0" expanded="true" />
+            <element signature="e#12528#12591#0" expanded="true" />
+            <element signature="e#12611#12676#0" expanded="true" />
+            <element signature="e#12703#12749#0" expanded="true" />
+            <element signature="e#13332#13430#0" expanded="true" />
+            <element signature="e#14444#14541#0" expanded="true" />
+            <element signature="e#15346#15445#0" expanded="true" />
+            <element signature="e#27166#27206#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/CommonUtilities.java">
+    <entry file="file://$PROJECT_DIR$/src/com/evanhoe/tango/utils/WebService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="490" column="9" lean-forward="false" selection-start-line="490" selection-start-column="9" selection-end-line="490" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="562" column="37" lean-forward="false" selection-start-line="562" selection-start-column="37" selection-end-line="562" selection-end-column="62" />
+          <folding>
+            <element signature="e#1254#1333#0" expanded="true" />
+            <element signature="e#1374#1457#0" expanded="true" />
+            <element signature="e#1502#1582#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

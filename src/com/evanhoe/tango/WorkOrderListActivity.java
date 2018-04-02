@@ -49,7 +49,7 @@ int chker=0;
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		//overridePendingTransition ( R.anim.fadein, R.anim.fadeout );
-		CommonUtilities.refreshWorkOrders2(WorkOrderListActivity.this.getApplicationContext(),token);
+		//CommonUtilities.refreshWorkOrders2(WorkOrderListActivity.this.getApplicationContext(),token);
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
 				"url", Context.MODE_PRIVATE);
 		String selecturl=sharedPreferences.getString("urltype","");
