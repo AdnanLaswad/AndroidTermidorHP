@@ -59,7 +59,6 @@ public class WebService {
 		return returnString;
 	}
 
-
 	public static String getToken(String username, String password){
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -104,6 +103,10 @@ public class WebService {
 	 * @param password
 	 * @return boolean
 	 */
+
+
+	// Get the token based on the username and password
+
 	public static UserLoginResult getUser(String username, String password) {
 		String token="";
 
@@ -233,6 +236,7 @@ public class WebService {
 	 * @param username
 	 * @return ArrayList<WorkOrder>
 	 */
+
 	public static ArrayList<WorkOrder> getWorkOrderList(String username, String password,String token) {
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -246,6 +250,9 @@ public class WebService {
 		}
 		ArrayList<WorkOrder> workOrders = new ArrayList<WorkOrder>();
 		try{
+
+// Get All Work Orders for the specific person Based on the Token
+// For Ex: if the username is test_action3, it will just fitch all  workOrder list for that login based on the Token.
 
 			String url=application+"/WorkOrders";
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
@@ -361,6 +368,9 @@ public class WebService {
 		JSONObject j;
 		//JSONObject j2,j3;
 		try {
+
+			// Get workOrderDetails for each  work order for the specific login
+
 			String url=application+"/WorkOrderDetail?WO_Number="+number;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			//JSONObject jj=new JSONObject(strResponseJSON2);
@@ -392,6 +402,7 @@ public class WebService {
 
 
 	}
+     // Get work order status, From work Order Details
 
 	public static String getStatus( String number,String token) {
 		String status="";
@@ -408,6 +419,9 @@ public class WebService {
 		}
 
 		try {
+
+			// Get workOrderDetails for each  work order for the specific login
+
 			String url=application+"/WorkOrderDetail?WO_Number="+number;
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
 			JSONObject jj = new JSONObject(strResponseJSON2);
@@ -457,6 +471,8 @@ public class WebService {
 			String strPostJSON = postJSON.toString();
 // TODO: Remove this debugging
 			//  System.out.println ( strPostJSON );
+
+            //  save work order detail to the server when there is any changes
 
 			String url=application+"/SaveWorkOrderDetail";
 			String strResponseJSON = HttpUtils.saveData(url,postJSON,token);
@@ -560,6 +576,8 @@ public class WebService {
 			latestsyntime=latestsyntime.replaceAll("\\s","T");
 			latestsyntime=latestsyntime+"%2B00:00";
 			//latestsyntime="2018-03-01T16:54:59%2B00:00";
+
+			// Get work Order details for those work order which have changed after the latest syncTime
 			String url=application+"/WorkOrderDetailsAfterTime?SyncTime="+latestsyntime;
 
 			String strResponseJSON2 = HttpUtils.saveData2(url,data,token);
@@ -611,7 +629,7 @@ public class WebService {
 		return workOrderDetails;
 	}
 
-
+// To get work order brief
 	public static ArrayList<WorkOrderBrief> getWorkOrderBriefs(String username, String password,String token) {
 
 
@@ -630,6 +648,7 @@ public class WebService {
 
 
 		try{
+// To get all work orders for specific user, based on the token
 
 			String url=application+"/WorkOrders";
 			String strResponseJSON2 = HttpUtils.sendGet1(url,token);
@@ -699,7 +718,7 @@ public class WebService {
 
 		return workOrderBriefs;
 	}
-
+// this API to get station information for the specific user
 	public static ArrayList<InjectionStation> getAllowedInjectionStations(String username, String password,String token){
 
 		SharedPreferences sharedPreferences = TangoApplication.getTangoApplicationContext().getSharedPreferences(
@@ -713,6 +732,10 @@ public class WebService {
 		}
 
 		ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>();
+
+		//Get Injection Station details for the specific user, because every user
+		// may has different authorization to allow him to work on different machines
+
 		String url=application+"/InjectionStations";
 		String strResponseJSON2 = null;
 		try {
@@ -800,6 +823,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 
 
 	}
+// this API to get the temicide Type
 
 	public static ArrayList<TermicideType> getTermicideTypes(String username, String password,String token){
 
@@ -814,6 +838,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
 		}
 		ArrayList<TermicideType> termicideTypes = new ArrayList<TermicideType>();
 
+   // Get Termicide Types
 		String url=application+"/TermicideTypes";
 		String strResponseJSON2 = null;
 		try {
@@ -929,6 +954,7 @@ ArrayList<InjectionStation> allowedInjStations = new ArrayList<InjectionStation>
      * downloadNewVersion - This method will download the new APK version from the web service
      *
      */
+
 	public static String downloadNewVersion ( String username, String password )
 	{
 		String apkFilename = null;
